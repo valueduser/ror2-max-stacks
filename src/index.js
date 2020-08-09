@@ -13,13 +13,19 @@ class Filters extends React.Component {
   render() {
     return (
       <div>
-        <button className="rareFilterBtn" onClick={() => alert("clicked filter btn")}>
+        <button
+          className="rareFilterBtn"
+          onClick={() => alert("clicked filter btn")}
+        >
           Rarity Filter Button Placeholder
         </button>
-        <button className="typeFilterBtn" onClick={() => alert("clicked filter btn")}>
+        <button
+          className="typeFilterBtn"
+          onClick={() => alert("clicked filter btn")}
+        >
           Item Type Filter Button Placeholder
         </button>
-      </div> 
+      </div>
     );
   }
 }
@@ -41,6 +47,13 @@ class Grid extends React.Component {
                   width="100"
                   height="100"
                 />
+                <div className="stack-square">
+                  <div className="stack-square-text">
+                    {item.GoodEnoughStacks === "Infinite"
+                      ? "∞"
+                      : item.GoodEnoughStacks}
+                  </div>
+                </div>
               </button>
             </a>
           ))}

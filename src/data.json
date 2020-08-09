@@ -817,5 +817,23 @@
     "StackType": "Linear",
     "GoodEnoughStacks": "Infinite",
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/31/Visions_of_Heresy.png"
+  },
+  {
+    "DisplayName": "Place Holder Lunar Item",
+    "Name": "Place_Holder_Lunar_Item",
+    "Rarity": "Lunar",
+    "Description": "Probably doesn't do nothing...",
+    "StackType": "?",
+    "GoodEnoughStacks": "?",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/8/8e/Acrid.png"
+  },
+  {
+    "DisplayName": "Place Holder Boss Item",
+    "Name": "Place_Holder_Boss_Item",
+    "Rarity": "Boss",
+    "Description": "Probably doesn't do nothing...",
+    "StackType": "?",
+    "GoodEnoughStacks": "?",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/thumb/d/d8/Engineer.png/192px-Engineer.png"
   }
 ]
