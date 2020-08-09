@@ -1,17 +1,65 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import * as Sentry from "@sentry/react";
+import itemData from "./data.json";
+import "./index.css";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+Sentry.init({
+  dsn:
+    "https://c0cce460deba46a6b64ff89c9719ba82@o141824.ingest.sentry.io/5379078",
+});
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+class Filters extends React.Component {
+  render() {
+    return (
+      <div>
+        <button className="rareFilterBtn" onClick={() => alert("clicked filter btn")}>
+          Rarity Filter Button Placeholder
+        </button>
+        <button className="typeFilterBtn" onClick={() => alert("clicked filter btn")}>
+          Item Type Filter Button Placeholder
+        </button>
+      </div> 
+    );
+  }
+}
+
+class Grid extends React.Component {
+  render() {
+    const wikiLinkPrefix = "https://riskofrain2.gamepedia.com/";
+    return (
+      <div>
+        <Filters></Filters>
+        <div className="grid-row">
+          {itemData.map((item, index) => (
+            <a href={`${wikiLinkPrefix + item.Name}`}>
+              <button>
+                <img
+                  src={item.Icon}
+                  title={item.DisplayName}
+                  alt={item.DisplayName}
+                  width="100"
+                  height="100"
+                />
+              </button>
+            </a>
+          ))}
+        </div>
+      </div>
+    );
+  }
+}
+
+class Guide extends React.Component {
+  render() {
+    return (
+      <div className="guid">
+        <div className="guide-frame">
+          <Grid />
+        </div>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Guide />, document.getElementById("root"));
