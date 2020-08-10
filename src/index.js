@@ -41,7 +41,7 @@ class Grid extends React.Component {
             <a href={`${wikiLinkPrefix + item.Name}`}>
               <button>
                 <img
-                  src={item.Icon}
+                  src= {process.env.PUBLIC_URL + '/images/' + item.Name + '.png'}
                   title={item.DisplayName}
                   alt={item.DisplayName}
                   width="100"
