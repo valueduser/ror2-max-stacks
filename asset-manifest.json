@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ror2-max-stacks/static/css/main.ee63a79f.chunk.css",
-    "main.js": "/ror2-max-stacks/static/js/main.6d4d2216.chunk.js",
-    "main.js.map": "/ror2-max-stacks/static/js/main.6d4d2216.chunk.js.map",
+    "main.js": "/ror2-max-stacks/static/js/main.cdfca792.chunk.js",
+    "main.js.map": "/ror2-max-stacks/static/js/main.cdfca792.chunk.js.map",
     "runtime-main.js": "/ror2-max-stacks/static/js/runtime-main.3a5169f0.js",
     "runtime-main.js.map": "/ror2-max-stacks/static/js/runtime-main.3a5169f0.js.map",
     "static/js/2.cc43b96d.chunk.js": "/ror2-max-stacks/static/js/2.cc43b96d.chunk.js",
     "static/js/2.cc43b96d.chunk.js.map": "/ror2-max-stacks/static/js/2.cc43b96d.chunk.js.map",
     "index.html": "/ror2-max-stacks/index.html",
-    "precache-manifest.7b8abdb27507e3ac2b16ec60a6bb01c2.js": "/ror2-max-stacks/precache-manifest.7b8abdb27507e3ac2b16ec60a6bb01c2.js",
+    "precache-manifest.8689ee6a7bc5392a8cbc28bfd2ca1684.js": "/ror2-max-stacks/precache-manifest.8689ee6a7bc5392a8cbc28bfd2ca1684.js",
     "service-worker.js": "/ror2-max-stacks/service-worker.js",
     "static/css/main.ee63a79f.chunk.css.map": "/ror2-max-stacks/static/css/main.ee63a79f.chunk.css.map",
     "static/js/2.cc43b96d.chunk.js.LICENSE.txt": "/ror2-max-stacks/static/js/2.cc43b96d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3a5169f0.js",
     "static/js/2.cc43b96d.chunk.js",
     "static/css/main.ee63a79f.chunk.css",
-    "static/js/main.6d4d2216.chunk.js"
+    "static/js/main.cdfca792.chunk.js"
   ]
 }
