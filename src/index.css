@@ -1,12 +1,14 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
+    background: url(./background.png);
+    background-size: cover;
   }
   
   ol, ul {
     padding-left: 30px;
   }
-  
+
   .grid-row:after {
     clear: both;
     content: "";
@@ -23,7 +25,11 @@ body {
       height: 25px;
       position:relative;
   }
-
+  
+  button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+  }
   .stack-square-text {
     position: absolute;
     top: 50%;
@@ -37,5 +43,5 @@ body {
     display: flex;
     flex-direction: row;
   }
-  
+
   

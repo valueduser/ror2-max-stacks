@@ -66,7 +66,7 @@ class Grid extends React.Component {
 class Guide extends React.Component {
   render() {
     return (
-      <div className="guid">
+      <div className="guide">
         <div className="guide-frame">
           <Grid />
         </div>
