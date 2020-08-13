@@ -39,9 +39,9 @@ class Grid extends React.Component {
         <div className="grid-row">
           {itemData.map((item, index) => (
             <a href={`${wikiLinkPrefix + item.Name}`}>
-              <button>
+              <button>  
                 <img
-                  src= {process.env.PUBLIC_URL + '/images/' + item.Name + '.png'}
+                  src= {process.env.PUBLIC_URL + '/itemImages/' + item.Name + '.png'}
                   title={item.DisplayName}
                   alt={item.DisplayName}
                   width="100"
