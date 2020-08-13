@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "829a152070889cd1ebc336428e58c11f",
+    "revision": "5dd75dedf210187e00411bff70e51c65",
     "url": "/ror2-max-stacks/index.html"
   },
   {
-    "revision": "d3fba7898e7ff5cb7f20",
-    "url": "/ror2-max-stacks/static/css/main.ee63a79f.chunk.css"
+    "revision": "d1bce4e764b3bf1c122f",
+    "url": "/ror2-max-stacks/static/css/main.f8dec177.chunk.css"
   },
   {
     "revision": "c1234220c01999b3801c",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ror2-max-stacks/static/js/2.cc43b96d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d3fba7898e7ff5cb7f20",
-    "url": "/ror2-max-stacks/static/js/main.cdfca792.chunk.js"
+    "revision": "d1bce4e764b3bf1c122f",
+    "url": "/ror2-max-stacks/static/js/main.d2308309.chunk.js"
   },
   {
     "revision": "ffb36ba4ff1caea11bd9",
     "url": "/ror2-max-stacks/static/js/runtime-main.3a5169f0.js"
+  },
+  {
+    "revision": "0d884a04f08804ccbddf7365603a7e38",
+    "url": "/ror2-max-stacks/static/media/background.0d884a04.png"
   }
 ]);
