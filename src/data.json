@@ -104,7 +104,7 @@
     "Rarity": "Common",
     "Description": "Heal for 25 (+25 per stack) health 2 seconds after getting hurt.",
     "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "GoodEnoughStacks": 20,
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/0/0f/Medkit.png"
   },
   {
@@ -113,7 +113,7 @@
     "Rarity": "Common",
     "Description": "Killing an enemy spawns a healing orb that heals for 8 (+8 per stack) health.",
     "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "GoodEnoughStacks": 380,
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/3b/Monster_Tooth.png"
   },
   {
@@ -356,7 +356,7 @@
     "Rarity": "Uncommon",
     "Description": "Instantly kill Elite monsters below 20% (+20% per stack) health.",
     "StackType": "Hyperbolic",
-    "GoodEnoughStacks": 250,
+    "GoodEnoughStacks": 380,
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/8/8d/Old_Guillotine.png"
   },
   {
@@ -819,21 +819,66 @@
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/31/Visions_of_Heresy.png"
   },
   {
-    "DisplayName": "Place Holder Lunar Item",
-    "Name": "Place_Holder_Lunar_Item",
-    "Rarity": "Lunar",
-    "Description": "Probably doesn't do nothing...",
-    "StackType": "?",
-    "GoodEnoughStacks": "?",
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/8/8e/Acrid.png"
+    "DisplayName": "Shatterspleen",
+    "Name": "Shatterspleen",
+    "Rarity": "Boss",
+    "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/cd/Shatterspleen.png"
   },
   {
-    "DisplayName": "Place Holder Boss Item",
-    "Name": "Place_Holder_Boss_Item",
+    "DisplayName": "Shatterspleen",
+    "Name": "Shatterspleen",
     "Rarity": "Boss",
-    "Description": "Probably doesn't do nothing...",
+    "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400%, plus an additional 15% (+15% per stack) of their maximum health.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/cd/Shatterspleen.png"
+  },
+  {
+    "DisplayName": "Purity",
+    "Name": "Purity",
+    "Rarity": "Lunar",
+    "Description": "All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "27",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/a2/Purity.png"
+  },
+  {
+    "DisplayName": "Molten Perforator",
+    "Name": "Molten_Perforator",
+    "Rarity": "Boss",
+    "Description": "10% chance on hit to call forth 3 magma balls from an enemy, dealing 300% (+300% per stack) damage each. ",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/7/71/Molten_Perforator.png"
+  },
+  {
+    "DisplayName": "Mired Urn",
+    "Name": "Mired_Urn",
+    "Rarity": "Boss",
+    "Description": "While in combat, the nearest 1 (+1 per stack) characters to you within 13m will be 'tethered' to you, dealing 100% damage per second, applying tar, and healing you for 100% of the damage dealt.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/6/62/Mired_Urn.png"
+  },
+  {
+    "DisplayName": "Mercurial Rachis",
+    "Name": "Mercurial_Rachis",
+    "Rarity": "Lunar",
+    "Description": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within 16m (+50% per stack), causing them to deal +50% damage.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/25/Mercurial_Rachis.png"
+  },
+  {
+    "DisplayName": "Defiant Gouge",
+    "Name": "Defiant_Gouge",
+    "Rarity": "Lunar",
+    "Description": "Using a Shrine summons enemies nearby. Scales over time.",
     "StackType": "?",
     "GoodEnoughStacks": "?",
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/thumb/d/d8/Engineer.png/192px-Engineer.png"
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/b/b5/Defiant_Gouge.png"
   }
 ]
