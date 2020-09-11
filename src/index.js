@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import * as Sentry from "@sentry/react";
-import itemData from "./data.json";
+import jsonData from "./data.json";
 import "./index.css";
 
 Sentry.init({
@@ -15,13 +15,13 @@ class Filters extends React.Component {
       <div>
         <button
           className="rareFilterBtn"
-          onClick={() => alert("clicked filter btn")}
+          onClick={() => alert("clicked rare filter btn")}
         >
           Rarity Filter Button Placeholder
         </button>
         <button
           className="typeFilterBtn"
-          onClick={() => alert("clicked filter btn")}
+          onClick={() => alert("clicked type filter btn")}
         >
           Item Type Filter Button Placeholder
         </button>
@@ -30,49 +30,50 @@ class Filters extends React.Component {
   }
 }
 
-class Grid extends React.Component {
+class Item extends React.Component {
   render() {
+    const item = this.props;
     const wikiLinkPrefix = "https://riskofrain2.gamepedia.com/";
+    return(
+      <a href={`${wikiLinkPrefix + item.Name}`}>
+      <button>
+        <img
+          src={
+            process.env.PUBLIC_URL + "/itemImages/" + item.Name + ".png"
+          }
+          title={item.DisplayName}
+          alt={item.DisplayName}
+          width="100"
+          height="100"
+        />
+        <div className="stack-square">
+          <div className="stack-square-text">
+            {item.GoodEnoughStacks === "Infinite"
+              ? "∞"
+              : item.GoodEnoughStacks}
+          </div>
+        </div>
+      </button>
+    </a>
+    )
+  }
+}
+
+const ItemList = (props) =>  (
+  <div>
+    {props.itemData.map(item => <Item {...item}/>)}
+  </div>
+)
+
+class App extends React.Component {
+  render() {
     return (
       <div>
-        <Filters></Filters>
-        <div className="grid-row">
-          {itemData.map((item, index) => (
-            <a href={`${wikiLinkPrefix + item.Name}`}>
-              <button>  
-                <img
-                  src= {process.env.PUBLIC_URL + '/itemImages/' + item.Name + '.png'}
-                  title={item.DisplayName}
-                  alt={item.DisplayName}
-                  width="100"
-                  height="100"
-                />
-                <div className="stack-square">
-                  <div className="stack-square-text">
-                    {item.GoodEnoughStacks === "Infinite"
-                      ? "∞"
-                      : item.GoodEnoughStacks}
-                  </div>
-                </div>
-              </button>
-            </a>
-          ))}
-        </div>
+        <Filters />
+        <ItemList itemData={jsonData}/>
       </div>
     );
   }
 }
 
-class Guide extends React.Component {
-  render() {
-    return (
-      <div className="guide">
-        <div className="guide-frame">
-          <Grid />
-        </div>
-      </div>
-    );
-  }
-}
-
-ReactDOM.render(<Guide />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));

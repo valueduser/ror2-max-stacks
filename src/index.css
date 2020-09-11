@@ -8,12 +8,6 @@ body {
   ol, ul {
     padding-left: 30px;
   }
-
-  .grid-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
   
   .status {
     margin-bottom: 10px;
@@ -29,6 +23,7 @@ body {
   button {
     background-color: Transparent;
     background-repeat:no-repeat;
+    color: white
   }
   
   .stack-square-text {
@@ -40,9 +35,5 @@ body {
     font-size: .75rem;
   }
   
-  .grid {
-    display: flex;
-    flex-direction: row;
-  }
 
   
