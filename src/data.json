@@ -149,7 +149,7 @@
     "Rarity": "Common",
     "Description": "A hidden cache containing an item will appear in a random location on each stage. (Increases rarity of the item per stack).",
     "StackType": "Special",
-    "GoodEnoughStacks": "",
+    "GoodEnoughStacks": "984",
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/9/9b/Rusted_Key.png"
   },
   {
@@ -369,7 +369,7 @@
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2c/Old_War_Stealthkit.png"
   },
   {
-    "DisplayName": "Predatory Instincts",
+    "DisplayName": "Predatory Instincts - Additional crit chance",
     "Name": "Predatory_Instincts",
     "Rarity": "Uncommon",
     "Description": "Gain 5% critical chance (+0% per stack).",
@@ -378,7 +378,7 @@
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/39/Predatory_Instincts.png"
   },
   {
-    "DisplayName": "Predatory Instincts",
+    "DisplayName": "Predatory Instincts - Attack Speed",
     "Name": "Predatory_Instincts",
     "Rarity": "Uncommon",
     "Description": "Critical strikes increase attack speed by 12%. Maximum cap of 36% (+24% per stack) attack speed.",
@@ -822,16 +822,7 @@
     "DisplayName": "Shatterspleen",
     "Name": "Shatterspleen",
     "Rarity": "Boss",
-    "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/cd/Shatterspleen.png"
-  },
-  {
-    "DisplayName": "Shatterspleen",
-    "Name": "Shatterspleen",
-    "Rarity": "Boss",
-    "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400%, plus an additional 15% (+15% per stack) of their maximum health.",
+    "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.",
     "StackType": "Linear",
     "GoodEnoughStacks": "Infinite",
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/cd/Shatterspleen.png"
