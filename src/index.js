@@ -34,32 +34,30 @@ class Item extends React.Component {
   render() {
     const item = this.props;
     const wikiLinkPrefix = "https://riskofrain2.gamepedia.com/";
-    return(
+    return (
       <a href={`${wikiLinkPrefix + item.Name}`}>
-      <button>
-        <img
-          src={
-            process.env.PUBLIC_URL + "/itemImages/" + item.Name + ".png"
-          }
-          title={item.DisplayName}
-          alt={item.DisplayName}
-          width="100"
-          height="100"
-        />
-        <div className="stack-square">
-          <div className="stack-square-text">
-            {item.GoodEnoughStacks === "Infinite"
-              ? "∞"
-              : item.GoodEnoughStacks}
+        <button>
+          <img
+            src={process.env.PUBLIC_URL + "/itemImages/" + item.Name + ".png"}
+            title={item.DisplayName}
+            alt={item.DisplayName}
+            width="100"
+            height="100"
+          />
+          <div className="stack-square">
+            <div className="stack-square-text">
+              {item.GoodEnoughStacks === "Infinite"
+                ? "∞"
+                : item.GoodEnoughStacks}
+            </div>
           </div>
-        </div>
-      </button>
-    </a>
-    )
+        </button>
+      </a>
+    );
   }
 }
 
-const ItemList = (props) =>  (
+const ItemList = (props) => (
   <div>
     {props.itemData.map(item => <Item {...item}/>)}
   </div>
@@ -70,7 +68,7 @@ class App extends React.Component {
     return (
       <div>
         <Filters />
-        <ItemList itemData={jsonData}/>
+        <ItemList itemData={jsonData} />
       </div>
     );
   }
