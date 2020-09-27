@@ -9,22 +9,32 @@ Sentry.init({
     "https://c0cce460deba46a6b64ff89c9719ba82@o141824.ingest.sentry.io/5379078",
 });
 
-class Filters extends React.Component {
+class RarityFilterDropdown extends React.Component {
+  constructor() {
+    super();
+    this.state = { value: "All" };
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({ value: event.target.value });
+    this.props.callback(event.target.value);
+  }
+
   render() {
     return (
-      <div>
-        <button
-          className="rareFilterBtn"
-          onClick={() => alert("clicked rare filter btn")}
-        >
-          Rarity Filter Button Placeholder
-        </button>
-        <button
-          className="typeFilterBtn"
-          onClick={() => alert("clicked type filter btn")}
-        >
-          Item Type Filter Button Placeholder
-        </button>
+      <div className="filter-select-container">
+        <div>Filter by Rarity</div>
+        <div>
+          <select onChange={this.handleChange}>
+            <option value="All">All</option>
+            <option value="Lunar">Lunar</option>
+            <option value="Boss">Boss</option>
+            <option value="Legendary">Legendary</option>
+            <option value="Uncommon">Uncommon</option>
+            <option value="Common">Common</option>
+          </select>
+        </div>
       </div>
     );
   }
@@ -59,16 +69,35 @@ class Item extends React.Component {
 
 const ItemList = (props) => (
   <div>
-    {props.itemData.map(item => <Item {...item}/>)}
+    {props.itemData
+      .filter((item) =>
+        props.filterData === "All"
+          ? item !== null
+          : item.Rarity === props.filterData
+      )
+      .map((item) => (
+        <Item {...item} />
+      ))}
   </div>
-)
+);
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = { filterData: "All" };
+  }
+
+  setFilterData(params) {
+    this.setState({
+      filterData: params,
+    });
+  }
+
   render() {
     return (
       <div>
-        <Filters />
-        <ItemList itemData={jsonData} />
+        <RarityFilterDropdown callback={this.setFilterData.bind(this)} />
+        <ItemList itemData={jsonData} filterData={this.state.filterData} />
       </div>
     );
   }

@@ -35,5 +35,8 @@ body {
     font-size: .75rem;
   }
   
-
+  .filter-select-container {
+    color: white;
+    display: flex;
+  }
   
