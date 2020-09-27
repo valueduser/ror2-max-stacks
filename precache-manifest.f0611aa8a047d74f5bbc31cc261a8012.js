@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6fa281aab1b63882dfe0f5ecb0da76d3",
+    "revision": "8182f3c00e2b833b5d53f7824b0fa714",
     "url": "/ror2-max-stacks/index.html"
   },
   {
-    "revision": "0aa44781a9f758548483",
-    "url": "/ror2-max-stacks/static/css/main.7e3d85f9.chunk.css"
+    "revision": "986963687d99c654c643",
+    "url": "/ror2-max-stacks/static/css/main.acecd20b.chunk.css"
   },
   {
-    "revision": "c1234220c01999b3801c",
-    "url": "/ror2-max-stacks/static/js/2.cc43b96d.chunk.js"
+    "revision": "b2c206454f52d6b5a69c",
+    "url": "/ror2-max-stacks/static/js/2.81264119.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/ror2-max-stacks/static/js/2.cc43b96d.chunk.js.LICENSE.txt"
+    "url": "/ror2-max-stacks/static/js/2.81264119.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0aa44781a9f758548483",
-    "url": "/ror2-max-stacks/static/js/main.5beee6aa.chunk.js"
+    "revision": "986963687d99c654c643",
+    "url": "/ror2-max-stacks/static/js/main.66f53bd7.chunk.js"
   },
   {
     "revision": "ffb36ba4ff1caea11bd9",
