@@ -39,4 +39,10 @@ body {
     color: white;
     display: flex;
   }
+
+  .last-updated-container {
+    color: white;
+    text-align: right;
+    float: right;
+  }
   

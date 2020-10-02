@@ -9,6 +9,17 @@ Sentry.init({
     "https://c0cce460deba46a6b64ff89c9719ba82@o141824.ingest.sentry.io/5379078",
 });
 
+class LastUpdated extends React.Component {
+  render() {
+    const version = "1.0.1.1";
+    return (
+      <div className="last-updated-container">
+        <div>Last updated for version: {version}</div>
+      </div>
+    );
+  }
+}
+
 class RarityFilterDropdown extends React.Component {
   constructor() {
     super();
@@ -96,6 +107,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <LastUpdated/>
         <RarityFilterDropdown callback={this.setFilterData.bind(this)} />
         <ItemList itemData={jsonData} filterData={this.state.filterData} />
       </div>
