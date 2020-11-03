@@ -11,7 +11,7 @@ Sentry.init({
 
 class LastUpdated extends React.Component {
   render() {
-    const version = "1.0.1.1";
+    const version = "1.0.2.0";
     return (
       <div className="last-updated-container">
         <div>Last updated for version: {version}</div>
