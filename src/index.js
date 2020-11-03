@@ -79,7 +79,7 @@ class Item extends React.Component {
 }
 
 const ItemList = (props) => (
-  <div>
+  <div className="item-list">
     {props.itemData
       .filter((item) =>
         props.filterData === "All"
