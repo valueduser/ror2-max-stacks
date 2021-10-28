@@ -1,0 +1,191 @@
+[
+  {
+    "DisplayName": "57 Leaf Clover",
+    "Name": "57_Leaf_Clover",
+    "Rarity": "Legendary",
+    "Description": "All random effects are rolled +1 (+1 per stack) times for a favorable outcome.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e5/57_Leaf_Clover.png"
+  },
+  {
+    "DisplayName": "Aegis",
+    "Name": "Aegis",
+    "Rarity": "Legendary",
+    "Description": "Healing past full grants you a temporary barrier for 50% (+50% per stack) of the amount you healed.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e5/Aegis.png"
+  },
+  {
+    "DisplayName": "Alien Head",
+    "Name": "Alien_Head",
+    "Rarity": "Legendary",
+    "Description": "Reduce skill cooldowns by 25% (+25% per stack).",
+    "StackType": "Exponential",
+    "GoodEnoughStacks": 14,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/25/Alien_Head.png"
+  },
+  {
+    "DisplayName": "Brainstalks",
+    "Name": "Brainstalks",
+    "Rarity": "Legendary",
+    "Description": "Upon killing an elite monster, enter a frenzy for 4s (+4s per stack) where skills have no cooldowns.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/c0/Brainstalks.png"
+  },
+  {
+    "DisplayName": "Brilliant Behemoth",
+    "Name": "Brilliant_Behemoth",
+    "Rarity": "Legendary",
+    "Description": "All your attacks explode in a 4m (+2.5m per stack) radius for a bonus 60% TOTAL damage to nearby enemies.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/f/fa/Brilliant_Behemoth.png"
+  },
+  {
+    "DisplayName": "Ceremonial Dagger",
+    "Name": "Ceremonial_Dagger",
+    "Rarity": "Legendary",
+    "Description": "Killing an enemy fires out 3 homing daggers that deal 150% (+150% per stack) base damage.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/7/76/Ceremonial_Dagger.png"
+  },
+  {
+    "DisplayName": "Dio's Best Friend",
+    "Name": "Dio%27s_Best_Friend",
+    "Rarity": "Legendary",
+    "Description": "Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/d/dc/Dio%27s_Best_Friend.png"
+  },
+  {
+    "DisplayName": "Frost Relic",
+    "Name": "Frost_Relic",
+    "Rarity": "Legendary",
+    "Description": "Killing an enemy surrounds you with an ice storm that deals 1200% damage per second and slows enemies by 80% for 1.5s. The storm grows with every kill, increasing its radius by 1m. Stacks up to 6m (+6m per stack).",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/5/58/Frost_Relic.png"
+  },
+  {
+    "DisplayName": "H3AD-5T v2",
+    "Name": "H3AD-5T_v2",
+    "Rarity": "Legendary",
+    "Description": "Increase jump height. Creates a 10m radius kinetic explosion on hitting the ground, dealing 2300% base damage that scales up with speed. Recharges in 10 (-50% per stack) seconds.",
+    "StackType": "Exponential",
+    "GoodEnoughStacks": 7,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/36/H3AD-5T_v2.png"
+  },
+  {
+    "DisplayName": "Happiest Mask",
+    "Name": "Happiest_Mask",
+    "Rarity": "Legendary",
+    "Description": "Killing enemies has a 7% chance to spawn a ghost of the killed enemy with 1500% damage. Lasts 30s (+30s per stack).",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/d/d4/Happiest_Mask.png"
+  },
+  {
+    "DisplayName": "Hardlight Afterburner",
+    "Name": "Hardlight_Afterburner",
+    "Rarity": "Legendary",
+    "Description": "Add +2 (+2 per stack) charges of your Utility skill. Reduces Utility skill cooldown by 33%.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": 3,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/20/Hardlight_Afterburner.png"
+  },
+  {
+    "DisplayName": "Interstellar Desk Plant",
+    "Name": "Interstellar_Desk_Plant",
+    "Rarity": "Legendary",
+    "Description": "On kill, plant a healing fruit seed that grows into a plant after 5 seconds. The plant heals for 5% of maximum health every second to all allies within 3m (+1.5m per stack). Lasts 10 seconds",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/1/1e/Interstellar_Desk_Plant.png"
+  },
+  {
+    "DisplayName": "N'kuhana's Opinion",
+    "Name": "N%27kuhana%27s_Opinion",
+    "Rarity": "Legendary",
+    "Description": "Store 100% (+100% per stack) of healing as Soul Energy. After your Soul Energy reaches 10% of your maximum health, fire a skull that deals 250% of your Soul Energy as damage.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/c9/N%27kuhana%27s_Opinion.png"
+  },
+  {
+    "DisplayName": "Rejuvenation Rack",
+    "Name": "Rejuvenation_Rack",
+    "Rarity": "Legendary",
+    "Description": "Heal +100% (+100% per stack) more.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/0/0a/Rejuvenation_Rack.png"
+  },
+  {
+    "DisplayName": "Resonance Disc",
+    "Name": "Resonance_Disc",
+    "Rarity": "Legendary",
+    "Description": "Killing enemies charges the Resonance Disc. The disc launches itself toward a target for 300% base damage (+300% per stack), piercing all enemies it doesn't kill, and then explodes for 1000% base damage (+1000% per stack). Returns to the user, striking all enemies along the way for 300% base damage (+300% per stack).",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/8/8d/Resonance_Disc.png"
+  },
+  {
+    "DisplayName": "Sentient Meat Hook - Chance to Fire Hooks",
+    "Name": "Sentient_Meat_Hook",
+    "Rarity": "Legendary",
+    "Description": "20% (+20% per stack) chance on hit to fire homing hooks.",
+    "StackType": "Hyperbolic",
+    "GoodEnoughStacks": 250,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e7/Sentient_Meat_Hook.png"
+  },
+  {
+    "DisplayName": "Sentient Meat Hook - Fire More Hooks",
+    "Name": "Sentient_Meat_Hook",
+    "Rarity": "Legendary",
+    "Description": "Chance on hit to fire homing hooks at up to 10 (+5 per stack) enemies for 100% TOTAL damage.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e7/Sentient_Meat_Hook.png"
+  },
+  {
+    "DisplayName": "Shattering Justice",
+    "Name": "Shattering_Justice",
+    "Rarity": "Legendary",
+    "Description": "After hitting an enemy 5 times, reduce their armor by 60 for 8 (+8 per stack) seconds.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2d/Shattering_Justice.png"
+  },
+  {
+    "DisplayName": "Soulbound Catalyst",
+    "Name": "Soulbound_Catalyst",
+    "Rarity": "Legendary",
+    "Description": "Kills reduce equipment cooldown by 4s (+2s per stack).",
+    "StackType": "Linear",
+    "GoodEnoughStacks": 67,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/f/f1/Soulbound_Catalyst.png"
+  },
+  {
+    "DisplayName": "Unstable Tesla Coil",
+    "Name": "Unstable_Tesla_Coil",
+    "Rarity": "Legendary",
+    "Description": "Fire out lightning that hits 3 (+2 per stack) enemies for 200% base damage every 0.5s. The Tesla Coil switches off every 10 seconds.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e4/Unstable_Tesla_Coil.png"
+  },
+  {
+    "DisplayName": "Wake of Vultures",
+    "Name": "Wake_of_Vultures",
+    "Rarity": "Legendary",
+    "Description": "Gain the power of any killed elite monster for 8s (+5s per stack).",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/f/f8/Wake_of_Vultures.png"
+  }
+]

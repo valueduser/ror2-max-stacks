@@ -1,0 +1,173 @@
+[
+  {
+    "DisplayName": "Beads of Fealty",
+    "Name": "Beads_of_Fealty",
+    "Rarity": "Lunar",
+    "Description": "Seems to do nothing... but...",
+    "StackType": "Special",
+    "GoodEnoughStacks": 1,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/0/07/Beads_of_Fealty.png"
+  },
+  {
+    "DisplayName": "Brittle Crown",
+    "Name": "Brittle_Crown",
+    "Rarity": "Lunar",
+    "Description": "30% chance on hit to gain 2 (+2 per stack) gold. Scales over time. Lose gold on taking damage equal to 100% (+100% per stack) of the maximum health percentage you lost.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/ae/Brittle_Crown.png"
+  },
+  {
+    "DisplayName": "Corpsebloom - More Healing",
+    "Name": "Corpsebloom",
+    "Rarity": "Lunar",
+    "Description": "Heal +100% (+100% per stack) more. All healing is applied over time.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/31/Corpsebloom.png"
+  },
+  {
+    "DisplayName": "Corpsebloom - Max Health",
+    "Name": "Corpsebloom",
+    "Rarity": "Lunar",
+    "Description": "Can heal for a maximum of 10% (reduced by 50% per stack) of your health per second.",
+    "StackType": "Exponential",
+    "GoodEnoughStacks": 7,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/31/Corpsebloom.png"
+  },
+  {
+    "DisplayName": "Focused Convergence - Teleporter Charge",
+    "Name": "Focused_Convergence",
+    "Rarity": "Lunar",
+    "Description": "Teleporters charge 30% (+30% per stack) faster",
+    "StackType": "Linear",
+    "GoodEnoughStacks": 3,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2c/Focused_Convergence.png"
+  },
+  {
+    "DisplayName": "Focused Convergence - Teleporter Size",
+    "Name": "Focused_Convergence",
+    "Rarity": "Lunar",
+    "Description": "Size of the Teleporter zone is 50% (-50% per stack) smaller.",
+    "StackType": "Hyperbolic",
+    "GoodEnoughStacks": 3,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2c/Focused_Convergence.png"
+  },
+  {
+    "DisplayName": "Gesture of the Drowned",
+    "Name": "Gesture_of_the_Drowned",
+    "Rarity": "Lunar",
+    "Description": "Reduce Equipment cooldown by 50% (+15% per stack). Forces your Equipment to activate whenever it is off cooldown.",
+    "StackType": "Exponential",
+    "GoodEnoughStacks": 21,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/c9/Gesture_of_the_Drowned.png"
+  },
+  {
+    "DisplayName": "Shaped Glass",
+    "Name": "Shaped_Glass",
+    "Rarity": "Lunar",
+    "Description": "Increase base damage by 100% (+100% per stack). Reduce maximum health by 50% (+50% per stack).",
+    "StackType": "Exponential",
+    "GoodEnoughStacks": 6,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/f/ff/Shaped_Glass.png"
+  },
+  {
+    "DisplayName": "Strides of Heresy",
+    "Name": "Strides_of_Heresy",
+    "Rarity": "Lunar",
+    "Description": "Replace your Utility Skill with Shadowfade. Fade away, becoming intangible and gaining +30% movement speed. Heal for 25% (+25% per stack) of your maximum health. Lasts 3 (+3 per stack) seconds.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": 4,
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/1/1a/Strides_of_Heresy.png"
+  },
+  {
+    "DisplayName": "Transcendence",
+    "Name": "Transcendence",
+    "Rarity": "Lunar",
+    "Description": "Convert all but 1 health into regenerating shields. Gain 50% (+25% per stack) maximum health.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/8/85/Transcendence.png"
+  },
+  {
+    "DisplayName": "Visions of Heresy",
+    "Name": "Visions_of_Heresy",
+    "Rarity": "Lunar",
+    "Description": "Replace your Primary Skill with Hungering Gaze. Fire a flurry of tracking shards that detonate after a delay, dealing 120% base damage. Hold up to 12 charges (+12 per stack) that reload after 2 seconds (+2 per stack).",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/31/Visions_of_Heresy.png"
+  },
+  {
+    "DisplayName": "Purity",
+    "Name": "Purity",
+    "Rarity": "Lunar",
+    "Description": "All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "27",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/a2/Purity.png"
+  },
+  {
+    "DisplayName": "Mercurial Rachis",
+    "Name": "Mercurial_Rachis",
+    "Rarity": "Lunar",
+    "Description": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within 16m (+50% per stack), causing them to deal +50% damage.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/25/Mercurial_Rachis.png"
+  },
+  {
+    "DisplayName": "Defiant Gouge",
+    "Name": "Defiant_Gouge",
+    "Rarity": "Lunar",
+    "Description": "Using a Shrine summons enemies nearby. Scales over time.",
+    "StackType": "?",
+    "GoodEnoughStacks": "?",
+    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/b/b5/Defiant_Gouge.png"
+  },
+  {
+    "DisplayName": "Essence of Heresy",
+    "Name": "Essence_of_Heresy",
+    "Rarity": "Lunar",
+    "Description": "Dealing damage adds a stack of Ruin for 10 (+10 per stack) seconds.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/3e/Essence_of_Heresy.png"
+  },
+  {
+    "DisplayName": "Essence of Heresy",
+    "Name": "Essence_of_Heresy",
+    "Rarity": "Lunar",
+    "Description": "Activating the skill detonates all Ruin stacks at unlimited range, dealing 300% damage plus 120% damage per stack of Ruin.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/3e/Essence_of_Heresy.png"
+  },
+  {
+    "DisplayName": "Essence of Heresy",
+    "Name": "Essence_of_Heresy",
+    "Rarity": "Lunar",
+    "Description": "Recharges after 8 (+8 per stack) seconds.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/3e/Essence_of_Heresy.png"
+  },
+  {
+    "DisplayName": "Hooks of Heresy",
+    "Name": "Hooks_of_Heresy",
+    "Rarity": "Lunar",
+    "Description": "Charge up a projectile that deals 175% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and root enemies for 3 (+3 per stack) seconds.",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "Infinite",
+    "Icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/66/Hooks_of_Heresy.png"
+  },
+  {
+    "DisplayName": "Hooks of Heresy",
+    "Name": "Hooks_of_Heresy",
+    "Rarity": "Lunar",
+    "Description": "Charge up a projectile that deals 175% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and recharges after 5 (+5 per stack) seconds",
+    "StackType": "Linear",
+    "GoodEnoughStacks": "?",
+    "Icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/66/Hooks_of_Heresy.png"
+  } 
+]

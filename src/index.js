@@ -1,7 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import * as Sentry from "@sentry/react";
-import jsonData from "./data.json";
+import commonData from "./data/common.json";
+import uncommonData from "./data/uncommon.json";
+import bossData from "./data/boss.json";
+import legendaryData from "./data/legendary.json";
+import lunarData from "./data/lunar.json";
+import voidData from "./data/void.json";
 import "./index.css";
 
 Sentry.init({
@@ -11,7 +16,7 @@ Sentry.init({
 
 class LastUpdated extends React.Component {
   render() {
-    const version = "1.0.2.0";
+    const version = "1.1.1.2";
     return (
       <div className="last-updated-container">
         <div>Last updated for version: {version}</div>
@@ -39,6 +44,7 @@ class RarityFilterDropdown extends React.Component {
         <div>
           <select onChange={this.handleChange}>
             <option value="All">All</option>
+            <option value="Void">Void</option>
             <option value="Lunar">Lunar</option>
             <option value="Boss">Boss</option>
             <option value="Legendary">Legendary</option>
@@ -79,7 +85,7 @@ class Item extends React.Component {
 }
 
 const ItemList = (props) => (
-  <div className="item-list">
+    <div className="item-list">
     {props.itemData
       .filter((item) =>
         props.filterData === "All"
@@ -109,7 +115,7 @@ class App extends React.Component {
       <div>
         <LastUpdated/>
         <RarityFilterDropdown callback={this.setFilterData.bind(this)} />
-        <ItemList itemData={jsonData} filterData={this.state.filterData} />
+        <ItemList itemData={[].concat(bossData, commonData, legendaryData, lunarData, uncommonData, voidData)} filterData={this.state.filterData} />
       </div>
     );
   }
