@@ -10,8 +10,7 @@ import voidData from "./data/void.json";
 import "./index.css";
 
 Sentry.init({
-  dsn:
-    "https://c0cce460deba46a6b64ff89c9719ba82@o141824.ingest.sentry.io/5379078",
+  dsn: "https://c0cce460deba46a6b64ff89c9719ba82@o141824.ingest.sentry.io/5379078",
 });
 
 class LastUpdated extends React.Component {
@@ -71,13 +70,18 @@ class Item extends React.Component {
             width="100"
             height="100"
           />
-          <div className="stack-square">
-            <div className="stack-square-text">
-              {item.GoodEnoughStacks === "Infinite"
-                ? "∞"
-                : item.GoodEnoughStacks}
-            </div>
+          <div>
+            {item.StackDetails.map((stackInfo) => (
+               <div className="stack-square">
+               <div className="stack-square-text">
+                 {stackInfo.GoodEnoughStacks === "Infinite"
+                   ? "∞"
+                   : stackInfo.GoodEnoughStacks}
+               </div>
+             </div>
+            ))}
           </div>
+         
         </button>
       </a>
     );
@@ -85,7 +89,7 @@ class Item extends React.Component {
 }
 
 const ItemList = (props) => (
-    <div className="item-list">
+  <div className="item-list">
     {props.itemData
       .filter((item) =>
         props.filterData === "All"
@@ -113,9 +117,19 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <LastUpdated/>
+        <LastUpdated />
         <RarityFilterDropdown callback={this.setFilterData.bind(this)} />
-        <ItemList itemData={[].concat(bossData, commonData, legendaryData, lunarData, uncommonData, voidData)} filterData={this.state.filterData} />
+        <ItemList
+          itemData={[].concat(
+            bossData,
+            commonData,
+            legendaryData,
+            lunarData,
+            uncommonData,
+            voidData
+          )}
+          filterData={this.state.filterData}
+        />
       </div>
     );
   }

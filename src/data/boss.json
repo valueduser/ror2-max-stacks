@@ -4,8 +4,13 @@
     "Name": "Genesis_Loop",
     "Rarity": "Boss",
     "Description": "Falling below 25% health causes you to explode, dealing 6000% base damage. Recharges every 30 seconds (-50% per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": 7,
+    "StackDetails": [
+      {
+        "Stat": "Faster Recharge",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 7
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/c8/Genesis_Loop.png"
   },
   {
@@ -13,8 +18,18 @@
     "Name": "Halcyon_Seed",
     "Rarity": "Boss",
     "Description": "Summon Aurelionite during the teleporter event. It has 100% (+50% per stack) damage and 100% (+100% per stack) health.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      },
+      {
+        "Stat": "More Health",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e6/Halcyon_Seed.png"
   },
   {
@@ -22,8 +37,13 @@
     "Name": "Irradiant_Pearl",
     "Rarity": "Boss",
     "Description": "Increases ALL stats by 10% (+10% per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Everything",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/ef/Irradiant_Pearl.png"
   },
   {
@@ -31,8 +51,13 @@
     "Name": "Little_Disciple",
     "Rarity": "Boss",
     "Description": "Fire a tracking wisp for 100% (+100% per stack) damage. Fires every 0.5 seconds while sprinting.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/0/08/Little_Disciple.png"
   },
   {
@@ -40,8 +65,13 @@
     "Name": "Pearl",
     "Rarity": "Boss",
     "Description": "Increases maximum health by 10% (+10% per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Health",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/7/73/Pearl.png"
   },
   {
@@ -49,8 +79,13 @@
     "Name": "Queen%27s_Gland",
     "Rarity": "Boss",
     "Description": "Every 30 seconds, summon a Beetle Guard with bonus 300% damage and 100% health. Can have up to 1 (+1 per stack) Guards at a time.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Guards",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/0/0b/Queen%27s_Gland.png"
   },
   {
@@ -58,8 +93,18 @@
     "Name": "Titanic_Knurl",
     "Rarity": "Boss",
     "Description": "Increase maximum health by 40 (+40 per stack) and base health regeneration by +1.6 hp/s (+1.6 hp/s per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Health",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      },
+      {
+        "Stat": "Faster Regen",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/9/9f/Titanic_Knurl.png"
   },
   {
@@ -67,8 +112,13 @@
     "Name": "Shatterspleen",
     "Rarity": "Boss",
     "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Explosion Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/cd/Shatterspleen.png"
   },
   {
@@ -76,8 +126,13 @@
     "Name": "Molten_Perforator",
     "Rarity": "Boss",
     "Description": "10% chance on hit to call forth 3 magma balls from an enemy, dealing 300% (+300% per stack) damage each. ",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/7/71/Molten_Perforator.png"
   },
   {
@@ -85,8 +140,13 @@
     "Name": "Mired_Urn",
     "Rarity": "Boss",
     "Description": "While in combat, the nearest 1 (+1 per stack) characters to you within 13m will be 'tethered' to you, dealing 100% damage per second, applying tar, and healing you for 100% of the damage dealt.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More tethered characters",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/6/62/Mired_Urn.png"
   },
   {
@@ -94,26 +154,41 @@
     "Name": "Planula",
     "Rarity": "Boss",
     "Description": "Heal from incoming damage for 15 (+15 per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/a/a9/Planula.png"
-  },  
+  },
   {
     "DisplayName": "Charged Perforator",
     "Name": "Charged_Perforator",
     "Rarity": "Boss",
     "Description": "10% chance on hit to down a lightning strike, dealing 500% (+500% per stack) damage.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/cc/Charged_Perforator.png"
-  },  
+  },
   {
     "DisplayName": "Empathy Cores",
     "Name": "Empathy_Cores",
     "Rarity": "Boss",
     "Description": "Every 30 seconds, summon two Solus Probes that gain +100% (+100% per stack) damage per ally on your team.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/5/51/Empathy_Cores.png"
   }
 ]

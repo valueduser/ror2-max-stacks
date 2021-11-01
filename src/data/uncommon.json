@@ -4,8 +4,13 @@
     "Name": "AtG_Missile_Mk._1",
     "Rarity": "Uncommon",
     "Description": "10% chance to fire a missile that deals 300% (+300% per stack) TOTAL damage.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": 10,
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 10
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/6/6a/AtG_Missile_Mk._1.png"
   },
   {
@@ -13,8 +18,13 @@
     "Name": "Bandolier",
     "Rarity": "Uncommon",
     "Description": "18% (+10% per stack) chance on kill to drop an ammo pack that resets all skill cooldowns.",
-    "StackType": "Special",
-    "GoodEnoughStacks": 140000,
+    "StackDetails": [
+      {
+        "Stat": "More Chance to Drop",
+        "StackType": "Special",
+        "GoodEnoughStacks": 140000
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/6/62/Bandolier.png"
   },
   {
@@ -22,8 +32,13 @@
     "Name": "Berzerker%27s_Pauldron",
     "Rarity": "Uncommon",
     "Description": "Killing 3 enemies within 1 second sends you into a frenzy for 6s (+4s per stack). Increases movement speed by 50% and attack speed by 100%.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "Longer Frenzy",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/a6/Berzerker%27s_Pauldron.png"
   },
   {
@@ -31,8 +46,13 @@
     "Name": "Chronobauble",
     "Rarity": "Uncommon",
     "Description": "Slow enemies on hit for -60% movement speed for 2s (+2s per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "Longer Slow Effect",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/38/Chronobauble.png"
   },
   {
@@ -40,26 +60,32 @@
     "Name": "Death_Mark",
     "Rarity": "Uncommon",
     "Description": "Enemies with 4 or more debuffs are marked for death, increasing damage taken by 50% (+50% per stack) from all sources for 7 seconds.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/34/Death_Mark.png"
   },
   {
-    "DisplayName": "Fuel Cell - Equipment Cooldown",
+    "DisplayName": "Fuel Cell",
     "Name": "Fuel_Cell",
     "Rarity": "Uncommon",
-    "Description": "Reduce equipment cooldown by 15% (+15% per stack).",
-    "StackType": "Exponential",
-    "GoodEnoughStacks": 24,
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/4/4d/Fuel_Cell.png"
-  },
-  {
-    "DisplayName": "Fuel Cell - Additional Equipment Charge",
-    "Name": "Fuel_Cell",
-    "Rarity": "Uncommon",
-    "Description": "Hold an additional equipment charge (+1 per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": 249,
+    "Description": "Reduce equipment cooldown by 15% (+15% per stack).  Hold an additional equipment charge (+1 per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Faster Cooldown",
+        "StackType": "Exponential",
+        "GoodEnoughStacks": 24
+      },
+      {
+        "Stat": "Additional Charges",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 249
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/4/4d/Fuel_Cell.png"
   },
   {
@@ -67,26 +93,32 @@
     "Name": "Ghor%27s_Tome",
     "Rarity": "Uncommon",
     "Description": "4% (+4% on stack) chance on kill to drop a treasure worth $25. Scales over time.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": 24,
+    "StackDetails": [
+      {
+        "Stat": "More Chance to Drop",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 24
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/9/9a/Ghor%27s_Tome.png"
   },
   {
-    "DisplayName": "Harvester's Scythe - Crit Chance",
+    "DisplayName": "Harvester's Scythe",
     "Name": "Harvester%27s_Scythe",
     "Rarity": "Uncommon",
-    "Description": "Gain 5% critical chance (+0% per stack).",
-    "StackType": "None",
-    "GoodEnoughStacks": 1,
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e1/Harvester%27s_Scythe.png"
-  },
-  {
-    "DisplayName": "Harvester's Scythe - Crits Heal",
-    "Name": "Harvester%27s_Scythe",
-    "Rarity": "Uncommon",
-    "Description": "Critical strikes heal for 8 (+4 per stack) health.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "Description": "Critical strikes heal for 8 (+4 per stack) health. Gain 5% critical chance (+0% per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Crit Chance",
+        "StackType": "None",
+        "GoodEnoughStacks": 1
+      },
+      {
+        "Stat": "Crit Healing",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e1/Harvester%27s_Scythe.png"
   },
   {
@@ -94,8 +126,13 @@
     "Name": "Hopoo_Feather",
     "Rarity": "Uncommon",
     "Description": "Gain +1 (+1 per stack) maximum jump count.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Jumps",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/3a/Hopoo_Feather.png"
   },
   {
@@ -103,8 +140,13 @@
     "Name": "Infusion",
     "Rarity": "Uncommon",
     "Description": "Killing an enemy increases your health permanently by 1 (+1 per stack), up to a maximum of 100 (+100 per stack) health.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Max Health",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/7/7d/Infusion.png"
   },
   {
@@ -112,8 +154,13 @@
     "Name": "Kjaro%27s_Band",
     "Rarity": "Uncommon",
     "Description": "8% chance on hit to strike an enemy with a runic flame tornado, dealing 500% (+250% per stack) TOTAL damage.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/eb/Kjaro%27s_Band.png"
   },
   {
@@ -121,8 +168,13 @@
     "Name": "Leeching_Seed",
     "Rarity": "Uncommon",
     "Description": "Dealing damage heals you for 1 (+1 per stack) health.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Healing",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/a0/Leeching_Seed.png"
   },
   {
@@ -130,8 +182,13 @@
     "Name": "Lepton_Daisy",
     "Rarity": "Uncommon",
     "Description": "Release a healing nova during the Teleporter event, healing all nearby allies for 50% of their maximum health. Occurs 1 (+1 per stack) times.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Healing Novas",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/7/73/Lepton_Daisy.png"
   },
   {
@@ -139,8 +196,13 @@
     "Name": "Old_Guillotine",
     "Rarity": "Uncommon",
     "Description": "Instantly kill Elite monsters below 20% (+20% per stack) health.",
-    "StackType": "Hyperbolic",
-    "GoodEnoughStacks": 380,
+    "StackDetails": [
+      {
+        "Stat": "Lower Health Floor",
+        "StackType": "Hyperbolic",
+        "GoodEnoughStacks": 380
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/8/8d/Old_Guillotine.png"
   },
   {
@@ -148,26 +210,32 @@
     "Name": "Old_War_Stealthkit",
     "Rarity": "Uncommon",
     "Description": "Falling below 25% health causes you to gain 40% movement speed and invisibility for 5s. Recharges every 30 seconds (-50% per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "7",
+    "StackDetails": [
+      {
+        "Stat": "Faster Recharge",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 7
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2c/Old_War_Stealthkit.png"
   },
   {
-    "DisplayName": "Predatory Instincts - Additional crit chance",
+    "DisplayName": "Predatory Instincts",
     "Name": "Predatory_Instincts",
     "Rarity": "Uncommon",
-    "Description": "Gain 5% critical chance (+0% per stack).",
-    "StackType": "None",
-    "GoodEnoughStacks": 1,
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/39/Predatory_Instincts.png"
-  },
-  {
-    "DisplayName": "Predatory Instincts - Attack Speed",
-    "Name": "Predatory_Instincts",
-    "Rarity": "Uncommon",
-    "Description": "Critical strikes increase attack speed by 12%. Maximum cap of 36% (+24% per stack) attack speed.",
-    "StackType": "None",
-    "GoodEnoughStacks": "Infinite",
+    "Description": "Gain 5% critical chance (+0% per stack). Critical strikes increase attack speed by 12%. Maximum cap of 36% (+24% per stack) attack speed.",
+    "StackDetails": [
+      {
+        "Stat": "Crit Chance",
+        "StackType": "None",
+        "GoodEnoughStacks": 1
+      },
+      {
+        "Stat": "Attack Speed",
+        "StackType": "Hyperbolic",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/39/Predatory_Instincts.png"
   },
   {
@@ -175,8 +243,18 @@
     "Name": "Razorwire",
     "Rarity": "Uncommon",
     "Description": "Getting hit causes you to explode in a burst of razors, dealing 160% damage. Hits up to 5 (+2 per stack) targets in a 25m (+10m per stack) radius",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Targets",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      },
+      {
+        "Stat": "Larger Damage Radius",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/ac/Razorwire.png"
   },
   {
@@ -184,8 +262,13 @@
     "Name": "Red_Whip",
     "Rarity": "Uncommon",
     "Description": "Leaving combat boosts your movement speed by 30% (+30% per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Movement Speed",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2a/Red_Whip.png"
   },
   {
@@ -193,8 +276,13 @@
     "Name": "Rose_Buckler",
     "Rarity": "Uncommon",
     "Description": "Increase armor by 30 (+30 per stack) while sprinting.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": 164,
+    "StackDetails": [
+      {
+        "Stat": "More Armor",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 164
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2f/Rose_Buckler.png"
   },
   {
@@ -202,8 +290,13 @@
     "Name": "Runald%27s_Band",
     "Rarity": "Uncommon",
     "Description": "8% chance on hit to strike an enemy with a runic ice blast, slowing them by 80% and dealing 250% (+125% per stack) TOTAL damage.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/0/05/Runald%27s_Band.png"
   },
   {
@@ -211,8 +304,13 @@
     "Name": "Squid_Polyp",
     "Rarity": "Uncommon",
     "Description": "Activating an interactable summons a Squid Turret that attacks nearby enemies at 100% (+100% per stack) attack speed. Lasts 30 seconds.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Attack Speed",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/d/de/Squid_Polyp.png"
   },
   {
@@ -220,8 +318,18 @@
     "Name": "Ukulele",
     "Rarity": "Uncommon",
     "Description": "25% chance to fire chain lightning for 80% TOTAL damage on up to 3 (+2 per stack) targets within 20m (+2m per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Targets",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      },
+      {
+        "Stat": "Larger Radius",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/9/98/Ukulele.png"
   },
   {
@@ -229,8 +337,13 @@
     "Name": "War_Horn",
     "Rarity": "Uncommon",
     "Description": "Activating your Equipment gives you +70% attack speed for 8s (+4s per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "Longer Attack Speed Buff",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/9/9c/War_Horn.png"
   },
   {
@@ -238,8 +351,13 @@
     "Name": "Wax_Quail",
     "Rarity": "Uncommon",
     "Description": "Jumping while sprinting boosts you forward by 10m (+10m per stack).",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "Further Jumps",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/6/6c/Wax_Quail.png"
   },
   {
@@ -247,8 +365,18 @@
     "Name": "Will-o%27-the-wisp",
     "Rarity": "Uncommon",
     "Description": "On killing an enemy, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350% (+280% per stack) base damage.",
-    "StackType": "Linear",
-    "GoodEnoughStacks": "Infinite",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      },
+      {
+        "Stat": "Larger Radius",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ],
     "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/c4/Will-o%27-the-wisp.png"
   }
 ]
