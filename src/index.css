@@ -44,6 +44,11 @@ body {
     display: flex;
   }
 
+  .stack-select-container {
+    color: white;
+    display: flex;
+  }
+
   .last-updated-container {
     color: white;
     text-align: right;
