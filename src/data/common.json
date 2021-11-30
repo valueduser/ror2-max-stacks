@@ -2,6 +2,7 @@
   {
     "DisplayName": "Armor-Piercing Rounds",
     "Name": "Armor-Piercing_Rounds",
+    "Id": 61,
     "Rarity": "Common",
     "Description": "Deal an additional 20% damage (+20% per stack) to bosses.",
     "StackDetails": [
@@ -16,6 +17,7 @@
   {
     "DisplayName": "Backup Magazine",
     "Name": "Backup_Magazine",
+    "Id": 58,
     "Rarity": "Common",
     "Description": "Add +1 (+1 per stack) charge of your Secondary skill.",
     "StackDetails": [
@@ -30,6 +32,7 @@
   {
     "DisplayName": "Bundle of Fireworks",
     "Name": "Bundle_of_Fireworks",
+    "Id": 42,
     "Rarity": "Common",
     "Description": "Activating an interactable launches 8 (+4 per stack) fireworks that deal 300% base damage.",
     "StackDetails": [
@@ -44,6 +47,7 @@
   {
     "DisplayName": "Bustling Fungus",
     "Name": "Bustling_Fungus",
+    "Id": 16,
     "Rarity": "Common",
     "Description": "After standing still for 2 seconds, create a zone that heals for 4.5% (+2.25% per stack) of your health every second to all allies within 3m (+1.5m per stack). (At 44 stacks, healing will be 101.25%/s but can go higher with items like Aegis)",
     "StackDetails": [
@@ -63,6 +67,7 @@
   {
     "DisplayName": "Cautious Slug",
     "Name": "Cautious_Slug",
+    "Id": 27,
     "Rarity": "Common",
     "Description": "Increases base health regeneration by +4 hp/s (+4 hp/s per stack) while outside of combat.",
     "StackDetails": [
@@ -77,6 +82,7 @@
   {
     "DisplayName": "Crowbar",
     "Name": "Crowbar",
+    "Id": 17,
     "Rarity": "Common",
     "Description": "Deal 75% (+75% per stack) damage to enemies above 90% health.",
     "StackDetails": [
@@ -91,6 +97,7 @@
   {
     "DisplayName": "Energy Drink",
     "Name": "Energy_Drink",
+    "Id": 57,
     "Rarity": "Common",
     "Description": "Sprint speed is improved by 30% (+20% per stack).",
     "StackDetails": [
@@ -105,6 +112,7 @@
   {
     "DisplayName": "Focus Crystal",
     "Name": "Focus_Crystal",
+    "Id": 87,
     "Rarity": "Common",
     "Description": "Increase damage to enemies within 13m by 20% (+20% per stack).",
     "StackDetails": [
@@ -119,6 +127,7 @@
   {
     "DisplayName": "Gasoline",
     "Name": "Gasoline",
+    "Id": 39,
     "Rarity": "Common",
     "Description": "Killing an enemy ignites all enemies within 12m (+4m per stack) for 150% base damage. Additionally, enemies burn for 150% (+75% per stack) base damage.",
     "StackDetails": [
@@ -137,6 +146,7 @@
   },
   {
     "DisplayName": "Lens-Maker's Glasses",
+    "Id": 7,
     "Name": "Lens-Maker%27s_Glasses",
     "Rarity": "Common",
     "Description": "Your attacks have a 10% (+10% per stack) chance to 'Critically Strike', dealing double damage.",
@@ -152,6 +162,7 @@
   {
     "DisplayName": "Medkit",
     "Name": "Medkit",
+    "Id": 36,
     "Rarity": "Common",
     "Description": "Heal for 25 (+25 per stack) health 2 seconds after getting hurt.",
     "StackDetails": [
@@ -165,6 +176,7 @@
   },
   {
     "DisplayName": "Monster Tooth",
+    "Id": 6,
     "Name": "Monster_Tooth",
     "Rarity": "Common",
     "Description": "Killing an enemy spawns a healing orb that heals for 8 (+8 per stack) health.",
@@ -179,6 +191,7 @@
   },
   {
     "DisplayName": "Paul's Goat Hoof",
+    "Id": 8,
     "Name": "Paul%27s_Goat_Hoof",
     "Rarity": "Common",
     "Description": "Increases movement speed by 14% (+14% per stack).",
@@ -194,6 +207,7 @@
   {
     "DisplayName": "Personal Shield Generator",
     "Name": "Personal_Shield_Generator",
+    "Id": 29,
     "Rarity": "Common",
     "Description": "Gain a shield equal to 8% (+8% per stack) of your maximum health. Recharges outside of danger.",
     "StackDetails": [
@@ -208,6 +222,7 @@
   {
     "DisplayName": "Repulsion Armor Plate",
     "Name": "Repulsion_Armor_Plate",
+    "Id": 102,
     "Rarity": "Common",
     "Description": "Reduce all incoming damage by 5 (+5 per stack). Cannot be reduced below 1.",
     "StackDetails": [
@@ -222,6 +237,7 @@
   {
     "DisplayName": "Rusted Key",
     "Name": "Rusted_Key",
+    "Id": 60,
     "Rarity": "Common",
     "Description": "A hidden cache containing an item (80% uncommon, 20% legendary) will appear in a random location on each stage. Opening the cache consumes this item",
     "StackDetails": [
@@ -235,6 +251,7 @@
   },
   {
     "DisplayName": "Soldier's Syringe",
+    "Id": 0,
     "Name": "Soldier%27s_Syringe",
     "Rarity": "Common",
     "Description": "Increases attack speed by 15% (+15% per stack).",
@@ -250,6 +267,7 @@
   {
     "DisplayName": "Sticky Bomb",
     "Name": "Sticky_Bomb",
+    "Id": 59,
     "Rarity": "Common",
     "Description": "5% (+5% per stack) chance on hit to attach a bomb to an enemy, detonating for 180% TOTAL damage.",
     "StackDetails": [
@@ -264,6 +282,7 @@
   {
     "DisplayName": "Stun Grenade",
     "Name": "Stun_Grenade",
+    "Id": 41,
     "Rarity": "Common",
     "Description": "5% (+5% on stack) chance on hit to stun enemies for 2 seconds.",
     "StackDetails": [
@@ -278,6 +297,7 @@
   {
     "DisplayName": "Topaz Brooch",
     "Name": "Topaz_Brooch",
+    "Id": 84,
     "Rarity": "Common",
     "Description": "Gain a temporary barrier on kill for 15 health (+15 per stack).",
     "StackDetails": [
@@ -291,6 +311,7 @@
   },
   {
     "DisplayName": "Tougher Times",
+    "Id": 1,
     "Name": "Tougher_Times",
     "Rarity": "Common",
     "Description": "15% (+15% per stack) chance to block incoming damage. Unaffected by luck.",
@@ -306,6 +327,7 @@
   {
     "DisplayName": "Tri-Tip Dagger",
     "Name": "Tri-Tip_Dagger",
+    "Id": 20,
     "Rarity": "Common",
     "Description": "10% (+10% per stack) chance to bleed an enemy for 240% base damage.",
     "StackDetails": [
@@ -320,6 +342,7 @@
   {
     "DisplayName": "Warbanner",
     "Name": "Warbanner",
+    "Id": 24,
     "Rarity": "Common",
     "Description": "On level up drop a banner that strengthens all allies within 16m (+8m per stack). Raise attack and movement speed by 30%.",
     "StackDetails": [
@@ -334,6 +357,7 @@
   {
     "DisplayName": "Bison Steak",
     "Name": "Bison_Steak",
+    "Id": 91,
     "Rarity": "Common",
     "Description": "Increases maximum health by 25 (+25 per stack).",
     "StackDetails": [

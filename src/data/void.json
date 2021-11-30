@@ -2,6 +2,7 @@
   {
     "DisplayName": "Stub",
     "Name": "Stub",
+    "Id": -1,
     "Rarity": "Void",
     "Description": "Deals unlimited damage but only to boarlits",
     "StackDetails": [

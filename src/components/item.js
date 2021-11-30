@@ -15,7 +15,14 @@ const Item = (props) => {
         />
         <div>
           {item.StackDetails.map((stackInfo) => (
-            <div className="stack-square">
+            <div
+              className="stack-square"
+              style={{
+                display: ["Hyperbolic", "Special"].includes(stackInfo.StackType)
+                  ? "block"
+                  : "none",
+              }}
+            >
               <div className="stack-square-text">
                 {stackInfo.GoodEnoughStacks === "Infinite"
                   ? "∞"

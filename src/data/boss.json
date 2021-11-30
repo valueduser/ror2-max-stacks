@@ -2,6 +2,7 @@
   {
     "DisplayName": "Genesis Loop",
     "Name": "Genesis_Loop",
+    "Id": 97,
     "Rarity": "Boss",
     "Description": "Falling below 25% health causes you to explode, dealing 6000% base damage. Recharges every 30 seconds (-50% per stack).",
     "StackDetails": [
@@ -16,6 +17,7 @@
   {
     "DisplayName": "Halcyon Seed",
     "Name": "Halcyon_Seed",
+    "Id": 82,
     "Rarity": "Boss",
     "Description": "Summon Aurelionite during the teleporter event. It has 100% (+50% per stack) damage and 100% (+100% per stack) health.",
     "StackDetails": [
@@ -35,6 +37,7 @@
   {
     "DisplayName": "Irradiant Pearl",
     "Name": "Irradiant_Pearl",
+    "Id": 93,
     "Rarity": "Boss",
     "Description": "Increases ALL stats by 10% (+10% per stack).",
     "StackDetails": [
@@ -49,6 +52,7 @@
   {
     "DisplayName": "Little Disciple",
     "Name": "Little_Disciple",
+    "Id": 83,
     "Rarity": "Boss",
     "Description": "Fire a tracking wisp for 100% (+100% per stack) damage. Fires every 0.5 seconds while sprinting.",
     "StackDetails": [
@@ -63,6 +67,7 @@
   {
     "DisplayName": "Pearl",
     "Name": "Pearl",
+    "Id": 92,
     "Rarity": "Boss",
     "Description": "Increases maximum health by 10% (+10% per stack).",
     "StackDetails": [
@@ -77,6 +82,7 @@
   {
     "DisplayName": "Queen's Gland",
     "Name": "Queen%27s_Gland",
+    "Id": 53,
     "Rarity": "Boss",
     "Description": "Every 30 seconds, summon a Beetle Guard with bonus 300% damage and 100% health. Can have up to 1 (+1 per stack) Guards at a time.",
     "StackDetails": [
@@ -91,6 +97,7 @@
   {
     "DisplayName": "Titanic Knurl",
     "Name": "Titanic_Knurl",
+    "Id": 52,
     "Rarity": "Boss",
     "Description": "Increase maximum health by 40 (+40 per stack) and base health regeneration by +1.6 hp/s (+1.6 hp/s per stack).",
     "StackDetails": [
@@ -110,6 +117,7 @@
   {
     "DisplayName": "Shatterspleen",
     "Name": "Shatterspleen",
+    "Id": 112,
     "Rarity": "Boss",
     "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.",
     "StackDetails": [
@@ -124,6 +132,7 @@
   {
     "DisplayName": "Molten Perforator",
     "Name": "Molten_Perforator",
+    "Id": 111,
     "Rarity": "Boss",
     "Description": "10% chance on hit to call forth 3 magma balls from an enemy, dealing 300% (+300% per stack) damage each. ",
     "StackDetails": [
@@ -138,6 +147,7 @@
   {
     "DisplayName": "Mired Urn",
     "Name": "Mired_Urn",
+    "Id": 113,
     "Rarity": "Boss",
     "Description": "While in combat, the nearest 1 (+1 per stack) characters to you within 13m will be 'tethered' to you, dealing 100% damage per second, applying tar, and healing you for 100% of the damage dealt.",
     "StackDetails": [
@@ -152,6 +162,7 @@
   {
     "DisplayName": "Planula",
     "Name": "Planula",
+    "Id": -1,
     "Rarity": "Boss",
     "Description": "Heal from incoming damage for 15 (+15 per stack).",
     "StackDetails": [
@@ -166,6 +177,7 @@
   {
     "DisplayName": "Charged Perforator",
     "Name": "Charged_Perforator",
+    "Id": -1,
     "Rarity": "Boss",
     "Description": "10% chance on hit to down a lightning strike, dealing 500% (+500% per stack) damage.",
     "StackDetails": [
@@ -180,6 +192,7 @@
   {
     "DisplayName": "Empathy Cores",
     "Name": "Empathy_Cores",
+    "Id": -1,
     "Rarity": "Boss",
     "Description": "Every 30 seconds, summon two Solus Probes that gain +100% (+100% per stack) damage per ally on your team.",
     "StackDetails": [
