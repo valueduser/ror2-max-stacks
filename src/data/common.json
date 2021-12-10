@@ -2,6 +2,7 @@
   {
     "DisplayName": "Armor-Piercing Rounds",
     "Name": "Armor-Piercing_Rounds",
+    "AssetName": "BossDamageBonus",
     "Id": 61,
     "Rarity": "Common",
     "Description": "Deal an additional 20% damage (+20% per stack) to bosses.",
@@ -17,6 +18,7 @@
   {
     "DisplayName": "Backup Magazine",
     "Name": "Backup_Magazine",
+    "AssetName": "SecondarySkillMagazine",
     "Id": 58,
     "Rarity": "Common",
     "Description": "Add +1 (+1 per stack) charge of your Secondary skill.",
@@ -32,6 +34,7 @@
   {
     "DisplayName": "Bundle of Fireworks",
     "Name": "Bundle_of_Fireworks",
+    "AssetName": "Firework",
     "Id": 42,
     "Rarity": "Common",
     "Description": "Activating an interactable launches 8 (+4 per stack) fireworks that deal 300% base damage.",
@@ -47,6 +50,7 @@
   {
     "DisplayName": "Bustling Fungus",
     "Name": "Bustling_Fungus",
+    "AssetName": "Mushroom",
     "Id": 16,
     "Rarity": "Common",
     "Description": "After standing still for 2 seconds, create a zone that heals for 4.5% (+2.25% per stack) of your health every second to all allies within 3m (+1.5m per stack). (At 44 stacks, healing will be 101.25%/s but can go higher with items like Aegis)",
@@ -67,6 +71,7 @@
   {
     "DisplayName": "Cautious Slug",
     "Name": "Cautious_Slug",
+    "AssetName": "HealWhileSafe",
     "Id": 27,
     "Rarity": "Common",
     "Description": "Increases base health regeneration by +4 hp/s (+4 hp/s per stack) while outside of combat.",
@@ -82,6 +87,7 @@
   {
     "DisplayName": "Crowbar",
     "Name": "Crowbar",
+    "AssetName": "Crowbar",
     "Id": 17,
     "Rarity": "Common",
     "Description": "Deal 75% (+75% per stack) damage to enemies above 90% health.",
@@ -97,6 +103,7 @@
   {
     "DisplayName": "Energy Drink",
     "Name": "Energy_Drink",
+    "AssetName": "SprintBonus",
     "Id": 57,
     "Rarity": "Common",
     "Description": "Sprint speed is improved by 30% (+20% per stack).",
@@ -112,6 +119,7 @@
   {
     "DisplayName": "Focus Crystal",
     "Name": "Focus_Crystal",
+    "AssetName": "NearbyDamageBonus",
     "Id": 87,
     "Rarity": "Common",
     "Description": "Increase damage to enemies within 13m by 20% (+20% per stack).",
@@ -127,6 +135,7 @@
   {
     "DisplayName": "Gasoline",
     "Name": "Gasoline",
+    "AssetName": "IgniteOnKill",
     "Id": 39,
     "Rarity": "Common",
     "Description": "Killing an enemy ignites all enemies within 12m (+4m per stack) for 150% base damage. Additionally, enemies burn for 150% (+75% per stack) base damage.",
@@ -146,8 +155,9 @@
   },
   {
     "DisplayName": "Lens-Maker's Glasses",
-    "Id": 7,
     "Name": "Lens-Maker%27s_Glasses",
+    "AssetName": "CritGlasses",
+    "Id": 7,
     "Rarity": "Common",
     "Description": "Your attacks have a 10% (+10% per stack) chance to 'Critically Strike', dealing double damage.",
     "StackDetails": [
@@ -162,6 +172,7 @@
   {
     "DisplayName": "Medkit",
     "Name": "Medkit",
+    "AssetName": "Medkit",
     "Id": 36,
     "Rarity": "Common",
     "Description": "Heal for 25 (+25 per stack) health 2 seconds after getting hurt.",
@@ -176,8 +187,9 @@
   },
   {
     "DisplayName": "Monster Tooth",
-    "Id": 6,
     "Name": "Monster_Tooth",
+    "AssetName": "Tooth",
+    "Id": 6,
     "Rarity": "Common",
     "Description": "Killing an enemy spawns a healing orb that heals for 8 (+8 per stack) health.",
     "StackDetails": [
@@ -191,8 +203,9 @@
   },
   {
     "DisplayName": "Paul's Goat Hoof",
-    "Id": 8,
     "Name": "Paul%27s_Goat_Hoof",
+    "AssetName": "Hoof",
+    "Id": 8,
     "Rarity": "Common",
     "Description": "Increases movement speed by 14% (+14% per stack).",
     "StackDetails": [
@@ -207,6 +220,7 @@
   {
     "DisplayName": "Personal Shield Generator",
     "Name": "Personal_Shield_Generator",
+    "AssetName": "PersonalShield",
     "Id": 29,
     "Rarity": "Common",
     "Description": "Gain a shield equal to 8% (+8% per stack) of your maximum health. Recharges outside of danger.",
@@ -222,6 +236,7 @@
   {
     "DisplayName": "Repulsion Armor Plate",
     "Name": "Repulsion_Armor_Plate",
+    "AssetName": "ArmorPlate",
     "Id": 102,
     "Rarity": "Common",
     "Description": "Reduce all incoming damage by 5 (+5 per stack). Cannot be reduced below 1.",
@@ -237,6 +252,7 @@
   {
     "DisplayName": "Rusted Key",
     "Name": "Rusted_Key",
+    "AssetName": "TreasureCache",
     "Id": 60,
     "Rarity": "Common",
     "Description": "A hidden cache containing an item (80% uncommon, 20% legendary) will appear in a random location on each stage. Opening the cache consumes this item",
@@ -251,8 +267,9 @@
   },
   {
     "DisplayName": "Soldier's Syringe",
-    "Id": 0,
     "Name": "Soldier%27s_Syringe",
+    "AssetName": "Syringe",
+    "Id": 0,
     "Rarity": "Common",
     "Description": "Increases attack speed by 15% (+15% per stack).",
     "StackDetails": [
@@ -267,6 +284,7 @@
   {
     "DisplayName": "Sticky Bomb",
     "Name": "Sticky_Bomb",
+    "AssetName": "StickyBomb",
     "Id": 59,
     "Rarity": "Common",
     "Description": "5% (+5% per stack) chance on hit to attach a bomb to an enemy, detonating for 180% TOTAL damage.",
@@ -282,6 +300,7 @@
   {
     "DisplayName": "Stun Grenade",
     "Name": "Stun_Grenade",
+    "AssetName": "StunChanceOnHit",
     "Id": 41,
     "Rarity": "Common",
     "Description": "5% (+5% on stack) chance on hit to stun enemies for 2 seconds.",
@@ -297,6 +316,7 @@
   {
     "DisplayName": "Topaz Brooch",
     "Name": "Topaz_Brooch",
+    "AssetName": "BarrierOnKill",
     "Id": 84,
     "Rarity": "Common",
     "Description": "Gain a temporary barrier on kill for 15 health (+15 per stack).",
@@ -311,8 +331,9 @@
   },
   {
     "DisplayName": "Tougher Times",
-    "Id": 1,
     "Name": "Tougher_Times",
+    "AssetName": "Bear",
+    "Id": 1,
     "Rarity": "Common",
     "Description": "15% (+15% per stack) chance to block incoming damage. Unaffected by luck.",
     "StackDetails": [
@@ -327,6 +348,7 @@
   {
     "DisplayName": "Tri-Tip Dagger",
     "Name": "Tri-Tip_Dagger",
+    "AssetName": "BleedOnHit",
     "Id": 20,
     "Rarity": "Common",
     "Description": "10% (+10% per stack) chance to bleed an enemy for 240% base damage.",
@@ -342,6 +364,7 @@
   {
     "DisplayName": "Warbanner",
     "Name": "Warbanner",
+    "AssetName": "WardOnLevel",
     "Id": 24,
     "Rarity": "Common",
     "Description": "On level up drop a banner that strengthens all allies within 16m (+8m per stack). Raise attack and movement speed by 30%.",
@@ -357,6 +380,7 @@
   {
     "DisplayName": "Bison Steak",
     "Name": "Bison_Steak",
+    "AssetName": "FlatHealth",
     "Id": 91,
     "Rarity": "Common",
     "Description": "Increases maximum health by 25 (+25 per stack).",

@@ -1,8 +1,9 @@
 [
   {
     "DisplayName": "AtG Missile Mk. 1",
-    "Id": 3,
     "Name": "AtG_Missile_Mk._1",
+    "AssetName": "Missile",
+    "Id": 3,
     "Rarity": "Uncommon",
     "Description": "10% chance to fire a missile that deals 300% (+300% per stack) TOTAL damage.",
     "StackDetails": [
@@ -17,6 +18,7 @@
   {
     "DisplayName": "Bandolier",
     "Name": "Bandolier",
+    "AssetName": "Bandolier",
     "Id": 37,
     "Rarity": "Uncommon",
     "Description": "18% (+10% per stack) chance on kill to drop an ammo pack that resets all skill cooldowns.",
@@ -32,6 +34,7 @@
   {
     "DisplayName": "Berzerker's Pauldron",
     "Name": "Berzerker%27s_Pauldron",
+    "AssetName": "WarCryOnMultiKill",
     "Id": 46,
     "Rarity": "Uncommon",
     "Description": "Killing 3 enemies within 1 second sends you into a frenzy for 6s (+4s per stack). Increases movement speed by 50% and attack speed by 100%.",
@@ -47,6 +50,7 @@
   {
     "DisplayName": "Chronobauble",
     "Name": "Chronobauble",
+    "AssetName": "SlowOnHit",
     "Id": 65,
     "Rarity": "Uncommon",
     "Description": "Slow enemies on hit for -60% movement speed for 2s (+2s per stack).",
@@ -62,6 +66,7 @@
   {
     "DisplayName": "Death Mark",
     "Name": "Death_Mark",
+    "AssetName": "DeathMark",
     "Id": 104,
     "Rarity": "Uncommon",
     "Description": "Enemies with 4 or more debuffs are marked for death, increasing damage taken by 50% (+50% per stack) from all sources for 7 seconds.",
@@ -77,6 +82,7 @@
   {
     "DisplayName": "Fuel Cell",
     "Name": "Fuel_Cell",
+    "AssetName": "EquipmentMagazine",
     "Id": 30,
     "Rarity": "Uncommon",
     "Description": "Reduce equipment cooldown by 15% (+15% per stack).  Hold an additional equipment charge (+1 per stack).",
@@ -97,6 +103,7 @@
   {
     "DisplayName": "Ghor's Tome",
     "Name": "Ghor%27s_Tome",
+    "AssetName": "BonusGoldPackOnKill",
     "Id": 94,
     "Rarity": "Uncommon",
     "Description": "4% (+4% on stack) chance on kill to drop a treasure worth $25. Scales over time.",
@@ -112,6 +119,7 @@
   {
     "DisplayName": "Harvester's Scythe",
     "Name": "Harvester%27s_Scythe",
+    "AssetName": "HealOnCrit",
     "Id": 26,
     "Rarity": "Uncommon",
     "Description": "Critical strikes heal for 8 (+4 per stack) health. Gain 5% critical chance (+0% per stack).",
@@ -132,6 +140,7 @@
   {
     "DisplayName": "Hopoo Feather",
     "Name": "Hopoo_Feather",
+    "AssetName": "Feather",
     "Id": 9,
     "Rarity": "Uncommon",
     "Description": "Gain +1 (+1 per stack) maximum jump count.",
@@ -147,6 +156,7 @@
   {
     "DisplayName": "Infusion",
     "Name": "Infusion",
+    "AssetName": "Infusion",
     "Id": 33,
     "Rarity": "Uncommon",
     "Description": "Killing an enemy increases your health permanently by 1 (+1 per stack), up to a maximum of 100 (+100 per stack) health.",
@@ -162,6 +172,7 @@
   {
     "DisplayName": "Kjaro's Band",
     "Name": "Kjaro%27s_Band",
+    "AssetName": "FireRing",
     "Id": 64,
     "Rarity": "Uncommon",
     "Description": "8% chance on hit to strike an enemy with a runic flame tornado, dealing 500% (+250% per stack) TOTAL damage.",
@@ -177,6 +188,7 @@
   {
     "DisplayName": "Leeching Seed",
     "Name": "Leeching_Seed",
+    "AssetName": "Seed",
     "Id": 13,
     "Rarity": "Uncommon",
     "Description": "Dealing damage heals you for 1 (+1 per stack) health.",
@@ -192,6 +204,7 @@
   {
     "DisplayName": "Lepton Daisy",
     "Name": "Lepton_Daisy",
+    "AssetName": "TPHealingNova",
     "Id": 86,
     "Rarity": "Uncommon",
     "Description": "Release a healing nova during the Teleporter event, healing all nearby allies for 50% of their maximum health. Occurs 1 (+1 per stack) times.",
@@ -207,6 +220,7 @@
   {
     "DisplayName": "Old Guillotine",
     "Name": "Old_Guillotine",
+    "AssetName": "ExecuteLowHealthElite",
     "Id": 78,
     "Rarity": "Uncommon",
     "Description": "Instantly kill Elite monsters below 20% (+20% per stack) health.",
@@ -222,6 +236,7 @@
   {
     "DisplayName": "Old War Stealthkit",
     "Name": "Old_War_Stealthkit",
+    "AssetName": "Phasing",
     "Id": 25,
     "Rarity": "Uncommon",
     "Description": "Falling below 25% health causes you to gain 40% movement speed and invisibility for 5s. Recharges every 30 seconds (-50% per stack).",
@@ -237,6 +252,7 @@
   {
     "DisplayName": "Predatory Instincts",
     "Name": "Predatory_Instincts",
+    "AssetName": "AttackSpeedOnCrit",
     "Id": 19,
     "Rarity": "Uncommon",
     "Description": "Gain 5% critical chance (+0% per stack). Critical strikes increase attack speed by 12%. Maximum cap of 36% (+24% per stack) attack speed.",
@@ -257,6 +273,7 @@
   {
     "DisplayName": "Razorwire",
     "Name": "Razorwire",
+    "AssetName": "Thorns",
     "Id": 90,
     "Rarity": "Uncommon",
     "Description": "Getting hit causes you to explode in a burst of razors, dealing 160% damage. Hits up to 5 (+2 per stack) targets in a 25m (+10m per stack) radius",
@@ -277,6 +294,7 @@
   {
     "DisplayName": "Red Whip",
     "Name": "Red_Whip",
+    "AssetName": "SprintOutOfCombat",
     "Id": 21,
     "Rarity": "Uncommon",
     "Description": "Leaving combat boosts your movement speed by 30% (+30% per stack).",
@@ -292,6 +310,7 @@
   {
     "DisplayName": "Rose Buckler",
     "Name": "Rose_Buckler",
+    "AssetName": "SprintArmor",
     "Id": 62,
     "Rarity": "Uncommon",
     "Description": "Increase armor by 30 (+30 per stack) while sprinting.",
@@ -307,6 +326,7 @@
   {
     "DisplayName": "Runald's Band",
     "Name": "Runald%27s_Band",
+    "AssetName": "IceRing",
     "Id": 63,
     "Rarity": "Uncommon",
     "Description": "8% chance on hit to strike an enemy with a runic ice blast, slowing them by 80% and dealing 250% (+125% per stack) TOTAL damage.",
@@ -322,6 +342,7 @@
   {
     "DisplayName": "Squid Polyp",
     "Name": "Squid_Polyp",
+    "AssetName": "Squid",
     "Id": 103,
     "Rarity": "Uncommon",
     "Description": "Activating an interactable summons a Squid Turret that attacks nearby enemies at 100% (+100% per stack) attack speed. Lasts 30 seconds.",
@@ -337,6 +358,7 @@
   {
     "DisplayName": "Ukulele",
     "Name": "Ukulele",
+    "AssetName": "ChainLightning",
     "Id": 11,
     "Rarity": "Uncommon",
     "Description": "25% chance to fire chain lightning for 80% TOTAL damage on up to 3 (+2 per stack) targets within 20m (+2m per stack).",
@@ -357,6 +379,7 @@
   {
     "DisplayName": "War Horn",
     "Name": "War_Horn",
+    "AssetName": "EnergizedOnEquipmentUse",
     "Id": 79,
     "Rarity": "Uncommon",
     "Description": "Activating your Equipment gives you +70% attack speed for 8s (+4s per stack).",
@@ -372,6 +395,7 @@
   {
     "DisplayName": "Wax Quail",
     "Name": "Wax_Quail",
+    "AssetName": "JumpBoost",
     "Id": 76,
     "Rarity": "Uncommon",
     "Description": "Jumping while sprinting boosts you forward by 10m (+10m per stack).",
@@ -386,8 +410,9 @@
   },
   {
     "DisplayName": "Will-o'-the-wisp",
-    "Id": 4,
     "Name": "Will-o%27-the-wisp",
+    "AssetName": "ExplodeOnDeath",
+    "Id": 4,
     "Rarity": "Uncommon",
     "Description": "On killing an enemy, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350% (+280% per stack) base damage.",
     "StackDetails": [

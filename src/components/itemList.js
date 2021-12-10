@@ -20,7 +20,7 @@ const ItemList = (props) => (
           : item !== null
       )
       .map((item) => (
-        <Item {...item} />
+        <Item key={item.Id} item={item}/>
       ))}
   </div>
 );
