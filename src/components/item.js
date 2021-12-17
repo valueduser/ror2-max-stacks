@@ -1,8 +1,21 @@
 import React from "react";
 
 const Item = (props) => {
-  const item = props;
+  const item = props.item;
   const wikiLinkPrefix = "https://riskofrain2.gamepedia.com/";
+
+  const renderStackBadgeText = (stackInfo) => {
+    if (["Hyperbolic", "Special"].includes(stackInfo.StackType)) {
+      return (
+        <div className="stack-badge-text">
+          {stackInfo.GoodEnoughStacks === "Infinite"
+            ? "∞"
+            : stackInfo.GoodEnoughStacks}
+        </div>
+      );
+    }
+  };
+
   return (
     <a href={`${wikiLinkPrefix + item.Name}`}>
       <button>
@@ -23,11 +36,7 @@ const Item = (props) => {
                   : "none",
               }}
             >
-              <div className="stack-square-text">
-                {stackInfo.GoodEnoughStacks === "Infinite"
-                  ? "∞"
-                  : stackInfo.GoodEnoughStacks}
-              </div>
+              {renderStackBadgeText(stackInfo)}
             </div>
           ))}
         </div>
