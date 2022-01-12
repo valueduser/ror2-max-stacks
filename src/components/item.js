@@ -2,8 +2,26 @@ import React from "react";
 
 const Item = (props) => {
   const item = props.item;
-  const wikiLinkPrefix = "https://riskofrain2.gamepedia.com/";
+  const game = props.game;
 
+  const getWikiLinkPrefix = (item) => {
+    if(game === 1) {
+      return "https://riskofrain.fandom.com/wiki/" + item.Name;
+    } else {
+      return "https://riskofrain2.gamepedia.com/" + item.Name;
+    }
+  }
+
+  const getItemImage = (item) => {
+    let imagePath = process.env.PUBLIC_URL + "/itemImages/";
+    if(game === 1) {
+      imagePath += "ror1/" + item.Name + ".png"
+    } else {
+      imagePath += "ror2/" + item.Name + ".png"
+    }
+    return imagePath;
+  }
+  
   const renderStackBadgeText = (stackInfo) => {
     if (["Hyperbolic", "Special"].includes(stackInfo.StackType)) {
       return (
@@ -17,10 +35,10 @@ const Item = (props) => {
   };
 
   return (
-    <a href={`${wikiLinkPrefix + item.Name}`}>
+    <a href={`${getWikiLinkPrefix(item)}`}>
       <button>
         <img
-          src={process.env.PUBLIC_URL + "/itemImages/" + item.Name + ".png"}
+          src={getItemImage(item)}
           title={item.DisplayName}
           alt={item.DisplayName}
           width="100"

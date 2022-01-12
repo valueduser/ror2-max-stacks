@@ -1,0 +1,418 @@
+[
+  {
+    "DisplayName": "56 Leaf Clover",
+    "Name": "56_Leaf_Clover",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Elite mobs have a 4% chance to drop items",
+    "StackDetails": [
+      {
+        "Stat": "More item drop chance",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": 8
+      }
+    ]
+  },
+  {
+    "DisplayName": "Arms Race",
+    "Name": "Arms_Race",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On drone action: 9% chance for drones to fire missiles and mortars",
+    "StackDetails": [
+      {
+        "Stat": "More chance to fire",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "AtG Missile Mk. 1",
+    "Name": "AtG_Missile_Mk._1",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On hit: 10% chance of firing a missile that deals 300% damage",
+    "StackDetails": [
+      {
+        "Stat": "More chance to fire",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Boxing Gloves",
+    "Name": "Boxing_Gloves",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On hit: 6% chance to knock enemies back (15% on game description)",
+    "StackDetails": [
+      {
+        "Stat": "More chance to knockback",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Chargefield Generator",
+    "Name": "Chargefield_Generator",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On kill: generate a lightning ring around the player, dealing 50% damage/sec for 6 seconds. Killing additional enemies while the ring is active increases the ring's size and refreshes its duration",
+    "StackDetails": [
+      {
+        "Stat": "More damage/sec",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Concussion Grenade",
+    "Name": "Concussion_Grenade",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On hit: 6% chance to stun enemies for two seconds",
+    "StackDetails": [
+      {
+        "Stat": "More chance to stun",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Dead Man's Foot",
+    "Name": "Dead_Man%2527s_Foot",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Drop a poison mine at low health for 4x150% damage",
+    "StackDetails": [
+      {
+        "Stat": "More poison mines",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Energy Cell",
+    "Name": "Energy_Cell",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "When below 50% health: increases attack speed; maxes out at 10% health with +40% attack speed",
+    "StackDetails": [
+      {
+        "Stat": "More attack speed when triggered",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Filial Imprinting",
+    "Name": "Filial_Imprinting",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Drops attack speed/health regen/move speed buffs every 20 seconds",
+    "StackDetails": [
+      {
+        "Stat": "More buffs",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Frost Relic",
+    "Name": "Frost_Relic",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On kill: Killing an enemy surrounds you with 3 icicles that deal 3x33% damage",
+    "StackDetails": [
+      {
+        "Stat": "More icicles",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Golden Gun",
+    "Name": "Golden_Gun",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Deals bonus damage depending on how much gold the player has, up to +40% damage at 700 gold; scales with time",
+    "StackDetails": [
+      {
+        "Stat": "Less gold required for max damage bonus",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Guardian's Heart",
+    "Name": "Guardian%2527s_Heart",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Gain a shield worth 60 health; this shield instantly recovers after 7 seconds without taking any type of damage",
+    "StackDetails": [
+      {
+        "Stat": "More shield",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Harvester's Scythe",
+    "Name": "Harvester%2527s_Scythe",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "+5% crit chance; On crit: recover 8 health",
+    "StackDetails": [
+      {
+        "Stat": "More crit chance",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      },
+      {
+        "Stat": "More health on crit",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Hopoo Feather",
+    "Name": "Hopoo_Feather",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Gain an additional Jump",
+    "StackDetails": [
+      {
+        "Stat": "More jumps",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Infusion",
+    "Name": "Infusion",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On kill: increase max health by one",
+    "StackDetails": [
+      {
+        "Stat": "More max health on kill",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+
+  {
+    "DisplayName": "Leeching Seed",
+    "Name": "Leeching_Seed",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On hit: recover 2 health; hitting multiple enemies at once will increase amount recovered",
+    "StackDetails": [
+      {
+        "Stat": "More health on hit",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Panic Mines",
+    "Name": "Panic_Mines",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "When at low health: drop a mine that deals 500% damage",
+    "StackDetails": [
+      {
+        "Stat": "More mines",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Predatory Instincts",
+    "Name": "Predatory_Instincts",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "+5% crit chance. On crit: increase attack speed by 10% for three seconds; this effect can stack up to three times for a total of +30% attack speed(further stacks will only refresh the duration)",
+    "StackDetails": [
+      {
+        "Stat": "More crit chance",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      },
+      {
+        "Stat": "More attack speed on crit",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Prison Shackles",
+    "Name": "Prison_Shackles",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On hit: slow enemies by 20%",
+    "StackDetails": [
+      {
+        "Stat": "Longer slow duration",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Red Whip",
+    "Name": "Red_Whip",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Increase speed out of combat by 80%",
+    "StackDetails": [
+      {
+        "Stat": "More movement speed",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Rusty Jetpack",
+    "Name": "Rusty_Jetpack",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "+10% jump height; halves the effect of gravity on the player",
+    "StackDetails": [
+      {
+        "Stat": "More jump height",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Smart Shopper",
+    "Name": "Smart_Shopper",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "+25% enemy gold drops",
+    "StackDetails": [
+      {
+        "Stat": "Bigger gold drops",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Time Keeper's Secret",
+    "Name": "Time_Keeper%2527s_Secret",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "When at low health: stop time for three seconds",
+    "StackDetails": [
+      {
+        "Stat": "Longer time stop duration",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": 8
+      }
+    ]
+  },
+  {
+    "DisplayName": "Tough Times",
+    "Name": "Tough_Times",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "+14 armor",
+    "StackDetails": [
+      {
+        "Stat": "More armor",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Toxic Worm",
+    "Name": "Toxic_Worm",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Touching an enemy infects it, dealing 50% damage/sec until they die; bounces to other enemies on death",
+    "StackDetails": [
+      {
+        "Stat": "More simultaneous infection targets",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Ukulele",
+    "Name": "Ukulele",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On hit: 20% chance to fire chain lightning for 4x33% damage",
+    "StackDetails": [
+      {
+        "Stat": "More damage per bounce",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Will-o'-the-wisp",
+    "Name": "Will-o%2527-the-wisp",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "On kill: 33% chance to create a lava pillar, dealing 500% damage",
+    "StackDetails": [
+      {
+        "Stat": "More damage",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  }
+]

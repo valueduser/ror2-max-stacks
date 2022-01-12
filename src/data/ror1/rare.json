@@ -1,0 +1,393 @@
+[
+  {
+    "DisplayName": "Alien Head",
+    "Name": "Alien_Head",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "Decreases your cooldowns by 25%",
+    "StackDetails": [
+      {
+        "Stat": "Shorter cooldowns",
+        "StackType": "Multiplicative",
+        "GoodEnoughStacks": 3
+      }
+    ]
+  },
+  {
+    "DisplayName": "Ancient Scepter",
+    "Name": "Ancient_Scepter",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "Upgrade your fourth ability; this is unique to each character class",
+    "StackDetails": [
+      {
+        "Stat": "None",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "AtG Missile Mk. 2",
+    "Name": "AtG_Missile_Mk._2",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On hit: 7% chance of firing three missiles that deal 3x300% damage",
+    "StackDetails": [
+      {
+        "Stat": "More chance to fire missiles",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Beating Embryo",
+    "Name": "Beating_Embryo",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "Usable items have a 30% chance to have double the effect",
+    "StackDetails": [
+      {
+        "Stat": "More chance to duplicate",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Brilliant Behemoth",
+    "Name": "Brilliant_Behemoth",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "All your attacks explode for a bonus 20% damage to nearby enemies",
+    "StackDetails": [
+      {
+        "Stat": "More explosion damage",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Ceremonial Dagger",
+    "Name": "Ceremonial_Dagger",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On kill: fire four heat-seeking bolts that deal 4x100% damage",
+    "StackDetails": [
+      {
+        "Stat": "Two more bolts",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Dio's Best Friend",
+    "Name": "Dio%2527s_Best_Friend",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On death: revive at 40% health with two seconds of invincibility",
+    "StackDetails": [
+      {
+        "Stat": "None",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Fireman's Boots",
+    "Name": "Fireman%2527s_Boots",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "Walking leaves behind a fire trail that burns for 35% damage",
+    "StackDetails": [
+      {
+        "Stat": "More damage",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Happiest Mask",
+    "Name": "Happiest_Mask",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On kill: spawn a ghost of the killed enemy with 70% health and 50% damage for 15 seconds",
+    "StackDetails": [
+      {
+        "Stat": "More ghost damage and health",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Heaven Cracker",
+    "Name": "Heaven_Cracker",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "Every fourth basic attack fires a linear, piercing round straight forward, dealing 100% damage",
+    "StackDetails": [
+      {
+        "Stat": "Fewer attacks per round",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 4
+      }
+    ]
+  },
+  {
+    "DisplayName": "Hyper-Threader",
+    "Name": "Hyper-Threader",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "Every attack fires a laser, dealing 40% damage and bouncing to 2 enemies",
+    "StackDetails": [
+      {
+        "Stat": "More bounces",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Interstellar Desk Plant",
+    "Name": "Interstellar_Desk_Plant",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On kill: Upon killing an enemy, spawn an alien plant that heals you for 8 hp",
+    "StackDetails": [
+      {
+        "Stat": "More health per fruit",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Laser Turbine",
+    "Name": "Laser_Turbine",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "All your attacks charge the generator. At full power, fire a laser for 2000% damage",
+    "StackDetails": [
+      {
+        "Stat": "More charge per ability use",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Old Box",
+    "Name": "Old_Box",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "When at low health: drop a jack-in-the-box that fears enemies for two seconds",
+    "StackDetails": [
+      {
+        "Stat": "More fear range",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Permafrost",
+    "Name": "Permafrost",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On hit: chance to stun enemies for 1.5 seconds and slow enemies by 60% for three seconds",
+    "StackDetails": [
+      {
+        "Stat": "More chance to stun",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Photon Jetpack",
+    "Name": "Photon_Jetpack",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "Allows the player to fly for up to 1.6 seconds nonstop; the jetpack's fuel tank quickly refills when not in use",
+    "StackDetails": [
+      {
+        "Stat": "Longer flight duration",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Plasma Chain",
+    "Name": "Plasma_Chain",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On hit: chance to tether onto enemies, dealing 60% damage/sec",
+    "StackDetails": [
+      {
+        "Stat": "More simultaneous tether targets",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+
+  {
+    "DisplayName": "Rapid Mitosis",
+    "Name": "Rapid_Mitosis",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "Reduce the cooldown of use items by 25%",
+    "StackDetails": [
+      {
+        "Stat": "More cooldown reduction",
+        "StackType": "Multiplicative",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Repulsion Armor",
+    "Name": "Repulsion_Armor",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "After being hit 6 times: reduce and reflect incoming damage by 83% for three seconds",
+    "StackDetails": [
+      {
+        "Stat": "Longer refect duration",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": 6
+      }
+    ]
+  },
+  {
+    "DisplayName": "Shattering Justice",
+    "Name": "Shattering_Justice",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On hit: reduce enemy armor by 5 for two seconds; this effect can stack up to five times for a total of -25 armor (further stacks will only refresh the duration)",
+    "StackDetails": [
+      {
+        "Stat": "Longer debuff duration",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Telescopic Sight",
+    "Name": "Telescopic_Sight",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On hit: 1% chance to instantly kill an enemy",
+    "StackDetails": [
+      {
+        "Stat": "More instakill chance",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Tesla Coil",
+    "Name": "Tesla_Coil",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "Shock nearby enemies for 150% damage, bouncing to other enemies at a range of 100 up to 5 times",
+    "StackDetails": [
+      {
+        "Stat": "More damage",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Thallium",
+    "Name": "Thallium",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On hit: 10% chance to damage/slow by 500 enemy damage% and 100% speed over 3 seconds",
+    "StackDetails": [
+      {
+        "Stat": "None",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "The Hit List",
+    "Name": "The_Hit_List",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "Onscreen enemies will be randomly marked; on marked kill: increases damage up to a maximum of 20",
+    "StackDetails": [
+      {
+        "Stat": "More marked enemies",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "The Ol' Lopper",
+    "Name": "The_Ol%2527_Lopper",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On hit: 100% crit chance on enemies below 9% health",
+    "StackDetails": [
+      {
+        "Stat": "Greater health threshold",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": 8
+      }
+    ]
+  },
+  {
+    "DisplayName": "Wicked Ring",
+    "Name": "Wicked_Ring",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Rare",
+    "Description": "On crit: reduces cooldowns by 1 second",
+    "StackDetails": [
+      {
+        "Stat": "More cooldown reduction on crit",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  }
+]

@@ -12,8 +12,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": 10
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/6/6a/AtG_Missile_Mk._1.png"
+    ]
   },
   {
     "DisplayName": "Bandolier",
@@ -28,8 +27,7 @@
         "StackType": "Special",
         "GoodEnoughStacks": 140000
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/6/62/Bandolier.png"
+    ]
   },
   {
     "DisplayName": "Berzerker's Pauldron",
@@ -44,8 +42,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/a6/Berzerker%27s_Pauldron.png"
+    ]
   },
   {
     "DisplayName": "Chronobauble",
@@ -60,8 +57,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/38/Chronobauble.png"
+    ]
   },
   {
     "DisplayName": "Death Mark",
@@ -76,8 +72,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/34/Death_Mark.png"
+    ]
   },
   {
     "DisplayName": "Fuel Cell",
@@ -97,8 +92,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": 249
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/4/4d/Fuel_Cell.png"
+    ]
   },
   {
     "DisplayName": "Ghor's Tome",
@@ -113,8 +107,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": 24
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/9/9a/Ghor%27s_Tome.png"
+    ]
   },
   {
     "DisplayName": "Harvester's Scythe",
@@ -134,8 +127,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e1/Harvester%27s_Scythe.png"
+    ]
   },
   {
     "DisplayName": "Hopoo Feather",
@@ -150,8 +142,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/3a/Hopoo_Feather.png"
+    ]
   },
   {
     "DisplayName": "Infusion",
@@ -166,8 +157,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/7/7d/Infusion.png"
+    ]
   },
   {
     "DisplayName": "Kjaro's Band",
@@ -182,8 +172,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/eb/Kjaro%27s_Band.png"
+    ]
   },
   {
     "DisplayName": "Leeching Seed",
@@ -198,8 +187,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/a0/Leeching_Seed.png"
+    ]
   },
   {
     "DisplayName": "Lepton Daisy",
@@ -214,8 +202,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/7/73/Lepton_Daisy.png"
+    ]
   },
   {
     "DisplayName": "Old Guillotine",
@@ -230,8 +217,7 @@
         "StackType": "Hyperbolic",
         "GoodEnoughStacks": 380
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/8/8d/Old_Guillotine.png"
+    ]
   },
   {
     "DisplayName": "Old War Stealthkit",
@@ -246,8 +232,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": 7
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2c/Old_War_Stealthkit.png"
+    ]
   },
   {
     "DisplayName": "Predatory Instincts",
@@ -267,8 +252,7 @@
         "StackType": "Hyperbolic",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/39/Predatory_Instincts.png"
+    ]
   },
   {
     "DisplayName": "Razorwire",
@@ -288,8 +272,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/ac/Razorwire.png"
+    ]
   },
   {
     "DisplayName": "Red Whip",
@@ -304,8 +287,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2a/Red_Whip.png"
+    ]
   },
   {
     "DisplayName": "Rose Buckler",
@@ -320,8 +302,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": 164
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2f/Rose_Buckler.png"
+    ]
   },
   {
     "DisplayName": "Runald's Band",
@@ -336,8 +317,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/0/05/Runald%27s_Band.png"
+    ]
   },
   {
     "DisplayName": "Squid Polyp",
@@ -352,8 +332,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/d/de/Squid_Polyp.png"
+    ]
   },
   {
     "DisplayName": "Ukulele",
@@ -373,8 +352,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/9/98/Ukulele.png"
+    ]
   },
   {
     "DisplayName": "War Horn",
@@ -389,8 +367,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/9/9c/War_Horn.png"
+    ]
   },
   {
     "DisplayName": "Wax Quail",
@@ -405,8 +382,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/6/6c/Wax_Quail.png"
+    ]
   },
   {
     "DisplayName": "Will-o'-the-wisp",
@@ -426,7 +402,6 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/c4/Will-o%27-the-wisp.png"
+    ]
   }
 ]

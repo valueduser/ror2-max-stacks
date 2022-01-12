@@ -12,8 +12,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e5/57_Leaf_Clover.png"
+    ]
   },
   {
     "DisplayName": "Aegis",
@@ -28,8 +27,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e5/Aegis.png"
+    ]
   },
   {
     "DisplayName": "Alien Head",
@@ -44,8 +42,7 @@
         "StackType": "Exponential",
         "GoodEnoughStacks": 14
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/25/Alien_Head.png"
+    ]
   },
   {
     "DisplayName": "Brainstalks",
@@ -60,8 +57,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/c0/Brainstalks.png"
+    ]
   },
   {
     "DisplayName": "Brilliant Behemoth",
@@ -76,8 +72,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/f/fa/Brilliant_Behemoth.png"
+    ]
   },
   {
     "DisplayName": "Ceremonial Dagger",
@@ -92,8 +87,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/7/76/Ceremonial_Dagger.png"
+    ]
   },
   {
     "DisplayName": "Dio's Best Friend",
@@ -108,8 +102,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/d/dc/Dio%27s_Best_Friend.png"
+    ]
   },
   {
     "DisplayName": "Frost Relic",
@@ -124,8 +117,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/5/58/Frost_Relic.png"
+    ]
   },
   {
     "DisplayName": "H3AD-5T v2",
@@ -140,8 +132,7 @@
         "StackType": "Exponential",
         "GoodEnoughStacks": 7
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/36/H3AD-5T_v2.png"
+    ]
   },
   {
     "DisplayName": "Happiest Mask",
@@ -156,8 +147,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/d/d4/Happiest_Mask.png"
+    ]
   },
   {
     "DisplayName": "Hardlight Afterburner",
@@ -177,8 +167,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": 3
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/20/Hardlight_Afterburner.png"
+    ]
   },
   {
     "DisplayName": "Interstellar Desk Plant",
@@ -193,8 +182,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/1/1e/Interstellar_Desk_Plant.png"
+    ]
   },
   {
     "DisplayName": "N'kuhana's Opinion",
@@ -209,8 +197,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/c9/N%27kuhana%27s_Opinion.png"
+    ]
   },
   {
     "DisplayName": "Rejuvenation Rack",
@@ -225,8 +212,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/0/0a/Rejuvenation_Rack.png"
+    ]
   },
   {
     "DisplayName": "Resonance Disc",
@@ -241,8 +227,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/8/8d/Resonance_Disc.png"
+    ]
   },
   {
     "DisplayName": "Sentient Meat Hook",
@@ -262,8 +247,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e7/Sentient_Meat_Hook.png"
+    ]
   },
   {
     "DisplayName": "Shattering Justice",
@@ -278,8 +262,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2d/Shattering_Justice.png"
+    ]
   },
   {
     "DisplayName": "Soulbound Catalyst",
@@ -294,8 +277,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": 67
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/f/f1/Soulbound_Catalyst.png"
+    ]
   },
   {
     "DisplayName": "Unstable Tesla Coil",
@@ -310,8 +292,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/e/e4/Unstable_Tesla_Coil.png"
+    ]
   },
   {
     "DisplayName": "Wake of Vultures",
@@ -326,7 +307,6 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/f/f8/Wake_of_Vultures.png"
+    ]
   }
 ]

@@ -12,8 +12,7 @@
         "StackType": "Special",
         "GoodEnoughStacks": 1
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/0/07/Beads_of_Fealty.png"
+    ]
   },
   {
     "DisplayName": "Brittle Crown",
@@ -28,8 +27,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/ae/Brittle_Crown.png"
+    ]
   },
   {
     "DisplayName": "Corpsebloom",
@@ -49,8 +47,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/31/Corpsebloom.png"
+    ]
   },
   {
     "DisplayName": "Focused Convergence",
@@ -70,8 +67,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": 3
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/2c/Focused_Convergence.png"
+    ]
   },
   {
     "DisplayName": "Gesture of the Drowned",
@@ -86,8 +82,7 @@
         "StackType": "Exponential",
         "GoodEnoughStacks": 21
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/c/c9/Gesture_of_the_Drowned.png"
+    ]
   },
   {
     "DisplayName": "Shaped Glass",
@@ -102,8 +97,7 @@
         "StackType": "Exponential",
         "GoodEnoughStacks": 6
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/f/ff/Shaped_Glass.png"
+    ]
   },
   {
     "DisplayName": "Strides of Heresy",
@@ -123,8 +117,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": 4
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/1/1a/Strides_of_Heresy.png"
+    ]
   },
   {
     "DisplayName": "Transcendence",
@@ -139,8 +132,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/8/85/Transcendence.png"
+    ]
   },
   {
     "DisplayName": "Visions of Heresy",
@@ -155,8 +147,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/3/31/Visions_of_Heresy.png"
+    ]
   },
   {
     "DisplayName": "Purity",
@@ -171,8 +162,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": 27
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/a/a2/Purity.png"
+    ]
   },
   {
     "DisplayName": "Mercurial Rachis",
@@ -187,8 +177,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/2/25/Mercurial_Rachis.png"
+    ]
   },
   {
     "DisplayName": "Defiant Gouge",
@@ -203,8 +192,7 @@
         "StackType": "?",
         "GoodEnoughStacks": "?"
       }
-    ],
-    "Icon": "https://gamepedia.cursecdn.com/riskofrain2_gamepedia_en/b/b5/Defiant_Gouge.png"
+    ]
   },
   {
     "DisplayName": "Essence of Heresy",
@@ -229,8 +217,7 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "n/a"
       }
-    ],
-    "Icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/3e/Essence_of_Heresy.png"
+    ]
   },
   {
     "DisplayName": "Hooks of Heresy",
@@ -245,7 +232,6 @@
         "StackType": "Linear",
         "GoodEnoughStacks": "?"
       }
-    ],
-    "Icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/66/Hooks_of_Heresy.png"
+    ]
   }
 ]
