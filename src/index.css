@@ -1,11 +1,16 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
+    font-family: BOMBARD_;
     margin: 20px;
     background: url(./background.png)no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+  @font-face {
+    font-family: 'BOMBARD_';
+    src: url(./fonts/BOMBARD_.ttf) format("truetype");
   }
   
   ol, ul {

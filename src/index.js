@@ -15,6 +15,7 @@ import LastUpdated from "./components/lastUpdated.js";
 import FilterableDropdown from "./components/itemFilterDropdown";
 import ItemList from "./components/itemList.js";
 import "./index.css";
+import "./fonts/BOMBARD_.ttf"
 
 Sentry.init({
   dsn: "https://c0cce460deba46a6b64ff89c9719ba82@o141824.ingest.sentry.io/5379078",
