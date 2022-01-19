@@ -178,7 +178,7 @@
     "DisplayName": "Charged Perforator",
     "Name": "Charged_Perforator",
     "AssetName": "LightningStrikeOnHit",
-    "Id": 112,
+    "Id": 113,
     "Rarity": "Boss",
     "Description": "10% chance on hit to down a lightning strike, dealing 500% (+500% per stack) damage.",
     "StackDetails": [

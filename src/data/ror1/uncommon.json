@@ -25,7 +25,7 @@
       {
         "Stat": "More chance to fire",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 12
       }
     ]
   },
@@ -40,7 +40,7 @@
       {
         "Stat": "More chance to fire",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 10
       }
     ]
   },
@@ -291,7 +291,7 @@
       {
         "Stat": "Longer slow duration",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 3
       }
     ]
   },

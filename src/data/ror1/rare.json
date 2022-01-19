@@ -25,7 +25,7 @@
       {
         "Stat": "None",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 1
       }
     ]
   },
@@ -40,7 +40,7 @@
       {
         "Stat": "More chance to fire missiles",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 15
       }
     ]
   },
@@ -55,7 +55,7 @@
       {
         "Stat": "More chance to duplicate",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 4
       }
     ]
   },
@@ -220,7 +220,7 @@
       {
         "Stat": "More chance to stun",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 1
       }
     ]
   },
@@ -311,7 +311,7 @@
       {
         "Stat": "More instakill chance",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 5
       }
     ]
   },
@@ -341,7 +341,7 @@
       {
         "Stat": "None",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 1
       }
     ]
   },
@@ -356,7 +356,7 @@
       {
         "Stat": "More marked enemies",
         "StackType": "Linear",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 1
       }
     ]
   },

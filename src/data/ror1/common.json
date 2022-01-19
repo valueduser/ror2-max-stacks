@@ -60,7 +60,7 @@
       {
         "Stat": "More health regen",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 23
       }
     ]
   },
@@ -150,7 +150,7 @@
       {
         "Stat": "More chance to dodge",
         "StackType": "Multiplicative",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 14
       }
     ]
   },
@@ -270,7 +270,7 @@
       {
         "Stat": "More chance to trigger",
         "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
+        "GoodEnoughStacks": 7
       }
     ]
   },

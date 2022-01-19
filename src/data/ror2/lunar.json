@@ -168,7 +168,7 @@
     "DisplayName": "Mercurial Rachis",
     "Name": "Mercurial_Rachis",
     "AssetName": "RandomDamageZone",
-    "Id": 115,
+    "Id": 116,
     "Rarity": "Lunar",
     "Description": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within 16m (+50% per stack), causing them to deal +50% damage.",
     "StackDetails": [
@@ -183,7 +183,7 @@
     "DisplayName": "Defiant Gouge",
     "Name": "Defiant_Gouge",
     "AssetName": "MonstersOnShrineUse",
-    "Id": 114,
+    "Id": 115,
     "Rarity": "Lunar",
     "Description": "Using a Shrine summons enemies nearby. Scales over time.",
     "StackDetails": [
