@@ -33,22 +33,26 @@ const App = () => {
     setStackType(newStackTypeValue);
   };
 
+  const handleGameChange = () => {
+    setGame(game === 1 ? 2 : 1);
+  };
+
   const getGameJsonData = () => {
     if (game === 2) {
       return [].concat(
-        ror2BossData,
         ror2CommonData,
-        ror2LegendaryData,
-        ror2LunarData,
         ror2UncommonData,
-        ror2VoidData
+        ror2LegendaryData,
+        ror2BossData,
+        ror2LunarData,
+        // ror2VoidData
       );
     } else {
       return [].concat(
-        ror1BossData,
         ror1CommonData,
+        ror1UncommonData,
         ror1RareData,
-        ror1UncommonData
+        ror1BossData,
       );
     }
   };
@@ -56,11 +60,9 @@ const App = () => {
   return (
     <div>
       <LastUpdated />
-      <FilterableDropdown filterType={"Rarity"} onChange={handleRarityChange} />
-      <FilterableDropdown
-        filterType={"StackType"}
-        onChange={handleStackTypeChange}
-      />
+      {/* <button onClick={handleGameChange}> Change Game</button> */}
+      <FilterableDropdown filterType={"Rarity"} onChange={handleRarityChange} game={game} />
+      <FilterableDropdown filterType={"StackType"} onChange={handleStackTypeChange} game={game} />
       <ItemList
         itemData={getGameJsonData()}
         rarityFilter={rarity}

@@ -44,12 +44,12 @@ const Item = (props) => {
           width="100"
           height="100"
         />
-        <div>
+        {/* <div>
           {item.StackDetails.map((stackInfo) => (
             <div
               className="stack-square"
               style={{
-                display: ["Hyperbolic", "Special"].includes(stackInfo.StackType)
+                display: ["Hyperbolic", "Special"].includes(stackInfo.StackType)//TODO: fix for ror1
                   ? "block"
                   : "none",
               }}
@@ -57,7 +57,7 @@ const Item = (props) => {
               {renderStackBadgeText(stackInfo)}
             </div>
           ))}
-        </div>
+        </div> */}
       </button>
     </a>
   );

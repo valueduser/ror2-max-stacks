@@ -14,11 +14,11 @@ const FilterableDropdown = (props) => {
     let options;
     if (props.game === 1) {
       options = ror1RarityOptions.map((rarityName) => (
-        <option value="{rarityName}">{rarityName}</option>
+        <option key={rarityName} value={rarityName}>{rarityName}</option>
       ));
     } else {
       options = ror2RarityOptions.map((rarityName) => (
-        <option value="{rarityName}">{rarityName}</option>
+        <option key={rarityName} value={rarityName}>{rarityName}</option>
       ));
     }
     return options;
@@ -28,11 +28,11 @@ const FilterableDropdown = (props) => {
     let options;
     if (props.game === 1) {
       options = ror1StackTypeOptions.map((stackType) => (
-        <option value="{stackType}">{stackType}</option>
+        <option key={stackType} value={stackType}>{stackType}</option>
       ));
     } else {
       options = ror2StackTypeOptions.map((stackType) => (
-        <option value="{stackType}">{stackType}</option>
+        <option key={stackType} value={stackType}>{stackType}</option>
       ));
     }
     return options;

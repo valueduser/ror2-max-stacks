@@ -24,7 +24,7 @@
     "StackDetails": [
       {
         "Stat": "None",
-        "StackType": "Unknown",
+        "StackType": "None",
         "GoodEnoughStacks": 1
       }
     ]
@@ -279,7 +279,7 @@
     "Description": "After being hit 6 times: reduce and reflect incoming damage by 83% for three seconds",
     "StackDetails": [
       {
-        "Stat": "Longer refect duration",
+        "Stat": "Longer reflect duration",
         "StackType": "Unknown",
         "GoodEnoughStacks": 6
       }
