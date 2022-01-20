@@ -1,0 +1,32 @@
+[
+  {
+    "DisplayName": "White Undershirt (M)",
+    "Name": "White_Undershirt_%28M%29",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Special",
+    "Description": "Increases armor by 3",
+    "StackDetails": [
+      {
+        "Stat": "More armor",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 1
+      }
+    ]
+  },
+  {
+    "DisplayName": "Keycard",
+    "Name": "Keycard",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Special",
+    "Description": "Opens locked doors on the UES Contact Light.",
+    "StackDetails": [
+      {
+        "Stat": "Access an additional locked door",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 4
+      }
+    ]
+  }
+]

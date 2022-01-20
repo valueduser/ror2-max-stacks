@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import * as Sentry from "@sentry/react";
-import ror1CommonData from "./data/ror1/common.json";
-import ror1UncommonData from "./data/ror1/uncommon.json";
-import ror1RareData from "./data/ror1/rare.json";
 import ror1BossData from "./data/ror1/boss.json";
-import ror2CommonData from "./data/ror2/common.json";
-import ror2UncommonData from "./data/ror2/uncommon.json";
+import ror1CommonData from "./data/ror1/common.json";
+import ror1RareData from "./data/ror1/rare.json";
+import ror1SpecialData from "./data/ror1/special.json";
+import ror1UncommonData from "./data/ror1/uncommon.json";
 import ror2BossData from "./data/ror2/boss.json";
+import ror2CommonData from "./data/ror2/common.json";
 import ror2LegendaryData from "./data/ror2/legendary.json";
 import ror2LunarData from "./data/ror2/lunar.json";
+import ror2UncommonData from "./data/ror2/uncommon.json";
 import ror2VoidData from "./data/ror2/void.json";
 import LastUpdated from "./components/lastUpdated.js";
 import FilterableDropdown from "./components/itemFilterDropdown";
@@ -54,6 +55,7 @@ const App = () => {
         ror1UncommonData,
         ror1RareData,
         ror1BossData,
+        ror1SpecialData
       );
     }
   };
