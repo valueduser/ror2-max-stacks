@@ -1,13 +1,21 @@
 import React from "react";
+import versionData from "../data/versions.json";
 
-const LastUpdated = () => {
-  const version = "1.1.1.2";
-  const link = "https://store.steampowered.com/news/app/632360/view/3100140557216075596";
+const LastUpdated = (props) => {
+  let gameInfo;
+  
+  if(props.game === 1) {
+    gameInfo = versionData.find(gameData => 
+      gameData.GameName === "Risk of Rain");
+  } else {
+    gameInfo = versionData.find(gameData => 
+      gameData.GameName === "Risk of Rain 2");
+  }
 
   return (
     <div className="last-updated-container">
       <div>
-        Last updated for version: <a href={link}>{version}</a>
+        Last updated for version: <a href={gameInfo.PatchNotesLink}>{gameInfo.Version}</a>
       </div>
     </div>
   );

@@ -60,7 +60,7 @@ const App = () => {
 
   return (
     <div>
-      <LastUpdated />
+      <LastUpdated game={game}/>
       {/* <button onClick={handleGameChange}> Change Game</button> */}
       <FilterableDropdown filterType={"Rarity"} onChange={handleRarityChange} game={game} />
       <FilterableDropdown filterType={"StackType"} onChange={handleStackTypeChange} game={game} />
