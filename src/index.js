@@ -64,8 +64,8 @@ const App = () => {
     <div>
       <LastUpdated game={game}/>
       {/* <button onClick={handleGameChange}> Change Game</button> */}
-      <FilterableDropdown filterType={"Rarity"} onChange={handleRarityChange} game={game} />
-      <FilterableDropdown filterType={"StackType"} onChange={handleStackTypeChange} game={game} />
+      <FilterableDropdown filterType={"Rarity"} onChange={handleRarityChange} itemData={getGameJsonData()}/>
+      <FilterableDropdown filterType={"StackType"} onChange={handleStackTypeChange} itemData={getGameJsonData()}/>
       <ItemList
         itemData={getGameJsonData()}
         rarityFilter={rarity}
