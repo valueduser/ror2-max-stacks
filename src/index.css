@@ -1,73 +1,21 @@
 body {
-    font-family: BOMBARD_;
-    margin: 20px;
-    background: url(./background.png)no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+  background: url(./background.png)no-repeat center center fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
 
-  @font-face {
-    font-family: 'BOMBARD_';
-    src: url(./fonts/BOMBARD_.ttf) format("truetype");
-  }
-  
-  ol, ul {
-    padding-left: 30px;
-  }
-  
-  .status {
-    margin-bottom: 10px;
-  }
+.ui.grid>* {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: auto;
+}
 
-  .item-list {
-    position: relative;
-  }
+.ui.basic.button:hover[id^='itemButton_']{
+  opacity: 0.2 !important;
+}
 
-  .stack-badge {
-      background: black;
-      /* background: green; */
-      width: 25px;
-      height: 25px;
-      position:relative;
-      /* position:absolute; */
-      top: -25px;
-      left: -7px;
-  }
-
-  button {
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    color: white
-  }
-
-  .stack-badge-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: .75rem;
-  }
-  
-  .filter-select-container {
-    color: white;
-    display: flex;
-  }
-
-  .stack-select-container {
-    color: white;
-    display: flex;
-  }
-
-  .last-updated-container {
-    color: white;
-    text-align: right;
-    float: right;
-  }
-  
-  a {
-    color: inherit;
-    text-decoration: inherit;
-  }
+.ui.label>* {
+  font-size: 1rem;
+}

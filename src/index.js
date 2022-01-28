@@ -16,15 +16,36 @@ import LastUpdated from "./components/lastUpdated.js";
 import FilterableDropdown from "./components/itemFilterDropdown";
 import ItemList from "./components/itemList.js";
 import "./index.css";
-import "./fonts/BOMBARD_.ttf"
+import backgroundImage from "./background.png";
+import "semantic-ui-css/semantic.min.css";
+import "./fonts/BOMBARD_.ttf";
+import { Grid, Button } from "semantic-ui-react";
 
 Sentry.init({
   dsn: "https://c0cce460deba46a6b64ff89c9719ba82@o141824.ingest.sentry.io/5379078",
 });
 
 const App = () => {
+  const ror1Data = [].concat(
+    ror1CommonData,
+    ror1UncommonData,
+    ror1RareData,
+    ror1BossData,
+    ror1SpecialData
+  );
+
+  const ror2Data = [].concat(
+    ror2CommonData,
+    ror2UncommonData,
+    ror2LegendaryData,
+    ror2BossData,
+    ror2LunarData
+    // ror2VoidData
+  );
+
   const [rarity, setRarity] = useState("All");
   const [stackType, setStackType] = useState("All");
+  const [gameData, setGameData] = useState(ror2Data);
   const [game, setGame] = useState(2);
 
   const handleRarityChange = (newRarityValue) => {
@@ -36,38 +57,41 @@ const App = () => {
   };
 
   const handleGameChange = () => {
-    setGame(game === 1 ? 2 : 1);
-  };
-
-  const getGameJsonData = () => {
-    if (game === 2) {
-      return [].concat(
-        ror2CommonData,
-        ror2UncommonData,
-        ror2LegendaryData,
-        ror2BossData,
-        ror2LunarData,
-        // ror2VoidData
-      );
-    } else {
-      return [].concat(
-        ror1CommonData,
-        ror1UncommonData,
-        ror1RareData,
-        ror1BossData,
-        ror1SpecialData
-      );
+    if (game === 1) {
+      setGame(2);
+      setGameData(ror2Data);
+    } else if (game === 2) {
+      setGame(1);
+      setGameData(ror1Data);
     }
   };
 
   return (
     <div>
-      <LastUpdated game={game}/>
-      {/* <button onClick={handleGameChange}> Change Game</button> */}
-      <FilterableDropdown filterType={"Rarity"} onChange={handleRarityChange} itemData={getGameJsonData()}/>
-      <FilterableDropdown filterType={"StackType"} onChange={handleStackTypeChange} itemData={getGameJsonData()}/>
+      <Grid padded="horizontally" columns="equal">
+        {/* <Grid.Column textAlign="center">
+          <Button onClick={handleGameChange}>Change Game</Button>
+        </Grid.Column> */}
+        <Grid.Column textAlign="center">
+          <FilterableDropdown
+            filterType={"Rarity"}
+            onChange={handleRarityChange}
+            itemData={gameData}
+          />
+        </Grid.Column>
+        <Grid.Column textAlign="center">
+          <FilterableDropdown
+            filterType={"StackType"}
+            onChange={handleStackTypeChange}
+            itemData={gameData}
+          />
+        </Grid.Column>
+        <Grid.Column textAlign="center">
+          <LastUpdated game={game} />
+        </Grid.Column>
+      </Grid>
       <ItemList
-        itemData={getGameJsonData()}
+        itemData={gameData}
         rarityFilter={rarity}
         stackTypeFilter={stackType}
         game={game}

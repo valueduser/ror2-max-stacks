@@ -1,27 +1,28 @@
 import React from "react";
+import { Button } from "semantic-ui-react";
 
 const Item = (props) => {
   const item = props.item;
   const game = props.game;
 
   const getWikiLinkPrefix = (item) => {
-    if(game === 1) {
+    if (game === 1) {
       return "https://riskofrain.fandom.com/wiki/" + item.Name;
     } else {
       return "https://riskofrain2.gamepedia.com/" + item.Name;
     }
-  }
+  };
 
   const getItemImage = (item) => {
     let imagePath = process.env.PUBLIC_URL + "/itemImages/";
-    if(game === 1) {
-      imagePath += "ror1/" + item.Name + ".png"
+    if (game === 1) {
+      imagePath += "ror1/" + item.Name + ".png";
     } else {
-      imagePath += "ror2/" + item.Name + ".png"
+      imagePath += "ror2/" + item.Name + ".png";
     }
     return imagePath;
-  }
-  
+  };
+
   const renderStackBadgeText = (stackInfo) => {
     if (["Hyperbolic", "Special"].includes(stackInfo.StackType)) {
       return (
@@ -36,7 +37,7 @@ const Item = (props) => {
 
   return (
     <a href={`${getWikiLinkPrefix(item)}`}>
-      <button>
+      <Button basic id={"itemButton_" + item.Id}>
         <img
           src={getItemImage(item)}
           title={item.DisplayName}
@@ -58,7 +59,7 @@ const Item = (props) => {
             </div>
           ))}
         </div> */}
-      </button>
+      </Button>
     </a>
   );
 };
