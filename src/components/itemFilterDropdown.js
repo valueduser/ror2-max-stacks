@@ -36,29 +36,25 @@ const FilterableDropdown = (props) => {
   if (props.filterType === "Rarity") {
     return (
       <div className="filter-select-container">
-        <Label>
-          Filter by Rarity
-          <Dropdown
-            button
-            placeholder="All"
-            onChange={handleChange}
-            options={populateRarityOptions()}
-          />
-        </Label>
+        <Dropdown
+          text="Filter by Rarity"
+          labeled
+          button
+          onChange={handleChange}
+          options={populateRarityOptions()}
+        />
       </div>
     );
   } else if (props.filterType === "StackType") {
     return (
       <div className="stack-select-container">
-        <Label>
-          Filter by Stacking Type
-          <Dropdown
-            button
-            placeholder="All"
-            onChange={handleChange}
-            options={populateStackTypeOptions()}
-          />
-        </Label>
+        <Dropdown
+          text="Filter by Stacking Type"
+          labeled
+          button
+          onChange={handleChange}
+          options={populateStackTypeOptions()}
+        />
       </div>
     );
   }

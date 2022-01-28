@@ -16,7 +16,6 @@ import LastUpdated from "./components/lastUpdated.js";
 import FilterableDropdown from "./components/itemFilterDropdown";
 import ItemList from "./components/itemList.js";
 import "./index.css";
-import backgroundImage from "./background.png";
 import "semantic-ui-css/semantic.min.css";
 import "./fonts/BOMBARD_.ttf";
 import { Grid, Button } from "semantic-ui-react";
