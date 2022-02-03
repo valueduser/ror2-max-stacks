@@ -320,6 +320,21 @@
     ]
   },
   {
+    "DisplayName": "Shuriken",
+    "Name": "Shuriken",
+    "AssetName": "Unknown",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Activating your Primary skill also throws a shuriken that deals 400% (+100% per stack) base damage. You can hold up to 3 (+1 per stack) shurikens which all reload over 10 seconds.",
+    "StackDetails": [
+      {
+        "Stat": "More Shuriken",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Squid Polyp",
     "Name": "Squid_Polyp",
     "AssetName": "Squid",

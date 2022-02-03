@@ -95,6 +95,36 @@
     ]
   },
   {
+    "DisplayName": "Delicate Watch",
+    "Name": "Delicate_Watch",
+    "AssetName": "Unknown",
+    "Id": -1,
+    "Rarity": "Common",
+    "Description": "Deal bonus damage. Breaks at low health.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Elixir",
+    "Name": "Elixir",
+    "AssetName": "Unknown",
+    "Id": -1,
+    "Rarity": "Common",
+    "Description": "Taking damage to below 25% health consumes this item, healing you for 75% of maximum health.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Energy Drink",
     "Name": "Energy_Drink",
     "AssetName": "SprintBonus",
@@ -175,6 +205,21 @@
     ]
   },
   {
+    "DisplayName": "Mocha",
+    "Name": "Mocha",
+    "AssetName": "Unknown",
+    "Id": -1,
+    "Rarity": "Common",
+    "Description": "Unknown",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Monster Tooth",
     "Name": "Monster_Tooth",
     "AssetName": "Tooth",
@@ -186,6 +231,21 @@
         "Stat": "More Healing",
         "StackType": "Linear",
         "GoodEnoughStacks": 380
+      }
+    ]
+  },
+  {
+    "DisplayName": "Oddly-shaped Opal",
+    "Name": "Unknown",
+    "AssetName": "Unknown",
+    "Id": -1,
+    "Rarity": "Common",
+    "Description": "Increase armor by 100 (+100 per stack) while out of danger.",
+    "StackDetails": [
+      {
+        "Stat": "More Armor",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
       }
     ]
   },

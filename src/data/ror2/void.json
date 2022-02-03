@@ -1,17 +1,47 @@
 [
   {
-    "DisplayName": "Stub",
-    "Name": "Stub",
+    "DisplayName": "Lost Seer's Lenses",
+    "Name": "Unknown",
     "AssetName": "Stub",
     "Id": -1,
     "Rarity": "Void",
-    "Description": "Deals unlimited damage but only to boarlits",
+    "Description": "Your attacks have a 0.5% (+0.5% per stack) change to instantly kill a non-Boss enemy. Corrupts all Lens-Maker's Glasses.",
     "StackDetails": [
       {
-        "Stat": "More Damage",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
+        "Stat": "More chance to insta-kill",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
       }
     ]
-  }
+  },
+  {
+    "DisplayName": "Polylute",
+    "Name": "Polylute",
+    "AssetName": "Stub",
+    "Id": -1,
+    "Rarity": "Void",
+    "Description": "25% chance to fire lightning for 80% TOTAL damage up to 3 (+3 per stack) times. Corrupts all Ukuleles.",
+    "StackDetails": [
+      {
+        "Stat": "More Lightning Strikes",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Weeping Fungus",
+    "Name": "Weeping_Fungus",
+    "AssetName": "Stub",
+    "Id": -1,
+    "Rarity": "Void",
+    "Description": "Heal while sprinting. Corrupts all Bustling Fungi.",
+    "StackDetails": [
+      {
+        "Stat": "More Healing",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
 ]
