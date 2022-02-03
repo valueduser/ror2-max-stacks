@@ -35,7 +35,7 @@ const FilterableDropdown = (props) => {
 
   if (props.filterType === "Rarity") {
     return (
-      <div className="filter-select-container">
+      <div className="filter-container">
         <Dropdown
           text="Filter by Rarity"
           labeled
@@ -47,7 +47,7 @@ const FilterableDropdown = (props) => {
     );
   } else if (props.filterType === "StackType") {
     return (
-      <div className="stack-select-container">
+      <div className="filter-container">
         <Dropdown
           text="Filter by Stacking Type"
           labeled

@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "semantic-ui-react";
+import { Button, Image } from "semantic-ui-react";
 
 const Item = (props) => {
   const item = props.item;
@@ -38,7 +38,8 @@ const Item = (props) => {
   return (
     <a href={`${getWikiLinkPrefix(item)}`}>
       <Button basic id={"itemButton_" + item.Id}>
-        <img
+        <Image
+          label={{ as: 'a', class: 'ui bottom right corner label', color: 'red', corner: 'left', icon: 'save' }}
           src={getItemImage(item)}
           title={item.DisplayName}
           alt={item.DisplayName}
