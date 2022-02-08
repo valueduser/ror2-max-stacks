@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Image } from "semantic-ui-react";
+import { Button, Image, Label } from "semantic-ui-react";
 
 const Item = (props) => {
   const item = props.item;
@@ -23,45 +23,51 @@ const Item = (props) => {
     return imagePath;
   };
 
-  const renderStackBadgeText = (stackInfo) => {
-    if (["Hyperbolic", "Special"].includes(stackInfo.StackType)) {
-      return (
-        <div className="stack-badge-text">
-          {stackInfo.GoodEnoughStacks === "Infinite"
-            ? "∞"
-            : stackInfo.GoodEnoughStacks}
-        </div>
-      );
-    }
-  };
-
   return (
-    <a href={`${getWikiLinkPrefix(item)}`}>
-      <Button basic id={"itemButton_" + item.Id}>
-        <Image
-          label={{ as: 'a', class: 'ui bottom right corner label', color: 'red', corner: 'left', icon: 'save' }}
-          src={getItemImage(item)}
-          title={item.DisplayName}
-          alt={item.DisplayName}
-          width="100"
-          height="100"
-        />
-        {/* <div>
-          {item.StackDetails.map((stackInfo) => (
-            <div
-              className="stack-square"
-              style={{
-                display: ["Hyperbolic", "Special"].includes(stackInfo.StackType)//TODO: fix for ror1
-                  ? "block"
-                  : "none",
-              }}
-            >
-              {renderStackBadgeText(stackInfo)}
-            </div>
-          ))}
-        </div> */}
-      </Button>
-    </a>
+    <Button
+      basic
+      id={"itemButton_" + item.Id}
+      onClick={() => window.open(getWikiLinkPrefix(item), "_blank")}
+    >
+      <Label.Group>
+        {item.StackDetails.filter((stackDetail) => {
+          if (game === 2) return stackDetail != null;
+        }).map((stackDetail, index) => {
+          if (["Hyperbolic", "Special"].includes(stackDetail.StackType)) {
+            return (
+              <Label
+                key={item.Id + "_" + index}
+                basic={true}
+                color="black"
+                content={
+                  stackDetail.GoodEnoughStacks === "Infinite"
+                    ? "∞"
+                    : stackDetail.GoodEnoughStacks
+                }
+                size="small"
+              ></Label>
+            );
+          } else {
+            return (
+              <Label
+                key={item.Id + "_" + index}
+                style={{ visibility: "hidden" }}
+                basic={true}
+                color="black"
+                size="small"
+              ></Label>
+            );
+          }
+        })}
+      </Label.Group>
+      <Image
+        src={getItemImage(item)}
+        title={item.DisplayName}
+        alt={item.DisplayName}
+        width="100"
+        height="100"
+      />
+    </Button>
   );
 };
 

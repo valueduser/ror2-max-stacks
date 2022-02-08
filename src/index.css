@@ -32,28 +32,3 @@ body {
 div.visible.menu.transition > .item{
   color:white !important;
 }
-
-/* .ui.corner.label {
-  transform: scaleY(-1);
-} */
-
-.ui.corner.label.bottom {
-  top: calc(100% - 4em);
-  /* transform: scaleX(-1); */
-}
-.ui.corner.label.bottom .icon {
-  top: calc(100% - 1.5em);
-}
-.ui.corner.label.bottom:after {
-  position: absolute;
-  content: "";
-  z-index: -1;
-  width: 0px;
-  height: 0px;
-  background-color: transparent;
-  border-top: 4em solid transparent;
-  border-right: 0px solid tranparent;
-  border-bottom: 0px solid;
-  border-left: 4em solid transparent;
-  transition: border-color 0.1s ease;
-}
