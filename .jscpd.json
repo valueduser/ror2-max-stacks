@@ -1,0 +1,14 @@
+{
+  "threshold": 0,
+  "reporters": [
+    "consoleFull"
+  ],
+  "ignore": [
+    "**/__snapshots__/**",
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/*.md",
+    "**/config/**"
+  ],
+  "absolute": true
+}
