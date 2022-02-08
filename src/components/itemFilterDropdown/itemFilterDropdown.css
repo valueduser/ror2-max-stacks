@@ -1,0 +1,7 @@
+.ui.dropdown .menu {
+  background: black !important;
+}
+
+div.visible.menu.transition > .item {
+  color: white !important;
+}

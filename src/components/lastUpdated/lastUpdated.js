@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from 'semantic-ui-react'
-import versionData from '../data/versions.json'
+import versionData from '../../data/versions.json'
+import './lastUpdated.css'
 
 const LastUpdated = (props) => {
   let gameInfo
@@ -17,7 +18,7 @@ const LastUpdated = (props) => {
 
   return (
     <div className='last-updated-container'>
-      <Button onClick={() => window.open(gameInfo.PatchNotesLink, '_blank')}>Last updated for version: {gameInfo.Version}</Button>
+      <Button className='last-updated-btn' onClick={() => window.open(gameInfo.PatchNotesLink, '_blank')}>Last updated for version: {gameInfo.Version}</Button>
     </div>
   )
 }

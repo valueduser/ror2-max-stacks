@@ -1,5 +1,6 @@
 import React from 'react'
 import { Dropdown } from 'semantic-ui-react'
+import './itemFilterDropdown.css'
 
 const FilterableDropdown = (props) => {
   const rarityOptions = [...new Set(props.itemData.map((item) => item.Rarity))]

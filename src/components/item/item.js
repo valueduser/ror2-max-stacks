@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Image, Label } from 'semantic-ui-react'
+import './item.css'
 
 const Item = (props) => {
   const item = props.item
