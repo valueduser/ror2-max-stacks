@@ -3,7 +3,7 @@
     "DisplayName": "Barbed Wire",
     "Name": "Barbed_Wire",
     "AssetName": "",
-    "Id": -1,
+    "Id": 3,
     "Rarity": "Common",
     "Description": "Enemies close to you take 50% damage/sec",
     "StackDetails": [
@@ -23,7 +23,7 @@
     "DisplayName": "Bitter Root",
     "Name": "Bitter_Root",
     "AssetName": "",
-    "Id": -1,
+    "Id": 34,
     "Rarity": "Common",
     "Description": "Increases maximum health by 8%",
     "StackDetails": [
@@ -38,7 +38,7 @@
     "DisplayName": "Bundle of Fireworks",
     "Name": "Bundle_of_Fireworks",
     "AssetName": "",
-    "Id": -1,
+    "Id": 31,
     "Rarity": "Common",
     "Description": "Fire 8 fireworks that deal 300% damage",
     "StackDetails": [
@@ -53,7 +53,7 @@
     "DisplayName": "Bustling Fungus",
     "Name": "Bustling_Fungus",
     "AssetName": "",
-    "Id": -1,
+    "Id": 35,
     "Rarity": "Common",
     "Description": "After standing still for two seconds: +4.5% of your maximum health as HP regen/sec",
     "StackDetails": [
@@ -68,7 +68,7 @@
     "DisplayName": "Crowbar",
     "Name": "Crowbar",
     "AssetName": "",
-    "Id": -1,
+    "Id": 9,
     "Rarity": "Common",
     "Description": "On hit: +50% damage to enemies above 80% health",
     "StackDetails": [
@@ -83,7 +83,7 @@
     "DisplayName": "Fire Shield",
     "Name": "Fire_Shield",
     "AssetName": "",
-    "Id": -1,
+    "Id": 60,
     "Rarity": "Common",
     "Description": "After being hit for 10% of your maximum health in one hit: explode, dealing 200% damage",
     "StackDetails": [
@@ -98,7 +98,7 @@
     "DisplayName": "Gasoline",
     "Name": "Gasoline",
     "AssetName": "",
-    "Id": -1,
+    "Id": 11,
     "Rarity": "Common",
     "Description": "On kill: Burns the ground for 60% damage/sec for two seconds",
     "StackDetails": [
@@ -113,7 +113,7 @@
     "DisplayName": "Headstompers",
     "Name": "Headstompers",
     "AssetName": "",
-    "Id": -1,
+    "Id": 13,
     "Rarity": "Common",
     "Description": "Falling on top of enemies deals up to 507% damage, depending on speed",
     "StackDetails": [
@@ -128,7 +128,7 @@
     "DisplayName": "Hermit's Scarf",
     "Name": "Hermit%2527s_Scarf",
     "AssetName": "",
-    "Id": -1,
+    "Id": 62,
     "Rarity": "Common",
     "Description": "10% chance to evade attacks",
     "StackDetails": [
@@ -143,7 +143,7 @@
     "DisplayName": "Lens Maker's Glasses",
     "Name": "Lens-Maker%2527s_Glasses",
     "AssetName": "",
-    "Id": -1,
+    "Id": 65,
     "Rarity": "Common",
     "Description": "+10% crit chance",
     "StackDetails": [
@@ -158,7 +158,7 @@
     "DisplayName": "Life Savings",
     "Name": "Life_Savings",
     "AssetName": "",
-    "Id": -1,
+    "Id": 66,
     "Rarity": "Common",
     "Description": "Generate $1 every 3 seconds",
     "StackDetails": [
@@ -173,7 +173,7 @@
     "DisplayName": "Meat Nugget",
     "Name": "Meat_Nugget",
     "AssetName": "",
-    "Id": -1,
+    "Id": 43,
     "Rarity": "Common",
     "Description": "On hit: 8% chance to drop two meat nuggets that recover 2x6 health",
     "StackDetails": [
@@ -188,7 +188,7 @@
     "DisplayName": "Medkit",
     "Name": "Medkit",
     "AssetName": "",
-    "Id": -1,
+    "Id": 44,
     "Rarity": "Common",
     "Description": "1.1 seconds after taking any type of damage: recover 10 health",
     "StackDetails": [
@@ -203,7 +203,7 @@
     "DisplayName": "Monster Tooth",
     "Name": "Monster_Tooth",
     "AssetName": "",
-    "Id": -1,
+    "Id": 45,
     "Rarity": "Common",
     "Description": "On kill: recover 10 health",
     "StackDetails": [
@@ -218,7 +218,7 @@
     "DisplayName": "Mortar Tube",
     "Name": "Mortar_Tube",
     "AssetName": "",
-    "Id": -1,
+    "Id": 18,
     "Rarity": "Common",
     "Description": "On hit: Has a 9% chance to fire a mortar that hits roughly five characters away, dealing 170% damage",
     "StackDetails": [
@@ -233,7 +233,7 @@
     "DisplayName": "Mysterious Vial",
     "Name": "Mysterious_Vial",
     "AssetName": "",
-    "Id": -1,
+    "Id": 46,
     "Rarity": "Common",
     "Description": "+1.2 HP regen/sec",
     "StackDetails": [
@@ -248,7 +248,7 @@
     "DisplayName": "Paul's Goat Hoof",
     "Name": "Paul%2527s_Goat_Hoof",
     "AssetName": "",
-    "Id": -1,
+    "Id": 68,
     "Rarity": "Common",
     "Description": "+20% movement speed",
     "StackDetails": [
@@ -263,7 +263,7 @@
     "DisplayName": "Rusty Knife",
     "Name": "Rusty_Knife",
     "AssetName": "",
-    "Id": -1,
+    "Id": 21,
     "Rarity": "Common",
     "Description": "On hit: 15% chance to cause a bleed on an enemy, dealing 4x35% damage over two seconds",
     "StackDetails": [
@@ -278,7 +278,7 @@
     "DisplayName": "Snake Eyes",
     "Name": "Snake_Eyes",
     "AssetName": "",
-    "Id": -1,
+    "Id": 76,
     "Rarity": "Common",
     "Description": "On shrine fail: +6% crit chance",
     "StackDetails": [
@@ -290,10 +290,25 @@
     ]
   },
   {
+    "DisplayName": "Soldier's Syringe",
+    "Name": "Soldier%2527s_Syringe",
+    "AssetName": "",
+    "Id": 77,
+    "Rarity": "Common",
+    "Description": "+15% attack speed",
+    "StackDetails": [
+      {
+        "Stat": "More attack speed",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": 13
+      }
+    ]
+  },
+  {
     "DisplayName": "Spikestrip",
     "Name": "Spikestrip",
     "AssetName": "",
-    "Id": -1,
+    "Id": 78,
     "Rarity": "Common",
     "Description": "When hit: drop spikestrips that slow enemies by 20%",
     "StackDetails": [
@@ -308,7 +323,7 @@
     "DisplayName": "Sprouting Egg",
     "Name": "Sprouting_Egg",
     "AssetName": "",
-    "Id": -1,
+    "Id": 49,
     "Rarity": "Common",
     "Description": "After not taking any type of damage for 7 seconds: +2.4 HP regen/sec",
     "StackDetails": [
@@ -323,7 +338,7 @@
     "DisplayName": "Sticky Bomb",
     "Name": "Sticky_Bomb",
     "AssetName": "",
-    "Id": -1,
+    "Id": 23,
     "Rarity": "Common",
     "Description": "On hit: 8% chance to attach a bomb to an enemy, detonating for 140% damage",
     "StackDetails": [
@@ -334,28 +349,11 @@
       }
     ]
   },
-
-  {
-    "DisplayName": "Soldier's Syringe",
-    "Name": "Soldier%2527s_Syringe",
-    "AssetName": "",
-    "Id": -1,
-    "Rarity": "Common",
-    "Description": "+15% attack speed",
-    "StackDetails": [
-      {
-        "Stat": "More attack speed",
-        "StackType": "Unknown",
-        "GoodEnoughStacks": 13
-      }
-    ]
-  },
-
   {
     "DisplayName": "Taser",
     "Name": "Taser",
     "AssetName": "",
-    "Id": -1,
+    "Id": 83,
     "Rarity": "Common",
     "Description": "7% chance to snare enemies for 1.5 seconds",
     "StackDetails": [
@@ -370,7 +368,7 @@
     "DisplayName": "Warbanner",
     "Name": "Warbanner",
     "AssetName": "",
-    "Id": -1,
+    "Id": 81,
     "Rarity": "Common",
     "Description": "On level up: drop a banner; banner aura increases attack and move speed by 30%, damage by 4 and grants 1% of your maximum health as HP regen/sec.",
     "StackDetails": [

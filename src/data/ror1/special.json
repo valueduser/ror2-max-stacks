@@ -3,7 +3,7 @@
     "DisplayName": "White Undershirt (M)",
     "Name": "White_Undershirt_%28M%29",
     "AssetName": "",
-    "Id": -1,
+    "Id": 84,
     "Rarity": "Special",
     "Description": "Increases armor by 3",
     "StackDetails": [
@@ -18,7 +18,7 @@
     "DisplayName": "Keycard",
     "Name": "Keycard",
     "AssetName": "",
-    "Id": -1,
+    "Id": 85,
     "Rarity": "Special",
     "Description": "Opens locked doors on the UES Contact Light.",
     "StackDetails": [
