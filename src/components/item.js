@@ -1,67 +1,75 @@
-import React from "react";
-import { Button } from "semantic-ui-react";
+import React from 'react'
+import { Button, Image, Label } from 'semantic-ui-react'
 
 const Item = (props) => {
-  const item = props.item;
-  const game = props.game;
+  const item = props.item
+  const game = props.game
 
   const getWikiLinkPrefix = (item) => {
     if (game === 1) {
-      return "https://riskofrain.fandom.com/wiki/" + item.Name;
+      return 'https://riskofrain.fandom.com/wiki/' + item.Name
     } else {
-      return "https://riskofrain2.gamepedia.com/" + item.Name;
+      return 'https://riskofrain2.gamepedia.com/' + item.Name
     }
-  };
+  }
 
   const getItemImage = (item) => {
-    let imagePath = process.env.PUBLIC_URL + "/itemImages/";
+    let imagePath = process.env.PUBLIC_URL + '/itemImages/'
     if (game === 1) {
-      imagePath += "ror1/" + item.Name + ".png";
+      imagePath += 'ror1/' + item.Name + '.png'
     } else {
-      imagePath += "ror2/" + item.Name + ".png";
+      imagePath += 'ror2/' + item.Name + '.png'
     }
-    return imagePath;
-  };
-
-  const renderStackBadgeText = (stackInfo) => {
-    if (["Hyperbolic", "Special"].includes(stackInfo.StackType)) {
-      return (
-        <div className="stack-badge-text">
-          {stackInfo.GoodEnoughStacks === "Infinite"
-            ? "∞"
-            : stackInfo.GoodEnoughStacks}
-        </div>
-      );
-    }
-  };
+    return imagePath
+  }
 
   return (
-    <a href={`${getWikiLinkPrefix(item)}`}>
-      <Button basic id={"itemButton_" + item.Id}>
-        <img
-          src={getItemImage(item)}
-          title={item.DisplayName}
-          alt={item.DisplayName}
-          width="100"
-          height="100"
-        />
-        {/* <div>
-          {item.StackDetails.map((stackInfo) => (
-            <div
-              className="stack-square"
-              style={{
-                display: ["Hyperbolic", "Special"].includes(stackInfo.StackType)//TODO: fix for ror1
-                  ? "block"
-                  : "none",
-              }}
-            >
-              {renderStackBadgeText(stackInfo)}
-            </div>
-          ))}
-        </div> */}
-      </Button>
-    </a>
-  );
-};
+    <Button
+      basic
+      id={'itemButton_' + item.Id}
+      onClick={() => window.open(getWikiLinkPrefix(item), '_blank')}
+    >
+      <Label.Group>
+        {item.StackDetails.filter((stackDetail) => {
+          if (game === 2) return stackDetail != null
+          return null
+        }).map((stackDetail, index) => {
+          if (['Hyperbolic', 'Special'].includes(stackDetail.StackType)) {
+            return (
+              <Label
+                key={item.Id + '_' + index}
+                basic
+                color='black'
+                content={
+                  stackDetail.GoodEnoughStacks === 'Infinite'
+                    ? '∞'
+                    : stackDetail.GoodEnoughStacks
+                }
+                size='small'
+              />
+            )
+          } else {
+            return (
+              <Label
+                key={item.Id + '_' + index}
+                style={{ visibility: 'hidden' }}
+                basic
+                color='black'
+                size='small'
+              />
+            )
+          }
+        })}
+      </Label.Group>
+      <Image
+        src={getItemImage(item)}
+        title={item.DisplayName}
+        alt={item.DisplayName}
+        width='100'
+        height='100'
+      />
+    </Button>
+  )
+}
 
-export default Item;
+export default Item
