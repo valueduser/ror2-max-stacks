@@ -243,9 +243,9 @@
     "Description": "A hidden cache containing an item (80% uncommon, 20% legendary) will appear in a random location on each stage. Opening the cache consumes this item",
     "StackDetails": [
       {
-        "Stat": "More Damage",
+        "Stat": "More Box Opens",
         "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
+        "GoodEnoughStacks": 1
       }
     ]
   },

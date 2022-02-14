@@ -69,7 +69,7 @@ const App = () => {
     <div>
       <Grid padded='horizontally' columns='equal'>
         {/* <Grid.Column textAlign='center'>
-          <Button onClick={handleGameChange}>Change Game</Button>
+          <Button className='change-game-btn' onClick={handleGameChange}>Change Game</Button>
         </Grid.Column> */}
         <Grid.Column textAlign='center'>
           <FilterableDropdown
