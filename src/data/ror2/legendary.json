@@ -60,6 +60,21 @@
     ]
   },
   {
+    "DisplayName": "Bottled Chaos",
+    "Name": "Unknown",
+    "AssetName": "Unknown",
+    "Id": -1,
+    "Rarity": "Legendary",
+    "Description": "Activating your Equipment triggers an additional, random Equipment effect.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Brainstalks",
     "Name": "Brainstalks",
     "AssetName": "KillEliteFrenzy",
