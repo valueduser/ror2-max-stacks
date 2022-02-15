@@ -289,6 +289,21 @@
       }
     ]
   },
+    {
+    "DisplayName": "Regenerating Scrap",
+    "Name": "Unknown",
+    "AssetName": "Unknown",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Prioritized when used with Uncommon 3D Printers. Usable once per stage.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
   {
     "DisplayName": "Rose Buckler",
     "Name": "Rose_Buckler",

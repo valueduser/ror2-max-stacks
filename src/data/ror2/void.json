@@ -1,5 +1,35 @@
 [
   {
+    "DisplayName": "Benthic Bloom",
+    "Name": "Unknown",
+    "AssetName": "Stub",
+    "Id": -1,
+    "Rarity": "Void",
+    "Description": "Upgrades your items at the start of each stage. Corrupts all 57 Leaf Clovers.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Encrusted Key",
+    "Name": "Unknown",
+    "AssetName": "Stub",
+    "Id": -1,
+    "Rarity": "Void",
+    "Description": "Gain access to an Encrusted Cache that contains a void item. Corrupts all Rusted Keys.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Lost Seer's Lenses",
     "Name": "Unknown",
     "AssetName": "Stub",
@@ -9,6 +39,21 @@
     "StackDetails": [
       {
         "Stat": "More chance to insta-kill",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Plasma Shrimp",
+    "Name": "Unknown",
+    "AssetName": "Stub",
+    "Id": -1,
+    "Rarity": "Void",
+    "Description": "While you have shield, fire missiles on every hit. Corrupts all AtG Missile Mk. 1s.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
         "StackType": "Unknown",
         "GoodEnoughStacks": "Unknown"
       }
