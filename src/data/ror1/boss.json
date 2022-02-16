@@ -3,7 +3,7 @@
     "DisplayName": "Burning Witness",
     "Name": "Burning_Witness",
     "AssetName": "",
-    "Id": -1,
+    "Id": 6,
     "Rarity": "Boss",
     "Description": "On kill: +5% movement speed, +1 damage and grants a fire trail (identical to Fireman's Boots) for 6 seconds",
     "StackDetails": [
@@ -23,7 +23,7 @@
     "DisplayName": "Colossal Knurl",
     "Name": "Colossal_Knurl",
     "AssetName": "",
-    "Id": -1,
+    "Id": 36,
     "Rarity": "Boss",
     "Description": "+40 maximum health, +1.2 HP regen/sec, +6 armor",
     "StackDetails": [
@@ -43,7 +43,7 @@
     "DisplayName": "Ifrit's Horn",
     "Name": "Ifrit%2527s_Horn",
     "AssetName": "",
-    "Id": -1,
+    "Id": 16,
     "Rarity": "Boss",
     "Description": "On hit: Has an 8% chance to incinerate onscreen enemies, dealing 220% damage",
     "StackDetails": [
@@ -58,7 +58,7 @@
     "DisplayName": "Imp Overlord's Tentacle",
     "Name": "Imp_Overlord%2527s_Tentacle",
     "AssetName": "",
-    "Id": -1,
+    "Id": 64,
     "Rarity": "Boss",
     "Description": "Summon an imp as a bodyguard; the imp revives every 60 seconds",
     "StackDetails": [
@@ -73,7 +73,7 @@
     "DisplayName": "Legendary Spark",
     "Name": "Legendary_Spark",
     "AssetName": "",
-    "Id": -1,
+    "Id": 17,
     "Rarity": "Boss",
     "Description": "On hit: Has an 8% chance to smite onscreen enemies, dealing 200% damage",
     "StackDetails": [

@@ -3,7 +3,7 @@
     "DisplayName": "56 Leaf Clover",
     "Name": "56_Leaf_Clover",
     "AssetName": "",
-    "Id": -1,
+    "Id": 52,
     "Rarity": "Uncommon",
     "Description": "Elite mobs have a 4% chance to drop items",
     "StackDetails": [
@@ -18,7 +18,7 @@
     "DisplayName": "Arms Race",
     "Name": "Arms_Race",
     "AssetName": "",
-    "Id": -1,
+    "Id": 55,
     "Rarity": "Uncommon",
     "Description": "On drone action: 9% chance for drones to fire missiles and mortars",
     "StackDetails": [
@@ -33,7 +33,7 @@
     "DisplayName": "AtG Missile Mk. 1",
     "Name": "AtG_Missile_Mk._1",
     "AssetName": "",
-    "Id": -1,
+    "Id": 1,
     "Rarity": "Uncommon",
     "Description": "On hit: 10% chance of firing a missile that deals 300% damage",
     "StackDetails": [
@@ -48,7 +48,7 @@
     "DisplayName": "Boxing Gloves",
     "Name": "Boxing_Gloves",
     "AssetName": "",
-    "Id": -1,
+    "Id": 4,
     "Rarity": "Uncommon",
     "Description": "On hit: 6% chance to knock enemies back (15% on game description)",
     "StackDetails": [
@@ -63,7 +63,7 @@
     "DisplayName": "Chargefield Generator",
     "Name": "Chargefield_Generator",
     "AssetName": "",
-    "Id": -1,
+    "Id": 8,
     "Rarity": "Uncommon",
     "Description": "On kill: generate a lightning ring around the player, dealing 50% damage/sec for 6 seconds. Killing additional enemies while the ring is active increases the ring's size and refreshes its duration",
     "StackDetails": [
@@ -78,7 +78,7 @@
     "DisplayName": "Concussion Grenade",
     "Name": "Concussion_Grenade",
     "AssetName": "",
-    "Id": -1,
+    "Id": 57,
     "Rarity": "Uncommon",
     "Description": "On hit: 6% chance to stun enemies for two seconds",
     "StackDetails": [
@@ -93,7 +93,7 @@
     "DisplayName": "Dead Man's Foot",
     "Name": "Dead_Man%2527s_Foot",
     "AssetName": "",
-    "Id": -1,
+    "Id": 37,
     "Rarity": "Uncommon",
     "Description": "Drop a poison mine at low health for 4x150% damage",
     "StackDetails": [
@@ -108,7 +108,7 @@
     "DisplayName": "Energy Cell",
     "Name": "Energy_Cell",
     "AssetName": "",
-    "Id": -1,
+    "Id": 58,
     "Rarity": "Uncommon",
     "Description": "When below 50% health: increases attack speed; maxes out at 10% health with +40% attack speed",
     "StackDetails": [
@@ -123,7 +123,7 @@
     "DisplayName": "Filial Imprinting",
     "Name": "Filial_Imprinting",
     "AssetName": "",
-    "Id": -1,
+    "Id": 59,
     "Rarity": "Uncommon",
     "Description": "Drops attack speed/health regen/move speed buffs every 20 seconds",
     "StackDetails": [
@@ -138,7 +138,7 @@
     "DisplayName": "Frost Relic",
     "Name": "Frost_Relic",
     "AssetName": "",
-    "Id": -1,
+    "Id": 32,
     "Rarity": "Uncommon",
     "Description": "On kill: Killing an enemy surrounds you with 3 icicles that deal 3x33% damage",
     "StackDetails": [
@@ -153,7 +153,7 @@
     "DisplayName": "Golden Gun",
     "Name": "Golden_Gun",
     "AssetName": "",
-    "Id": -1,
+    "Id": 12,
     "Rarity": "Uncommon",
     "Description": "Deals bonus damage depending on how much gold the player has, up to +40% damage at 700 gold; scales with time",
     "StackDetails": [
@@ -168,7 +168,7 @@
     "DisplayName": "Guardian's Heart",
     "Name": "Guardian%2527s_Heart",
     "AssetName": "",
-    "Id": -1,
+    "Id": 39,
     "Rarity": "Uncommon",
     "Description": "Gain a shield worth 60 health; this shield instantly recovers after 7 seconds without taking any type of damage",
     "StackDetails": [
@@ -183,7 +183,7 @@
     "DisplayName": "Harvester's Scythe",
     "Name": "Harvester%2527s_Scythe",
     "AssetName": "",
-    "Id": -1,
+    "Id": 40,
     "Rarity": "Uncommon",
     "Description": "+5% crit chance; On crit: recover 8 health",
     "StackDetails": [
@@ -203,7 +203,7 @@
     "DisplayName": "Hopoo Feather",
     "Name": "Hopoo_Feather",
     "AssetName": "",
-    "Id": -1,
+    "Id": 63,
     "Rarity": "Uncommon",
     "Description": "Gain an additional Jump",
     "StackDetails": [
@@ -218,7 +218,7 @@
     "DisplayName": "Infusion",
     "Name": "Infusion",
     "AssetName": "",
-    "Id": -1,
+    "Id": 41,
     "Rarity": "Uncommon",
     "Description": "On kill: increase max health by one",
     "StackDetails": [
@@ -234,7 +234,7 @@
     "DisplayName": "Leeching Seed",
     "Name": "Leeching_Seed",
     "AssetName": "",
-    "Id": -1,
+    "Id": 42,
     "Rarity": "Uncommon",
     "Description": "On hit: recover 2 health; hitting multiple enemies at once will increase amount recovered",
     "StackDetails": [
@@ -249,7 +249,7 @@
     "DisplayName": "Panic Mines",
     "Name": "Panic_Mines",
     "AssetName": "",
-    "Id": -1,
+    "Id": 47,
     "Rarity": "Uncommon",
     "Description": "When at low health: drop a mine that deals 500% damage",
     "StackDetails": [
@@ -264,7 +264,7 @@
     "DisplayName": "Predatory Instincts",
     "Name": "Predatory_Instincts",
     "AssetName": "",
-    "Id": -1,
+    "Id": 20,
     "Rarity": "Uncommon",
     "Description": "+5% crit chance. On crit: increase attack speed by 10% for three seconds; this effect can stack up to three times for a total of +30% attack speed(further stacks will only refresh the duration)",
     "StackDetails": [
@@ -284,7 +284,7 @@
     "DisplayName": "Prison Shackles",
     "Name": "Prison_Shackles",
     "AssetName": "",
-    "Id": -1,
+    "Id": 71,
     "Rarity": "Uncommon",
     "Description": "On hit: slow enemies by 20%",
     "StackDetails": [
@@ -299,7 +299,7 @@
     "DisplayName": "Red Whip",
     "Name": "Red_Whip",
     "AssetName": "",
-    "Id": -1,
+    "Id": 73,
     "Rarity": "Uncommon",
     "Description": "Increase speed out of combat by 80%",
     "StackDetails": [
@@ -314,7 +314,7 @@
     "DisplayName": "Rusty Jetpack",
     "Name": "Rusty_Jetpack",
     "AssetName": "",
-    "Id": -1,
+    "Id": 74,
     "Rarity": "Uncommon",
     "Description": "+10% jump height; halves the effect of gravity on the player",
     "StackDetails": [
@@ -329,7 +329,7 @@
     "DisplayName": "Smart Shopper",
     "Name": "Smart_Shopper",
     "AssetName": "",
-    "Id": -1,
+    "Id": 75,
     "Rarity": "Uncommon",
     "Description": "+25% enemy gold drops",
     "StackDetails": [
@@ -344,7 +344,7 @@
     "DisplayName": "Time Keeper's Secret",
     "Name": "Time_Keeper%2527s_Secret",
     "AssetName": "",
-    "Id": -1,
+    "Id": 80,
     "Rarity": "Uncommon",
     "Description": "When at low health: stop time for three seconds",
     "StackDetails": [
@@ -359,7 +359,7 @@
     "DisplayName": "Tough Times",
     "Name": "Tough_Times",
     "AssetName": "",
-    "Id": -1,
+    "Id": 50,
     "Rarity": "Uncommon",
     "Description": "+14 armor",
     "StackDetails": [
@@ -374,7 +374,7 @@
     "DisplayName": "Toxic Worm",
     "Name": "Toxic_Worm",
     "AssetName": "",
-    "Id": -1,
+    "Id": 28,
     "Rarity": "Uncommon",
     "Description": "Touching an enemy infects it, dealing 50% damage/sec until they die; bounces to other enemies on death",
     "StackDetails": [
@@ -389,7 +389,7 @@
     "DisplayName": "Ukulele",
     "Name": "Ukulele",
     "AssetName": "",
-    "Id": -1,
+    "Id": 29,
     "Rarity": "Uncommon",
     "Description": "On hit: 20% chance to fire chain lightning for 4x33% damage",
     "StackDetails": [
@@ -404,7 +404,7 @@
     "DisplayName": "Will-o'-the-wisp",
     "Name": "Will-o%2527-the-wisp",
     "AssetName": "",
-    "Id": -1,
+    "Id": 30,
     "Rarity": "Uncommon",
     "Description": "On kill: 33% chance to create a lava pillar, dealing 500% damage",
     "StackDetails": [
