@@ -11,7 +11,7 @@ import ror2CommonData from './data/ror2/common.json'
 import ror2LegendaryData from './data/ror2/legendary.json'
 import ror2LunarData from './data/ror2/lunar.json'
 import ror2UncommonData from './data/ror2/uncommon.json'
-import ror2VoidData from './data/ror2/void.json' // eslint-disable-line no-unused-vars
+import ror2VoidData from './data/ror2/void.json' 
 import LastUpdated from './components/lastUpdated/lastUpdated.js'
 import FilterableDropdown from './components/itemFilterDropdown/itemFilterDropdown'
 import ItemList from './components/itemList.js'
@@ -38,8 +38,8 @@ const App = () => {
     ror2UncommonData,
     ror2LegendaryData,
     ror2BossData,
-    ror2LunarData
-    // ror2VoidData
+    ror2LunarData,
+    ror2VoidData
   )
 
   const [rarity, setRarity] = useState('All')
