@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
 import * as Sentry from '@sentry/react'
 import ror1BossData from './data/ror1/boss.json'
@@ -26,9 +26,9 @@ Sentry.init({
 
 const App = () => {
   useEffect(() => {
-    //TODO: use a feature flag to toggle the presence of the change game button
+    // TODO: use a feature flag to toggle the presence of the change game button
     window.fetch(
-      "https://api.deploywithflags.com/2b0616f3-5932-474d-b4b8-025f4efc41cd/",
+      'https://api.deploywithflags.com/2b0616f3-5932-474d-b4b8-025f4efc41cd/',
       { mode: 'no-cors' }
     ).then((response) => console.log(response))
   }, [])
