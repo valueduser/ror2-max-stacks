@@ -124,7 +124,7 @@ function getModules () {
   const additionalModulePaths = getAdditionalModulePaths(options)
 
   return {
-    additionalModulePaths,
+    additionalModulePaths: additionalModulePaths,
     webpackAliases: getWebpackAliases(options),
     jestAliases: getJestAliases(options),
     hasTsConfig

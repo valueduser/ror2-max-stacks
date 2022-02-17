@@ -52,7 +52,6 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.1.1",
     "semver": "^7.3.5",
-    "snazzy": "^9.0.0",
     "source-map-loader": "^3.0.0",
     "style-loader": "^3.3.1",
     "tailwindcss": "^3.0.2",
@@ -146,7 +145,7 @@
     ]
   },
   "devDependencies": {
-    "stylelint": "^14.5.1",
+    "stylelint": "^14.3.0",
     "stylelint-config-standard": "^24.0.0"
   }
 }
