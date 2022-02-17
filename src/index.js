@@ -18,13 +18,21 @@ import ItemList from './components/itemList.js'
 import './index.css'
 import 'semantic-ui-css/semantic.min.css'
 import './fonts/BOMBARD_.ttf'
-import { Grid, Button } from 'semantic-ui-react'// eslint-disable-line no-unused-vars
+import { Grid, Button } from 'semantic-ui-react'
 
 Sentry.init({
   dsn: 'https://c0cce460deba46a6b64ff89c9719ba82@o141824.ingest.sentry.io/5379078'
 })
 
 const App = () => {
+  useEffect(() => {
+    //TODO: use a feature flag to toggle the presence of the change game button
+    window.fetch(
+      "https://api.deploywithflags.com/2b0616f3-5932-474d-b4b8-025f4efc41cd/",
+      { mode: 'no-cors' }
+    ).then((response) => console.log(response))
+  }, [])
+
   const ror1Data = [].concat(
     ror1CommonData,
     ror1UncommonData,
@@ -55,7 +63,7 @@ const App = () => {
     setStackType(newStackTypeValue)
   }
 
-  const handleGameChange = () => { // eslint-disable-line no-unused-vars
+  const handleGameChange = () => {
     if (game === 1) {
       setGame(2)
       setGameData(ror2Data)
@@ -68,9 +76,9 @@ const App = () => {
   return (
     <div>
       <Grid padded='horizontally' columns='equal'>
-        {/* <Grid.Column textAlign='center'>
+        <Grid.Column textAlign='center'>
           <Button className='change-game-btn' onClick={handleGameChange}>Change Game</Button>
-        </Grid.Column> */}
+        </Grid.Column>
         <Grid.Column textAlign='center'>
           <FilterableDropdown
             filterType='Rarity'
