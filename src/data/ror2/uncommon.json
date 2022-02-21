@@ -145,6 +145,21 @@
     ]
   },
   {
+    "DisplayName": "Hunter's Harpoon",
+    "Name": "Unknown",
+    "AssetName": "Unknown",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Description": "Killing an enemy gives you a burst of movement speed.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "?"
+      }
+    ]
+  },
+  {
     "DisplayName": "Infusion",
     "Name": "Infusion",
     "AssetName": "Infusion",
