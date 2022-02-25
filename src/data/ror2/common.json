@@ -240,10 +240,10 @@
     "AssetName": "Unknown",
     "Id": -1,
     "Rarity": "Common",
-    "Description": "Increase armor by 100 (+100 per stack) while out of danger.",
+    "Description": "Reduce damage the first time you are hit.",
     "StackDetails": [
       {
-        "Stat": "More Armor",
+        "Stat": "Unknown",
         "StackType": "Unknown",
         "GoodEnoughStacks": "Unknown"
       }
@@ -291,6 +291,21 @@
         "Stat": "More Damage Reduction",
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Roll of Pennies",
+    "Name": "Unknown",
+    "AssetName": "Unknown",
+    "Id": -1,
+    "Rarity": "Common",
+    "Description": "Gain gold on taking damage.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
       }
     ]
   },
