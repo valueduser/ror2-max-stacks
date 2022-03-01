@@ -1,16 +1,193 @@
 [
   {
-    "DisplayName": "Stub",
-    "Name": "Stub",
-    "AssetName": "Stub",
-    "Id": -1,
+    "DisplayName": "Benthic Bloom",
+    "Name": "Benthic_Bloom",
+    "AssetName": "CloverVoid",
+    "Id": 140,
     "Rarity": "Void",
-    "Description": "Deals unlimited damage but only to boarlits",
+    "Pickup": "Upgrades your items at the start of each stage. Corrupts all 57 Leaf Clovers.",
+    "Description": "Upgrades 3 (+3 per stack) random items to items of the next higher rarity at the start of each stage. Corrupts all 57 Leaf Clovers.",
     "StackDetails": [
       {
-        "Stat": "More Damage",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Encrusted Key",
+    "Name": "Encrusted_Key",
+    "AssetName": "TreasureCacheVoid",
+    "Id": 147,
+    "Rarity": "Void",
+    "Pickup": "Gain access to an Encrusted Cache that contains a void item. Corrupts all Rusted Keys.",
+    "Description": "A hidden cache containing an item (60%/30%/10%) will appear in a random location on each stage. Opening the cache consumes this item. Corrupts all Rusted Keys.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Lost Seer's Lenses",
+    "Name": "Unknown",
+    "AssetName": "CritGlassesVoid",
+    "Id": 146,
+    "Rarity": "Void",
+    "Pickup": "Gain a 0.5% chance to instantly kill a non-boss enemy. Corrupts all Lens-Maker's Glasses.",
+    "Description": "Your attacks have a 0.5% (+0.5% per stack) chance to instantly kill a non-Boss enemy. Corrupts all Lens-Maker's Glasses.",
+    "StackDetails": [
+      {
+        "Stat": "More chance to insta-kill",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Lysate Cell",
+    "Name": "Lysate_Cell",
+    "AssetName": "EquipmentMagazineVoid",
+    "Id": 153,
+    "Rarity": "Void",
+    "Pickup": "Add an extra charge of your Special skill. Corrupts all Fuel Cells.",
+    "Description": "Add +1 (+1 per stack) charge of your Special skill. Corrupts all Fuel Cells..",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Needletick",
+    "Name": "Needletick",
+    "AssetName": "BleedOnHitVoid",
+    "Id": 145,
+    "Rarity": "Void",
+    "Pickup": "Chance to collapse enemies on hit. Corrupts all Tri-Tip Daggers.",
+    "Description": "10% (+10% per stack) chance to collapse an enemy for 400% base damage. Corrupts all Tri-Tip Daggers.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Plasma Shrimp",
+    "Name": "Plasma_Shrimp",
+    "AssetName": "MissileVoid",
+    "Id": 149,
+    "Rarity": "Void",
+    "Pickup": "While you have shield, fire missiles on every hit. Corrupts all AtG Missile Mk. 1s.",
+    "Description": "Gain a shield equal to 10% of your maximum health. While you have a shield, hitting an enemy fires a missile that deals 40% (+50% per stack) TOTAL damage. Corrupts all AtG Missile Mk. 1s.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Pluripotent Larva",
+    "Name": "Pluripotent_Larva",
+    "AssetName": "ExtraLifeVoid",
+    "Id": 151,
+    "Rarity": "Void",
+    "Pickup": "Get a corrupted extra life. Consumed on use. Corrupts all Dio's Best Friends..",
+    "Description": "Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability, and all of your items that can be corrupted will be. Corrupts all Dio's Best Friends.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Polylute",
+    "Name": "Polylute",
+    "AssetName": "ChainLightningVoid",
+    "Id": 150,
+    "Rarity": "Void",
+    "Pickup": "Chance to repeatedly strike a single enemy with lightning. Corrupts all Ukuleles.",
+    "Description": "25% chance to fire lightning for 60% TOTAL damage up to 3 (+3 per stack) times. Corrupts all Ukuleles.",
+    "StackDetails": [
+      {
+        "Stat": "More Lightning Strikes",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Safer Spaces",
+    "Name": "Safer_Spaces",
+    "AssetName": "BearVoid",
+    "Id": 138,
+    "Rarity": "Void",
+    "Pickup": "Block the next source of damage. Corrupts all Tougher Times.",
+    "Description": "Blocks incoming damage once. Recharges after 15 seconds (-10% per stack). Corrupts all Tougher Times.", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Tentabauble",
+    "Name": "Tentabauble",
+    "AssetName": "SlowOnHitVoid",
+    "Id": 148,
+    "Rarity": "Void",
+    "Pickup": "Chance to root enemies on hit. Corrupts all Chronobaubles.",
+    "Description": "5% (+5% per stack) chance on hit to root enemies for 1s (+1s per stack). Corrupts all Chronobaubles.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Voidsent Flame",
+    "Name": "Voidsent_Flame",
+    "AssetName": "ExplodeOnDeathVoid",
+    "Id": 154,
+    "Rarity": "Void",
+    "Pickup": "Full health enemies also detonate on hit. Corrupts all Will-o'-the-wisps.",
+    "Description": "Upon hitting an enemy above 90% health, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350% (+280% per stack) base damage. Corrupts all Will-o'-the-wisps.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Weeping Fungus",
+    "Name": "Weeping_Fungus",
+    "AssetName": "MushroomVoid",
+    "Id": 139,
+    "Rarity": "Void",
+    "Pickup": "Heal while sprinting. Corrupts all Bustling Fungi.",
+    "Description": "Heals for 2% (+2% per stack) of your health every second while sprinting. Corrupts all Bustling Fungi.", 
+    "StackDetails": [
+      {
+        "Stat": "More Healing",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
       }
     ]
   }

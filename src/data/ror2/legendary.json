@@ -5,7 +5,8 @@
     "AssetName": "Clover",
     "Id": 35,
     "Rarity": "Legendary",
-    "Description": "All random effects are rolled +1 (+1 per stack) times for a favorable outcome.",
+    "Pickup": "Luck is on your side.",
+    "Description": "All random effects are rolled +1 (+1 per stack)times for a favorable outcome.", 
     "StackDetails": [
       {
         "Stat": "More Rolls",
@@ -20,7 +21,8 @@
     "AssetName": "BarrierOnOverHeal",
     "Id": 80,
     "Rarity": "Legendary",
-    "Description": "Healing past full grants you a temporary barrier for 50% (+50% per stack) of the amount you healed.",
+    "Pickup": "Healing past full grants you a temporary barrier.",
+    "Description":  "Healing past full grants you a temporary barrier for 50% (+50% per stack) of the amount you healed.",
     "StackDetails": [
       {
         "Stat": "More Healing",
@@ -35,6 +37,7 @@
     "AssetName": "AlienHead",
     "Id": 50,
     "Rarity": "Legendary",
+    "Pickup": "Reduces cooldowns for your skills.",
     "Description": "Reduce skill cooldowns by 25% (+25% per stack).",
     "StackDetails": [
       {
@@ -45,11 +48,44 @@
     ]
   },
   {
+    "DisplayName": "Ben's Raincoat",
+    "Name": "Unknown",
+    "AssetName": "ImmuneToDebuff",
+    "Id": 162,
+    "Rarity": "Legendary",
+    "Pickup": "Become immune to all debuffs. Increase maximum health.",
+    "Description": "Whenever you would receive a debuff, prevent it. Increases maximum health by 100 (+100 per stack).", 
+    "StackDetails": [
+      {
+        "Stat": "More Health",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Bottled Chaos",
+    "Name": "Unknown",
+    "AssetName": "RandomEquipmentTrigger",
+    "Id": 163,
+    "Rarity": "Legendary",
+    "Pickup": "Activating your Equipment triggers an additional, random Equipment effect.",
+    "Description": "Trigger a random equipment effect 1 (+1 per stack) time(s).",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Brainstalks",
     "Name": "Brainstalks",
     "AssetName": "KillEliteFrenzy",
     "Id": 70,
     "Rarity": "Legendary",
+    "Pickup": "Skills have NO cooldowns for a short period after killing an elite.",
     "Description": "Upon killing an elite monster, enter a frenzy for 4s (+4s per stack) where skills have no cooldowns.",
     "StackDetails": [
       {
@@ -65,7 +101,8 @@
     "AssetName": "Behemoth",
     "Id": 2,
     "Rarity": "Legendary",
-    "Description": "All your attacks explode in a 4m (+2.5m per stack) radius for a bonus 60% TOTAL damage to nearby enemies.",
+    "Pickup": "All your attacks explode!",
+    "Description": "All your attacks explode in a 4m  (+1.5m per stack) radius for a bonus 60% TOTAL damage to nearby enemies.", 
     "StackDetails": [
       {
         "Stat": "Larger Explosion Radius",
@@ -80,7 +117,8 @@
     "AssetName": "Dagger",
     "Id": 5,
     "Rarity": "Legendary",
-    "Description": "Killing an enemy fires out 3 homing daggers that deal 150% (+150% per stack) base damage.",
+    "Pickup": "Killing an enemy releases homing daggers.",
+    "Description": "Killing an enemy fires out 3 homing daggers that deal 150% (+150% per stack) base damage.", 
     "StackDetails": [
       {
         "Stat": "More Daggers",
@@ -95,6 +133,7 @@
     "AssetName": "ExtraLife",
     "Id": 66,
     "Rarity": "Legendary",
+    "Pickup": "Cheat death. Consumed on use.",
     "Description": "Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability.",
     "StackDetails": [
       {
@@ -110,7 +149,8 @@
     "AssetName": "Icicle",
     "Id": 14,
     "Rarity": "Legendary",
-    "Description": "Killing an enemy surrounds you with an ice storm that deals 1200% damage per second and slows enemies by 80% for 1.5s. The storm grows with every kill, increasing its radius by 1m. Stacks up to 6m (+6m per stack).",
+    "Pickup": "Killing enemies surrounds you with an ice storm.",
+    "Description": "Killing an enemy surrounds you with an ice storm that deals 1200% damage per second and slows enemies by 80% for 1.5s. The storm grows with every kill, increasing its radius by 2m. Stacks up to 18m (+12m per stack).", 
     "StackDetails": [
       {
         "Stat": "Larger Radius",
@@ -125,7 +165,8 @@
     "AssetName": "FallBoots",
     "Id": 22,
     "Rarity": "Legendary",
-    "Description": "Increase jump height. Creates a 10m radius kinetic explosion on hitting the ground, dealing 2300% base damage that scales up with speed. Recharges in 10 (-50% per stack) seconds.",
+    "Pickup": "Increase jump height. Hold 'Interact' to slam down to the ground.",
+    "Description":  "Increase jump height. Creates a 5m-100m radius kinetic explosion on hitting the ground, dealing 1000%-10000% base damage that scales up with fall distance. Recharges in 10 (-50% per stack) seconds.",
     "StackDetails": [
       {
         "Stat": "Faster Recharge",
@@ -140,6 +181,7 @@
     "AssetName": "GhostOnKill",
     "Id": 15,
     "Rarity": "Legendary",
+    "Pickup": "Chance on killing an enemy to summon a ghost.",
     "Description": "Killing enemies has a 7% chance to spawn a ghost of the killed enemy with 1500% damage. Lasts 30s (+30s per stack).",
     "StackDetails": [
       {
@@ -155,6 +197,7 @@
     "AssetName": "UtilitySkillMagazine",
     "Id": 68,
     "Rarity": "Legendary",
+    "Pickup": "Add 2 extra charges of your Utility skill. Reduce Utility skill cooldown.",
     "Description": "Add +2 (+2 per stack) charges of your Utility skill. Reduces Utility skill cooldown by 33%.",
     "StackDetails": [
       {
@@ -175,7 +218,8 @@
     "AssetName": "Plant",
     "Id": 105,
     "Rarity": "Legendary",
-    "Description": "On kill, plant a healing fruit seed that grows into a plant after 5 seconds. The plant heals for 5% of maximum health every second to all allies within 3m (+1.5m per stack). Lasts 10 seconds",
+    "Pickup": "Plant a healing fruit on kill.",
+    "Description": "On kill, plant a healing fruit seed that grows into a plant after 5 seconds. \n\nThe plant heals for 10% of maximum health every second to all allies within 5m (+5.0m per stack). Lasts 10 seconds.",
     "StackDetails": [
       {
         "Stat": "Larger Healing Radius",
@@ -185,11 +229,28 @@
     ]
   },
   {
+    "DisplayName": "Laser Scope",
+    "Name": "Laser_Scope",
+    "AssetName": "CritDamage",
+    "Id": 137,
+    "Rarity": "Legendary",
+    "Pickup": "Your 'Critical Strikes' deal an additional 100% damage.",
+    "Description": "Critical Strikes deal an additional 100% damage(+100% per stack).", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "N'kuhana's Opinion",
     "Name": "N%27kuhana%27s_Opinion",
     "AssetName": "NovaOnHeal",
     "Id": 31,
     "Rarity": "Legendary",
+    "Pickup": "Fire haunting skulls when healed.",
     "Description": "Store 100% (+100% per stack) of healing as Soul Energy. After your Soul Energy reaches 10% of your maximum health, fire a skull that deals 250% of your Soul Energy as damage.",
     "StackDetails": [
       {
@@ -200,11 +261,28 @@
     ]
   },
   {
+    "DisplayName": "Pocket I.C.B.M.",
+    "Name": "Unknown",
+    "AssetName": "MoreMissile",
+    "Id": 161,
+    "Rarity": "Legendary",
+    "Pickup": "All Missile items deal more damage and fire an additional two missiles.",
+    "Description": "All missile items and equipment fire an additional 2 missiles. Increase missile damage by 0% (+50% per stack)",
+    "StackDetails": [
+      {
+        "Stat": "More Missile Damage",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Rejuvenation Rack",
     "Name": "Rejuvenation_Rack",
     "AssetName": "IncreaseHealing",
     "Id": 75,
     "Rarity": "Legendary",
+    "Pickup": "Double the strength of healing.",
     "Description": "Heal +100% (+100% per stack) more.",
     "StackDetails": [
       {
@@ -220,7 +298,8 @@
     "AssetName": "LaserTurbine",
     "Id": 95,
     "Rarity": "Legendary",
-    "Description": "Killing enemies charges the Resonance Disc. The disc launches itself toward a target for 300% base damage (+300% per stack), piercing all enemies it doesn't kill, and then explodes for 1000% base damage (+1000% per stack). Returns to the user, striking all enemies along the way for 300% base damage (+300% per stack).",
+    "Pickup": "Obtain a Resonance Disc charged by killing enemies. Fires automatically when fully charged.",
+    "Description": "Killing 4 enemies in 7 seconds charges the Resonance Disc. The disc launches itself toward a target for 300% base damage (+300% per stack), piercing all enemies it doesn't kill, and then explodes for 1000% base damage (+1000% per stack). Returns to the user, striking all enemies along the way for 300% base damage (+300% per stack).",
     "StackDetails": [
       {
         "Stat": "More Damage",
@@ -235,7 +314,8 @@
     "AssetName": "BounceNearby",
     "Id": 38,
     "Rarity": "Legendary",
-    "Description": "Chance on hit to fire homing hooks at up to 10 (+5 per stack) enemies for 100% TOTAL damage. 20% (+20% per stack) chance on hit to fire homing hooks.",
+    "Pickup": "Chance to hook all nearby enemies.",
+    "Description": "20% (+20% per stack) chance on hit to fire homing hooks at up to 10 (+5 per stack) enemies for 100% TOTAL damage.",
     "StackDetails": [
       {
         "Stat": "Chance to Fire Hooks",
@@ -255,6 +335,7 @@
     "AssetName": "ArmorReductionOnHit",
     "Id": 85,
     "Rarity": "Legendary",
+    "Pickup": "Reduce the armor of enemies after repeatedly striking them.",
     "Description": "After hitting an enemy 5 times, reduce their armor by 60 for 8 (+8 per stack) seconds.",
     "StackDetails": [
       {
@@ -270,6 +351,7 @@
     "AssetName": "Talisman",
     "Id": 51,
     "Rarity": "Legendary",
+    "Pickup": "Kills reduce equipment cooldown.",
     "Description": "Kills reduce equipment cooldown by 4s (+2s per stack).",
     "StackDetails": [
       {
@@ -280,11 +362,28 @@
     ]
   },
   {
+    "DisplayName": "Symbiotic Scorpion",
+    "Name": "Symbiotic_Scorpion",
+    "AssetName": "PermanentDebuffOnHit",
+    "Id": 135,
+    "Rarity": "Legendary",
+    "Pickup": "Permanently reduce armor on hit.",
+    "Description": "100% chance on hit to reduce armor by 2 (+2 per stack) permanently.", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Unstable Tesla Coil",
     "Name": "Unstable_Tesla_Coil",
     "AssetName": "ShockNearby",
     "Id": 32,
     "Rarity": "Legendary",
+    "Pickup": "Shock all nearby enemies every 10 seconds.",
     "Description": "Fire out lightning that hits 3 (+2 per stack) enemies for 200% base damage every 0.5s. The Tesla Coil switches off every 10 seconds.",
     "StackDetails": [
       {
@@ -300,6 +399,7 @@
     "AssetName": "HeadHunter",
     "Id": 69,
     "Rarity": "Legendary",
+    "Pickup": "Temporarily steal the power of slain elites.",
     "Description": "Gain the power of any killed elite monster for 8s (+5s per stack).",
     "StackDetails": [
       {

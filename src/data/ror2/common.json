@@ -5,6 +5,7 @@
     "AssetName": "BossDamageBonus",
     "Id": 61,
     "Rarity": "Common",
+    "Pickup": "Deal extra damage to bosses.",
     "Description": "Deal an additional 20% damage (+20% per stack) to bosses.",
     "StackDetails": [
       {
@@ -20,6 +21,7 @@
     "AssetName": "SecondarySkillMagazine",
     "Id": 58,
     "Rarity": "Common",
+    "Pickup": "Add an extra charge of your Secondary skill.",
     "Description": "Add +1 (+1 per stack) charge of your Secondary skill.",
     "StackDetails": [
       {
@@ -35,6 +37,7 @@
     "AssetName": "Firework",
     "Id": 42,
     "Rarity": "Common",
+    "Pickup": "Activating an interactable launches fireworks at nearby enemies.",
     "Description": "Activating an interactable launches 8 (+4 per stack) fireworks that deal 300% base damage.",
     "StackDetails": [
       {
@@ -50,7 +53,8 @@
     "AssetName": "Mushroom",
     "Id": 16,
     "Rarity": "Common",
-    "Description": "After standing still for 2 seconds, create a zone that heals for 4.5% (+2.25% per stack) of your health every second to all allies within 3m (+1.5m per stack). (At 44 stacks, healing will be 101.25%/s but can go higher with items like Aegis)",
+    "Pickup": "Heal all nearby allies after standing still for 1 second.",
+    "Description": "After standing still for 1 second, create a zone that heals for 4.5% (+2.25% per stack) of your health every second to all allies within 3m (+1.5m per stack). (At 44 stacks, healing will be 101.25%/s but can go higher with items like Aegis)",
     "StackDetails": [
       {
         "Stat": "More Healing",
@@ -70,6 +74,7 @@
     "AssetName": "HealWhileSafe",
     "Id": 27,
     "Rarity": "Common",
+    "Pickup": "Rapidly heal outside of danger.",
     "Description": "Increases base health regeneration by +4 hp/s (+4 hp/s per stack) while outside of combat.",
     "StackDetails": [
       {
@@ -85,6 +90,7 @@
     "AssetName": "Crowbar",
     "Id": 17,
     "Rarity": "Common",
+    "Pickup": "Deal bonus damage to enemies above 90% health.",
     "Description": "Deal 75% (+75% per stack) damage to enemies above 90% health.",
     "StackDetails": [
       {
@@ -95,12 +101,45 @@
     ]
   },
   {
+    "DisplayName": "Delicate Watch",
+    "Name": "Delicate_Watch",
+    "AssetName": "FragileDamageBonus",
+    "Id": 155,
+    "Rarity": "Common",
+    "Pickup": "Deal bonus damage. Breaks at low health.",
+    "Description": "Increase damage by 20%(+20% per stack). Taking damage to below 25% health breaks this item.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Power Elixir",
+    "Name": "Power Elixir",
+    "AssetName": "HealingPotion",
+    "Id": 133,
+    "Rarity": "Common",
+    "Pickup": "Receive an instant heal at low health. Consumed on use.",
+    "Description": "Taking damage to below 25% health consumes this item, healing you for 75% of maximum health.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Energy Drink",
     "Name": "Energy_Drink",
     "AssetName": "SprintBonus",
     "Id": 57,
     "Rarity": "Common",
-    "Description": "Sprint speed is improved by 30% (+20% per stack).",
+    "Pickup": "Increase sprint speed by +25%.",
+    "Description": "Sprint speed is improved by 25% (+25% per stack).",
     "StackDetails": [
       {
         "Stat": "Higher Sprint Speed",
@@ -115,6 +154,7 @@
     "AssetName": "NearbyDamageBonus",
     "Id": 87,
     "Rarity": "Common",
+    "Pickup": "Deal bonus damage to nearby enemies.",
     "Description": "Increase damage to enemies within 13m by 20% (+20% per stack).",
     "StackDetails": [
       {
@@ -130,6 +170,7 @@
     "AssetName": "IgniteOnKill",
     "Id": 39,
     "Rarity": "Common",
+    "Pickup": "Killing an enemy ignites other nearby enemies.",
     "Description": "Killing an enemy ignites all enemies within 12m (+4m per stack) for 150% base damage. Additionally, enemies burn for 150% (+75% per stack) base damage.",
     "StackDetails": [
       {
@@ -150,6 +191,7 @@
     "AssetName": "CritGlasses",
     "Id": 7,
     "Rarity": "Common",
+    "Pickup": "Gain 10% chance for hits to 'Critically Strike', dealing double damage.",
     "Description": "Your attacks have a 10% (+10% per stack) chance to 'Critically Strike', dealing double damage.",
     "StackDetails": [
       {
@@ -165,7 +207,8 @@
     "AssetName": "Medkit",
     "Id": 36,
     "Rarity": "Common",
-    "Description": "Heal for 25 (+25 per stack) health 2 seconds after getting hurt.",
+    "Pickup": "Receive a delayed heal after taking damage.",
+    "Description": "2 seconds after getting hurt, heal for 20 plus an additional 5% (+5% per stack) of maximum health.", 
     "StackDetails": [
       {
         "Stat": "More Healing",
@@ -175,12 +218,29 @@
     ]
   },
   {
+    "DisplayName": "Mocha",
+    "Name": "Mocha",
+    "AssetName": "AttackSpeedAndMoveSpeed",
+    "Id": 136,
+    "Rarity": "Common",
+    "Pickup": "Slightly increase attack speed and movement speed.",
+    "Description": "Increases attack speed by 7.5% (+7.5% per stack) and movement speed by 7% (+7% per stack).", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Monster Tooth",
     "Name": "Monster_Tooth",
     "AssetName": "Tooth",
     "Id": 6,
     "Rarity": "Common",
-    "Description": "Killing an enemy spawns a healing orb that heals for 8 (+8 per stack) health.",
+    "Pickup": "Drop a healing orb on kill.",
+    "Description": "Killing an enemy spawns a healing orb that heals for 8 plus an additional 2% (+2% per stack) of maximum health.", 
     "StackDetails": [
       {
         "Stat": "More Healing",
@@ -190,11 +250,28 @@
     ]
   },
   {
+    "DisplayName": "Oddly-shaped Opal",
+    "Name": "Unknown",
+    "AssetName": "OutOfCombatArmor",
+    "Id": 157,
+    "Rarity": "Common",
+    "Pickup": "Reduce damage the first time you are hit.",
+    "Description": "Increase armor by 100 (+100 per stack) while out of danger.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Paul's Goat Hoof",
     "Name": "Paul%27s_Goat_Hoof",
     "AssetName": "Hoof",
     "Id": 8,
     "Rarity": "Common",
+    "Pickup": "Increase movement speed.",
     "Description": "Increases movement speed by 14% (+14% per stack).",
     "StackDetails": [
       {
@@ -210,6 +287,7 @@
     "AssetName": "PersonalShield",
     "Id": 29,
     "Rarity": "Common",
+    "Pickup": "Gain a recharging shield.",
     "Description": "Gain a shield equal to 8% (+8% per stack) of your maximum health. Recharges outside of danger.",
     "StackDetails": [
       {
@@ -225,6 +303,7 @@
     "AssetName": "ArmorPlate",
     "Id": 102,
     "Rarity": "Common",
+    "Pickup": "Receive flat damage reduction from all attacks.",
     "Description": "Reduce all incoming damage by 5 (+5 per stack). Cannot be reduced below 1.",
     "StackDetails": [
       {
@@ -235,11 +314,28 @@
     ]
   },
   {
+    "DisplayName": "Roll of Pennies",
+    "Name": "Unknown",
+    "AssetName": "Unknown",
+    "Id": 166,
+    "Rarity": "Common",
+    "Pickup": "Gain gold on taking damage.",
+    "Description": "Gain 3 (+3 per stack) gold on taking damage from an enemy. Scales over time.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Rusted Key",
     "Name": "Rusted_Key",
     "AssetName": "TreasureCache",
     "Id": 60,
     "Rarity": "Common",
+    "Pickup":"Gain access to a Rusty Lockbox that contains a powerful item.",
     "Description": "A hidden cache containing an item (80% uncommon, 20% legendary) will appear in a random location on each stage. Opening the cache consumes this item",
     "StackDetails": [
       {
@@ -255,6 +351,7 @@
     "AssetName": "Syringe",
     "Id": 0,
     "Rarity": "Common",
+    "Pickup": "Increase attack speed.",
     "Description": "Increases attack speed by 15% (+15% per stack).",
     "StackDetails": [
       {
@@ -270,6 +367,7 @@
     "AssetName": "StickyBomb",
     "Id": 59,
     "Rarity": "Common",
+    "Pickup": "Chance on hit to attach a bomb to enemies.",
     "Description": "5% (+5% per stack) chance on hit to attach a bomb to an enemy, detonating for 180% TOTAL damage.",
     "StackDetails": [
       {
@@ -285,6 +383,7 @@
     "AssetName": "StunChanceOnHit",
     "Id": 41,
     "Rarity": "Common",
+    "Pickup": "Chance to stun on hit.",
     "Description": "5% (+5% on stack) chance on hit to stun enemies for 2 seconds.",
     "StackDetails": [
       {
@@ -300,6 +399,7 @@
     "AssetName": "BarrierOnKill",
     "Id": 84,
     "Rarity": "Common",
+    "Pickup": "Gain a temporary barrier on kill.",
     "Description": "Gain a temporary barrier on kill for 15 health (+15 per stack).",
     "StackDetails": [
       {
@@ -315,7 +415,8 @@
     "AssetName": "Bear",
     "Id": 1,
     "Rarity": "Common",
-    "Description": "15% (+15% per stack) chance to block incoming damage. Unaffected by luck.",
+    "Pickup": "Chance to block incoming damage.",
+    "Description":  "15% (+15% per stack) chance to block incoming damage. Unaffected by luck.", 
     "StackDetails": [
       {
         "Stat": "More Chance to Block Damage",
@@ -330,6 +431,7 @@
     "AssetName": "BleedOnHit",
     "Id": 20,
     "Rarity": "Common",
+    "Pickup": "Gain +10% chance to bleed enemies on hit.",
     "Description": "10% (+10% per stack) chance to bleed an enemy for 240% base damage.",
     "StackDetails": [
       {
@@ -345,7 +447,8 @@
     "AssetName": "WardOnLevel",
     "Id": 24,
     "Rarity": "Common",
-    "Description": "On level up drop a banner that strengthens all allies within 16m (+8m per stack). Raise attack and movement speed by 30%.",
+    "Pickup": "Drop a Warbanner on level up or starting the Teleporter event. Grants allies attack and movement speed.",
+    "Description": "On level up or starting the Teleporter event, drop a banner that strengthens all allies within 16m (+8m per stack). Raise attack and movement speed by 30%.",
     "StackDetails": [
       {
         "Stat": "More Buff Radius",
@@ -360,6 +463,7 @@
     "AssetName": "FlatHealth",
     "Id": 91,
     "Rarity": "Common",
+    "Pickup": "Gain 25 max health.",
     "Description": "Increases maximum health by 25 (+25 per stack).",
     "StackDetails": [
       {

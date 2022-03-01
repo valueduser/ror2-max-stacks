@@ -5,7 +5,8 @@
     "AssetName": "Missile",
     "Id": 3,
     "Rarity": "Uncommon",
-    "Description": "10% chance to fire a missile that deals 300% (+300% per stack) TOTAL damage.",
+    "Pickup": "Chance to fire a missile.",
+    "Description":"10% chance to fire a missile that deals 300% (+300% per stack) TOTAL damage.", 
     "StackDetails": [
       {
         "Stat": "More Damage",
@@ -20,6 +21,7 @@
     "AssetName": "Bandolier",
     "Id": 37,
     "Rarity": "Uncommon",
+    "Pickup": "Chance on kill to drop an ammo pack that resets all skill cooldowns.",
     "Description": "18% (+10% per stack) chance on kill to drop an ammo pack that resets all skill cooldowns.",
     "StackDetails": [
       {
@@ -35,7 +37,8 @@
     "AssetName": "WarCryOnMultiKill",
     "Id": 46,
     "Rarity": "Uncommon",
-    "Description": "Killing 3 enemies within 1 second sends you into a frenzy for 6s (+4s per stack). Increases movement speed by 50% and attack speed by 100%.",
+    "Pickup": "Enter a frenzy after killing 4 enemies in quick succession.",
+    "Description": "Killing 4 enemies within 1 second sends you into a frenzy for 6s (+4s per stack). Increases movement speed by 50% and attack speed by 100%.",
     "StackDetails": [
       {
         "Stat": "Longer Frenzy",
@@ -50,6 +53,7 @@
     "AssetName": "SlowOnHit",
     "Id": 65,
     "Rarity": "Uncommon",
+    "Pickup": "Slow enemies on hit.",
     "Description": "Slow enemies on hit for -60% movement speed for 2s (+2s per stack).",
     "StackDetails": [
       {
@@ -65,7 +69,8 @@
     "AssetName": "DeathMark",
     "Id": 104,
     "Rarity": "Uncommon",
-    "Description": "Enemies with 4 or more debuffs are marked for death, increasing damage taken by 50% (+50% per stack) from all sources for 7 seconds.",
+    "Pickup": "Enemies with 4 or more debuffs are marked for death, taking bonus damage.",
+    "Description": "Enemies with 4 or more debuffs are marked for death, increasing damage taken by 50% from all sources for 7 (+7 per stack) seconds.",
     "StackDetails": [
       {
         "Stat": "More Damage",
@@ -80,7 +85,8 @@
     "AssetName": "EquipmentMagazine",
     "Id": 30,
     "Rarity": "Uncommon",
-    "Description": "Reduce equipment cooldown by 15% (+15% per stack).  Hold an additional equipment charge (+1 per stack).",
+    "Pickup": "Hold an additional equipment charge. Reduce equipment cooldown.",
+    "Description": "Hold an additional equipment charge (+1 per stack). Reduce equipment cooldown by 15% (+15% per stack).",
     "StackDetails": [
       {
         "Stat": "Faster Cooldown",
@@ -100,7 +106,8 @@
     "AssetName": "BonusGoldPackOnKill",
     "Id": 94,
     "Rarity": "Uncommon",
-    "Description": "4% (+4% on stack) chance on kill to drop a treasure worth $25. Scales over time.",
+    "Pickup": "Chance on kill to drop a treasure.",
+    "Description":  "4% (+4% per stack) chance on kill to drop a treasure worth 25 gold. Scales over time.",
     "StackDetails": [
       {
         "Stat": "More Chance to Drop",
@@ -115,7 +122,8 @@
     "AssetName": "HealOnCrit",
     "Id": 26,
     "Rarity": "Uncommon",
-    "Description": "Critical strikes heal for 8 (+4 per stack) health. Gain 5% critical chance (+0% per stack).",
+    "Pickup": "'Critical Strikes' heal you.",
+    "Description": "Gain 5% critical chance. Critical strikes heal for 8 (+4 per stack) health.",
     "StackDetails": [
       {
         "Stat": "Crit Chance",
@@ -135,7 +143,8 @@
     "AssetName": "Feather",
     "Id": 9,
     "Rarity": "Uncommon",
-    "Description": "Gain +1 (+1 per stack) maximum jump count.",
+    "Pickup": "Gain an extra jump.",
+    "Description": "Gain +1 (+1 per stack) maximum jump count.", 
     "StackDetails": [
       {
         "Stat": "More Jumps",
@@ -145,11 +154,44 @@
     ]
   },
   {
+    "DisplayName": "Hunter's Harpoon",
+    "Name": "Unknown",
+    "AssetName": "MoveSpeedOnKill",
+    "Id": 132,
+    "Rarity": "Uncommon",
+    "Pickup": "Killing an enemy gives you a burst of movement speed.",
+    "Description":  "Killing an enemy increases movement speed by 125%, fading over 1 (+0.5 per stack) seconds.", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "?"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Ignition Tank",
+    "Name": "Ignition_Tank",
+    "AssetName": "StrengthenBurn",
+    "Id": 141,
+    "Rarity": "Uncommon",
+    "Pickup": "Your ignite effects deal 2x more damage, and last 2x as long.",
+    "Description": "Ignite effects deal +300% (+300% per stack) more damage over time.", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Infusion",
     "Name": "Infusion",
     "AssetName": "Infusion",
     "Id": 33,
     "Rarity": "Uncommon",
+    "Pickup": "Killing an enemy permanently increases your maximum health, up to 100.",
     "Description": "Killing an enemy increases your health permanently by 1 (+1 per stack), up to a maximum of 100 (+100 per stack) health.",
     "StackDetails": [
       {
@@ -165,7 +207,8 @@
     "AssetName": "FireRing",
     "Id": 64,
     "Rarity": "Uncommon",
-    "Description": "8% chance on hit to strike an enemy with a runic flame tornado, dealing 500% (+250% per stack) TOTAL damage.",
+    "Pickup":  "High damage hits also blasts enemies with a runic flame tornado. Recharges over time.",
+    "Description": "Hits that deal more than 400% damage also blasts enemies with a runic flame tornado, dealing 300% (+300% per stack) TOTAL damage over time. Recharges every 10 seconds.",
     "StackDetails": [
       {
         "Stat": "More Damage",
@@ -180,7 +223,8 @@
     "AssetName": "Seed",
     "Id": 13,
     "Rarity": "Uncommon",
-    "Description": "Dealing damage heals you for 1 (+1 per stack) health.",
+    "Pickup": "Dealing damage heals you.",
+    "Description": "Dealing damage heals you for 1 (+1 per stack) health.", 
     "StackDetails": [
       {
         "Stat": "More Healing",
@@ -195,6 +239,7 @@
     "AssetName": "TPHealingNova",
     "Id": 86,
     "Rarity": "Uncommon",
+    "Pickup": "Periodically release a healing nova during the Teleporter event.",
     "Description": "Release a healing nova during the Teleporter event, healing all nearby allies for 50% of their maximum health. Occurs 1 (+1 per stack) times.",
     "StackDetails": [
       {
@@ -210,7 +255,8 @@
     "AssetName": "ExecuteLowHealthElite",
     "Id": 78,
     "Rarity": "Uncommon",
-    "Description": "Instantly kill Elite monsters below 20% (+20% per stack) health.",
+    "Pickup": "Instantly kill low health Elite monsters.",
+    "Description": "Instantly kill Elite monsters below 13% (+13% per stack) health.",
     "StackDetails": [
       {
         "Stat": "Lower Health Floor",
@@ -225,6 +271,7 @@
     "AssetName": "Phasing",
     "Id": 25,
     "Rarity": "Uncommon",
+    "Pickup": "Turn invisible at low health.",
     "Description": "Falling below 25% health causes you to gain 40% movement speed and invisibility for 5s. Recharges every 30 seconds (-50% per stack).",
     "StackDetails": [
       {
@@ -240,7 +287,8 @@
     "AssetName": "AttackSpeedOnCrit",
     "Id": 19,
     "Rarity": "Uncommon",
-    "Description": "Gain 5% critical chance (+0% per stack). Critical strikes increase attack speed by 12%. Maximum cap of 36% (+24% per stack) attack speed.",
+    "Pickup": "'Critical Strikes' increase attack speed. Stacks 3 times.",
+    "Description": "Critical strikes increase attack speed by 12%. Maximum cap of 36% (+24% per stack) attack speed.",
     "StackDetails": [
       {
         "Stat": "Crit Chance",
@@ -260,6 +308,7 @@
     "AssetName": "Thorns",
     "Id": 90,
     "Rarity": "Uncommon",
+    "Pickup": "Retaliate in a burst of razors on taking damage.",
     "Description": "Getting hit causes you to explode in a burst of razors, dealing 160% damage. Hits up to 5 (+2 per stack) targets in a 25m (+10m per stack) radius",
     "StackDetails": [
       {
@@ -280,6 +329,7 @@
     "AssetName": "SprintOutOfCombat",
     "Id": 21,
     "Rarity": "Uncommon",
+    "Pickup": "Move fast out of combat.",
     "Description": "Leaving combat boosts your movement speed by 30% (+30% per stack).",
     "StackDetails": [
       {
@@ -289,12 +339,29 @@
       }
     ]
   },
+    {
+    "DisplayName": "Regenerating Scrap",
+    "Name": "Unknown",
+    "AssetName": "RegeneratingScrap",
+    "Id": 143,
+    "Rarity": "Uncommon",
+    "Pickup": "Prioritized when used with Uncommon 3D Printers. Usable once per stage.",
+    "Description": "Does nothing. Prioritized when used with Uncommon 3D Printers. At the start of each stage, it regenerates.", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
   {
     "DisplayName": "Rose Buckler",
     "Name": "Rose_Buckler",
     "AssetName": "SprintArmor",
     "Id": 62,
     "Rarity": "Uncommon",
+    "Pickup": "Reduce incoming damage while sprinting.",
     "Description": "Increase armor by 30 (+30 per stack) while sprinting.",
     "StackDetails": [
       {
@@ -310,7 +377,8 @@
     "AssetName": "IceRing",
     "Id": 63,
     "Rarity": "Uncommon",
-    "Description": "8% chance on hit to strike an enemy with a runic ice blast, slowing them by 80% and dealing 250% (+125% per stack) TOTAL damage.",
+    "Pickup": "High damage hits also blasts enemies with runic ice. Recharges over time.",
+    "Description": "Hits that deal more than 400% damage also blasts enemies with a runic ice blast, slowing them by 80% for 3s (+3s per stack) and dealing 250% (+250% per stack) TOTAL damage. Recharges every 10 seconds.",
     "StackDetails": [
       {
         "Stat": "More Damage",
@@ -320,11 +388,44 @@
     ]
   },
   {
+    "DisplayName": "Shipping Request Form",
+    "Name": "Shipping_Request_Form",
+    "AssetName": "FreeChest",
+    "Id": 169,
+    "Rarity": "Uncommon",
+    "Pickup": "Get a delivery each stage that contains powerful items.",
+    "Description": "A delivery containing 2 items (79%/20%/1%) will appear in a random location on each stage. (Increases rarity chances of the items per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Shuriken",
+    "Name": "Shuriken",
+    "AssetName": "PrimarySkillShuriken",
+    "Id": 164,
+    "Rarity": "Uncommon",
+    "Pickup": "Activating your Primary skill also throws a shuriken. Recharges over time.",
+    "Description": "Activating your Primary skill also throws a shuriken that deals 400% (+100% per stack) base damage. You can hold up to 3 (+1 per stack) shurikens which all reload over 10 seconds.", 
+    "StackDetails": [
+      {
+        "Stat": "More Shuriken",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Squid Polyp",
     "Name": "Squid_Polyp",
     "AssetName": "Squid",
     "Id": 103,
     "Rarity": "Uncommon",
+    "Pickup": "Activating an interactable summons a Squid Turret nearby.",
     "Description": "Activating an interactable summons a Squid Turret that attacks nearby enemies at 100% (+100% per stack) attack speed. Lasts 30 seconds.",
     "StackDetails": [
       {
@@ -340,6 +441,7 @@
     "AssetName": "ChainLightning",
     "Id": 11,
     "Rarity": "Uncommon",
+    "Pickup": "...and his music was electric.",
     "Description": "25% chance to fire chain lightning for 80% TOTAL damage on up to 3 (+2 per stack) targets within 20m (+2m per stack).",
     "StackDetails": [
       {
@@ -360,6 +462,7 @@
     "AssetName": "EnergizedOnEquipmentUse",
     "Id": 79,
     "Rarity": "Uncommon",
+    "Pickup": "Activating your Equipment gives you a burst of attack speed.",
     "Description": "Activating your Equipment gives you +70% attack speed for 8s (+4s per stack).",
     "StackDetails": [
       {
@@ -375,7 +478,8 @@
     "AssetName": "JumpBoost",
     "Id": 76,
     "Rarity": "Uncommon",
-    "Description": "Jumping while sprinting boosts you forward by 10m (+10m per stack).",
+    "Pickup": "Jumping while sprinting boosts you forward.",
+    "Description": "Jumping while sprinting boosts you forward by 10m(+10m per stack).",
     "StackDetails": [
       {
         "Stat": "Further Jumps",
@@ -390,7 +494,8 @@
     "AssetName": "ExplodeOnDeath",
     "Id": 4,
     "Rarity": "Uncommon",
-    "Description": "On killing an enemy, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350% (+280% per stack) base damage.",
+    "Pickup": "Detonate enemies on kill.",
+    "Description": "On killing an enemy, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350% (+280% per stack) base damage.", 
     "StackDetails": [
       {
         "Stat": "More Damage",
