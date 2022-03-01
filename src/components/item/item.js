@@ -19,7 +19,7 @@ const Item = (props) => {
     if (game === 1) {
       imagePath += 'ror1/' + item.Name + '.png'
     } else {
-      imagePath += 'ror2/' + item.Name + '.png'
+        imagePath += 'ror2/' + item.Name + '.png'
     }
     return imagePath
   }
@@ -63,7 +63,8 @@ const Item = (props) => {
         })}
       </Label.Group>
       <Image
-        src={getItemImage(item)}
+        src={getItemImage(item)} 
+        onError={(e)=>{e.target.onError = null; e.target.src = 'http://placehold.jp/3845ff/ffffff/128x128.png?text=' + item.DisplayName}}
         title={item.DisplayName}
         alt={item.DisplayName}
         width='100'

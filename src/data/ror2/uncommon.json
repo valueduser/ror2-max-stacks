@@ -156,15 +156,32 @@
   {
     "DisplayName": "Hunter's Harpoon",
     "Name": "Unknown",
-    "AssetName": "Unknown",
-    "Id": -1,
+    "AssetName": "MoveSpeedOnKill",
+    "Id": 132,
     "Rarity": "Uncommon",
-    "Description": "Killing an enemy gives you a burst of movement speed.",
+    "Pickup": "Killing an enemy gives you a burst of movement speed.",
+    "Description":  "Killing an enemy increases movement speed by 125%, fading over 1 (+0.5 per stack) seconds.", 
     "StackDetails": [
       {
         "Stat": "Unknown",
         "StackType": "Unknown",
         "GoodEnoughStacks": "?"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Ignition Tank",
+    "Name": "Ignition_Tank",
+    "AssetName": "StrengthenBurn",
+    "Id": 141,
+    "Rarity": "Uncommon",
+    "Pickup": "Your ignite effects deal 2x more damage, and last 2x as long.",
+    "Description": "Ignite effects deal +300% (+300% per stack) more damage over time.", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
       }
     ]
   },
@@ -325,10 +342,11 @@
     {
     "DisplayName": "Regenerating Scrap",
     "Name": "Unknown",
-    "AssetName": "Unknown",
-    "Id": -1,
+    "AssetName": "RegeneratingScrap",
+    "Id": 143,
     "Rarity": "Uncommon",
-    "Description": "Prioritized when used with Uncommon 3D Printers. Usable once per stage.",
+    "Pickup": "Prioritized when used with Uncommon 3D Printers. Usable once per stage.",
+    "Description": "Does nothing. Prioritized when used with Uncommon 3D Printers. At the start of each stage, it regenerates.", 
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -370,11 +388,28 @@
     ]
   },
   {
+    "DisplayName": "Shipping Request Form",
+    "Name": "Shipping_Request_Form",
+    "AssetName": "FreeChest",
+    "Id": 169,
+    "Rarity": "Uncommon",
+    "Pickup": "Get a delivery each stage that contains powerful items.",
+    "Description": "A delivery containing 2 items (79%/20%/1%) will appear in a random location on each stage. (Increases rarity chances of the items per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Shuriken",
     "Name": "Shuriken",
-    "AssetName": "Unknown",
-    "Id": -1,
+    "AssetName": "PrimarySkillShuriken",
+    "Id": 164,
     "Rarity": "Uncommon",
+    "Pickup": "Activating your Primary skill also throws a shuriken. Recharges over time.",
     "Description": "Activating your Primary skill also throws a shuriken that deals 400% (+100% per stack) base damage. You can hold up to 3 (+1 per stack) shurikens which all reload over 10 seconds.", 
     "StackDetails": [
       {

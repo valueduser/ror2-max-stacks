@@ -50,9 +50,10 @@
   {
     "DisplayName": "Ben's Raincoat",
     "Name": "Unknown",
-    "AssetName": "Unknown",
-    "Id": -1,
+    "AssetName": "ImmuneToDebuff",
+    "Id": 162,
     "Rarity": "Legendary",
+    "Pickup": "Become immune to all debuffs. Increase maximum health.",
     "Description": "Whenever you would receive a debuff, prevent it. Increases maximum health by 100 (+100 per stack).", 
     "StackDetails": [
       {
@@ -65,10 +66,11 @@
   {
     "DisplayName": "Bottled Chaos",
     "Name": "Unknown",
-    "AssetName": "Unknown",
-    "Id": -1,
+    "AssetName": "RandomEquipmentTrigger",
+    "Id": 163,
     "Rarity": "Legendary",
-    "Description": "Activating your Equipment triggers an additional, random Equipment effect.",
+    "Pickup": "Activating your Equipment triggers an additional, random Equipment effect.",
+    "Description": "Trigger a random equipment effect 1 (+1 per stack) time(s).",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -227,6 +229,22 @@
     ]
   },
   {
+    "DisplayName": "Laser Scope",
+    "Name": "Laser_Scope",
+    "AssetName": "CritDamage",
+    "Id": 137,
+    "Rarity": "Legendary",
+    "Pickup": "Your 'Critical Strikes' deal an additional 100% damage.",
+    "Description": "Critical Strikes deal an additional 100% damage(+100% per stack).", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "N'kuhana's Opinion",
     "Name": "N%27kuhana%27s_Opinion",
     "AssetName": "NovaOnHeal",
@@ -245,10 +263,11 @@
   {
     "DisplayName": "Pocket I.C.B.M.",
     "Name": "Unknown",
-    "AssetName": "Unknown",
-    "Id": -1,
+    "AssetName": "MoreMissile",
+    "Id": 161,
     "Rarity": "Legendary",
-    "Description": "All missile items and equipment fire an additional 2 missiles. Increase missile damage by 0% (+50% per stack).",
+    "Pickup": "All Missile items deal more damage and fire an additional two missiles.",
+    "Description": "All missile items and equipment fire an additional 2 missiles. Increase missile damage by 0% (+50% per stack)",
     "StackDetails": [
       {
         "Stat": "More Missile Damage",
@@ -339,6 +358,22 @@
         "Stat": "More Cooldown Reduction",
         "StackType": "Linear",
         "GoodEnoughStacks": 67
+      }
+    ]
+  },
+  {
+    "DisplayName": "Symbiotic Scorpion",
+    "Name": "Symbiotic_Scorpion",
+    "AssetName": "PermanentDebuffOnHit",
+    "Id": 135,
+    "Rarity": "Legendary",
+    "Pickup": "Permanently reduce armor on hit.",
+    "Description": "100% chance on hit to reduce armor by 2 (+2 per stack) permanently.", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
       }
     ]
   },

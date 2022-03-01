@@ -53,6 +53,22 @@
     ]
   },
   {
+    "DisplayName": "Egocentrism",
+    "Name": "Egocentrism",
+    "AssetName": "LunarSun",
+    "Id": 172,
+    "Rarity": "Lunar",
+    "Pickup": "Gain multiple orbiting bombs. Every minute, assimilate another item into Egocentrism.",
+    "Description": "Every 3(-50% per stack) seconds, gain an orbiting bomb that detonates on impact for 360% damage, up to a maximum of 3(+1 per stack) bombs. Every 60 seconds, a random item is converted into this item.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Focused Convergence",
     "Name": "Focused_Convergence",
     "AssetName": "FocusedConvergence",
@@ -102,6 +118,22 @@
         "Stat": "More Base Damage",
         "StackType": "Exponential",
         "GoodEnoughStacks": 6
+      }
+    ]
+  },
+  {
+    "DisplayName": "Stone Flux Pauldron",
+    "Name": "Stone_Flux_Pauldron",
+    "AssetName": "HalfSpeedDoubleHealth",
+    "Id": 168,
+    "Rarity": "Lunar",
+    "Pickup": "Double your health... BUT halve your speed.",
+    "Description": "Increase max health by 100% (+100% per stack). Reduce movement speed by 50% (+50% per stack).", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
       }
     ]
   },
@@ -171,6 +203,22 @@
         "Stat": "More Cooldown Reduction",
         "StackType": "Linear",
         "GoodEnoughStacks": 27
+      }
+    ]
+  },
+  {
+    "DisplayName": "Light Flux Pauldron",
+    "Name": "Light_Flux_Pauldron",
+    "AssetName": "HalfAttackSpeedHalfCooldowns",
+    "Id": 167,
+    "Rarity": "Lunar",
+    "Pickup": "Halve your cooldowns.. BUT halve your attack speed.",
+    "Description": "Decrease skill cooldowns by 50% (+50% per stack). Decrease attack speed by 50% (+50% per stack).", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
       }
     ]
   },

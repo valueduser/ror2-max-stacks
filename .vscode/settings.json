@@ -6,6 +6,7 @@
     "Brainstalks",
     "Chargefield",
     "Chronobauble",
+    "Chronobaubles",
     "Corpsebloom",
     "debuff",
     "debuffs",
@@ -25,8 +26,11 @@
     "Kjaro's",
     "knockback",
     "kuhana",
+    "Lysate",
     "Medkit",
     "N'kuhana's",
+    "Needletick",
+    "Pluripotent",
     "Polylute",
     "Razorwire",
     "regen",
@@ -43,6 +47,8 @@
     "Stealthkit",
     "teleporter",
     "Teleporters",
+    "Tentabauble",
+    "Voidsent",
     "Warbanner"
   ]
 }

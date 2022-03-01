@@ -103,10 +103,11 @@
   {
     "DisplayName": "Delicate Watch",
     "Name": "Delicate_Watch",
-    "AssetName": "Unknown",
-    "Id": -1,
+    "AssetName": "FragileDamageBonus",
+    "Id": 155,
     "Rarity": "Common",
-    "Description": "Deal bonus damage. Breaks at low health.",
+    "Pickup": "Deal bonus damage. Breaks at low health.",
+    "Description": "Increase damage by 20%(+20% per stack). Taking damage to below 25% health breaks this item.",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -116,11 +117,12 @@
     ]
   },
   {
-    "DisplayName": "Elixir",
-    "Name": "Elixir",
-    "AssetName": "Unknown",
-    "Id": -1,
+    "DisplayName": "Power Elixir",
+    "Name": "Power Elixir",
+    "AssetName": "HealingPotion",
+    "Id": 133,
     "Rarity": "Common",
+    "Pickup": "Receive an instant heal at low health. Consumed on use.",
     "Description": "Taking damage to below 25% health consumes this item, healing you for 75% of maximum health.",
     "StackDetails": [
       {
@@ -218,10 +220,11 @@
   {
     "DisplayName": "Mocha",
     "Name": "Mocha",
-    "AssetName": "Unknown",
-    "Id": -1,
+    "AssetName": "AttackSpeedAndMoveSpeed",
+    "Id": 136,
     "Rarity": "Common",
-    "Description": "Slightly increase attack speed and movement speed.",
+    "Pickup": "Slightly increase attack speed and movement speed.",
+    "Description": "Increases attack speed by 7.5% (+7.5% per stack) and movement speed by 7% (+7% per stack).", 
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -249,10 +252,11 @@
   {
     "DisplayName": "Oddly-shaped Opal",
     "Name": "Unknown",
-    "AssetName": "Unknown",
-    "Id": -1,
+    "AssetName": "OutOfCombatArmor",
+    "Id": 157,
     "Rarity": "Common",
-    "Description": "Reduce damage the first time you are hit.",
+    "Pickup": "Reduce damage the first time you are hit.",
+    "Description": "Increase armor by 100 (+100 per stack) while out of danger.",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -313,9 +317,10 @@
     "DisplayName": "Roll of Pennies",
     "Name": "Unknown",
     "AssetName": "Unknown",
-    "Id": -1,
+    "Id": 166,
     "Rarity": "Common",
-    "Description": "Gain gold on taking damage.",
+    "Pickup": "Gain gold on taking damage.",
+    "Description": "Gain 3 (+3 per stack) gold on taking damage from an enemy. Scales over time.",
     "StackDetails": [
       {
         "Stat": "Unknown",
