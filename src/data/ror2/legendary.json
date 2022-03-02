@@ -49,7 +49,7 @@
   },
   {
     "DisplayName": "Ben's Raincoat",
-    "Name": "Unknown",
+    "Name": "Ben%27s_Raincoat",
     "AssetName": "ImmuneToDebuff",
     "Id": 162,
     "Rarity": "Legendary",
@@ -65,7 +65,7 @@
   },
   {
     "DisplayName": "Bottled Chaos",
-    "Name": "Unknown",
+    "Name": "Bottled_Chaos",
     "AssetName": "RandomEquipmentTrigger",
     "Id": 163,
     "Rarity": "Legendary",
@@ -262,7 +262,7 @@
   },
   {
     "DisplayName": "Pocket I.C.B.M.",
-    "Name": "Unknown",
+    "Name": "Pocket_I.C.B.M.",
     "AssetName": "MoreMissile",
     "Id": 161,
     "Rarity": "Legendary",

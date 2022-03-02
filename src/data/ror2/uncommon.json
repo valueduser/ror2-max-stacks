@@ -155,7 +155,7 @@
   },
   {
     "DisplayName": "Hunter's Harpoon",
-    "Name": "Unknown",
+    "Name": "Hunter%27s_Harpoon",
     "AssetName": "MoveSpeedOnKill",
     "Id": 132,
     "Rarity": "Uncommon",
@@ -341,7 +341,7 @@
   },
     {
     "DisplayName": "Regenerating Scrap",
-    "Name": "Unknown",
+    "Name": "Regenerating_Scrap",
     "AssetName": "RegeneratingScrap",
     "Id": 143,
     "Rarity": "Uncommon",

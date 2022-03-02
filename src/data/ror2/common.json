@@ -118,7 +118,7 @@
   },
   {
     "DisplayName": "Power Elixir",
-    "Name": "Power Elixir",
+    "Name": "Power_Elixir",
     "AssetName": "HealingPotion",
     "Id": 133,
     "Rarity": "Common",
@@ -251,7 +251,7 @@
   },
   {
     "DisplayName": "Oddly-shaped Opal",
-    "Name": "Unknown",
+    "Name": "Oddly-Shaped_Opal",
     "AssetName": "OutOfCombatArmor",
     "Id": 157,
     "Rarity": "Common",
@@ -315,7 +315,7 @@
   },
   {
     "DisplayName": "Roll of Pennies",
-    "Name": "Unknown",
+    "Name": "Roll_of_Pennies",
     "AssetName": "Unknown",
     "Id": 166,
     "Rarity": "Common",
