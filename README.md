@@ -6,6 +6,5 @@
 [GitHub Page](https://valueduser.github.io/ror2-max-stacks/)
 
 TODO:
-* DLC 1 data (Soon after 3/1/22)
 * ROR1 SD 
 * Refactor max stack calculation
