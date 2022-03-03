@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Image, Label } from 'semantic-ui-react'
+import { Button, Image, Label, Popup } from 'semantic-ui-react'
 import './item.css'
 
 const Item = (props) => {
@@ -25,52 +25,56 @@ const Item = (props) => {
   }
 
   return (
-    <Button
-      basic
-      id={'itemButton_' + item.Id}
-      onClick={() => window.open(getWikiLinkPrefix(item), '_blank')}
-    >
-      <Label.Group>
-        {item.StackDetails.filter((stackDetail) => {
-          if (game === 2) return stackDetail != null
-          return null
-        }).map((stackDetail, index) => {
-          if (['Hyperbolic', 'Special'].includes(stackDetail.StackType)) {
-            return (
-              <Label
-                key={item.Id + '_' + index}
-                basic
-                color='black'
-                content={
-                  stackDetail.GoodEnoughStacks === 'Infinite'
-                    ? '∞'
-                    : stackDetail.GoodEnoughStacks
-                }
-                size='small'
-              />
-            )
-          } else {
-            return (
-              <Label
-                key={item.Id + '_' + index}
-                style={{ visibility: 'hidden' }}
-                basic
-                color='black'
-                size='small'
-              />
-            )
-          }
-        })}
-      </Label.Group>
-      <Image
-        src={getItemImage(item)}
-        onError={(e) => { e.target.onError = null; e.target.src = 'http://placehold.jp/3845ff/ffffff/128x128.png?text=' + item.DisplayName }}
-        title={item.DisplayName}
-        alt={item.DisplayName}
-        width='100'
-        height='100'
-      />
-    </Button>
+    <Popup 
+      trigger={  
+        <Button
+          basic
+          id={'itemButton_' + item.Id}
+          onClick={() => window.open(getWikiLinkPrefix(item), '_blank')}
+        >
+          <Label.Group>
+            {item.StackDetails.filter((stackDetail) => {
+              if (game === 2) return stackDetail != null
+              return null
+            }).map((stackDetail, index) => {
+              if (['Hyperbolic', 'Special'].includes(stackDetail.StackType)) {
+                return (
+                  <Label
+                    key={item.Id + '_' + index}
+                    basic
+                    color='black'
+                    content={
+                      stackDetail.GoodEnoughStacks === 'Infinite'
+                        ? '∞'
+                        : stackDetail.GoodEnoughStacks
+                    }
+                    size='small'
+                  />
+                )
+              } else {
+                return (
+                  <Label
+                    key={item.Id + '_' + index}
+                    style={{ visibility: 'hidden' }}
+                    basic
+                    color='black'
+                    size='small'
+                  />
+                )
+              }
+            })}
+          </Label.Group>  
+              <Image
+                src={getItemImage(item)}
+                onError={(e) => { e.target.onError = null; e.target.src = 'http://placehold.jp/3845ff/ffffff/128x128.png?text=' + item.DisplayName }}
+                title={item.DisplayName}
+                alt={item.DisplayName}
+                width='100'
+                height='100'
+            />
+        </Button>
+    }
+    content={item.Pickup}/>
   )
 }
 
