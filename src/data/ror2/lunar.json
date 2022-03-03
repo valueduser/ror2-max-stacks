@@ -53,6 +53,22 @@
     ]
   },
   {
+    "DisplayName": "Defiant Gouge",
+    "Name": "Defiant_Gouge",
+    "AssetName": "MonstersOnShrineUse",
+    "Id": 115,
+    "Rarity": "Lunar",
+    "Pickup": "Using a Shrine summons enemies nearby.",
+    "Description": "Using a Shrine summons enemies nearby. Scales over time.",
+    "StackDetails": [
+      {
+        "Stat": "?",
+        "StackType": "?",
+        "GoodEnoughStacks": "?"
+      }
+    ]
+  },
+  {
     "DisplayName": "Egocentrism",
     "Name": "Egocentrism",
     "AssetName": "LunarSun",
@@ -60,6 +76,48 @@
     "Rarity": "Lunar",
     "Pickup": "Gain multiple orbiting bombs. Every minute, assimilate another item into Egocentrism.",
     "Description": "Every 3(-50% per stack) seconds, gain an orbiting bomb that detonates on impact for 360% damage, up to a maximum of 3(+1 per stack) bombs. Every 60 seconds, a random item is converted into this item.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Essence of Heresy",
+    "Name": "Essence_of_Heresy",
+    "AssetName": "LunarSpecialReplacement",
+    "Id": 124,
+    "Rarity": "Lunar",
+    "Pickup": "Replace your Special Skill with 'Ruin'.",
+    "Description": "Replace your Special Skill with Ruin. Dealing damage adds a stack of Ruin for 10 (+10 per stack) seconds. Activating the skill detonates all Ruin stacks at unlimited range, dealing 300% damage plus 120% damage per stack of Ruin. Recharges after 8 (+8 per stack) seconds.",
+    "StackDetails": [
+      {
+        "Stat": "More Ruin",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      },
+      {
+        "Stat": "More Damage",
+        "StackType": "Hyperbolic",
+        "GoodEnoughStacks": "Infinite"
+      },
+      {
+        "Stat": "Longer Recharge",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "n/a"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Eulogy Zero",
+    "Name": "Eulogy_Zero",
+    "AssetName": "RandomlyLunar",
+    "Id": 165,
+    "Rarity": "Lunar",
+    "Pickup": "Items and equipment have a small chance to transform into a Lunar item instead.",
+    "Description": "Items have a 5% (+5% per stack) chance to become a Lunar item instead.", 
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -102,6 +160,70 @@
         "Stat": "Faster Cooldown",
         "StackType": "Exponential",
         "GoodEnoughStacks": 21
+      }
+    ]
+  },
+  {
+    "DisplayName": "Hooks of Heresy",
+    "Name": "Hooks_of_Heresy",
+    "AssetName": "LunarSecondaryReplacement",
+    "Id": 123,
+    "Rarity": "Lunar",
+    "Pickup": "Replace your Secondary Skill with 'Slicing Maelstrom'.",
+    "Description": "Replace your Secondary Skill  with Slicing Maelstrom. Charge up a projectile that deals 175% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and root enemies for 3 (+3 per stack) seconds. Recharges after 5 (+5 per stack) seconds.", 
+    "StackDetails": [
+      {
+        "Stat": "Longer Recharge",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "?"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Light Flux Pauldron",
+    "Name": "Light_Flux_Pauldron",
+    "AssetName": "HalfAttackSpeedHalfCooldowns",
+    "Id": 167,
+    "Rarity": "Lunar",
+    "Pickup": "Halve your cooldowns.. BUT halve your attack speed.",
+    "Description": "Decrease skill cooldowns by 50% (+50% per stack). Decrease attack speed by 50% (+50% per stack).", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Mercurial Rachis",
+    "Name": "Mercurial_Rachis",
+    "AssetName": "RandomDamageZone",
+    "Id": 116,
+    "Rarity": "Lunar",
+    "Pickup": "Randomly create a Ward of Power. ALL characters deal bonus damage while in the Ward.",
+    "Description": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within 16m (+50% per stack), causing them to deal +50% damage.",
+    "StackDetails": [
+      {
+        "Stat": "Larger Buff Radius",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Purity",
+    "Name": "Purity",
+    "AssetName": "LunarBadLuck",
+    "Id": 121,
+    "Rarity": "Lunar",
+    "Pickup": "Reduce your skill cooldowns by 2 seconds. You are unlucky.",
+    "Description": "All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.", 
+    "StackDetails": [
+      {
+        "Stat": "More Cooldown Reduction",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 27
       }
     ]
   },
@@ -187,112 +309,6 @@
         "Stat": "More Charges",
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
-      }
-    ]
-  },
-  {
-    "DisplayName": "Purity",
-    "Name": "Purity",
-    "AssetName": "LunarBadLuck",
-    "Id": 121,
-    "Rarity": "Lunar",
-    "Pickup": "Reduce your skill cooldowns by 2 seconds. You are unlucky.",
-    "Description": "All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.", 
-    "StackDetails": [
-      {
-        "Stat": "More Cooldown Reduction",
-        "StackType": "Linear",
-        "GoodEnoughStacks": 27
-      }
-    ]
-  },
-  {
-    "DisplayName": "Light Flux Pauldron",
-    "Name": "Light_Flux_Pauldron",
-    "AssetName": "HalfAttackSpeedHalfCooldowns",
-    "Id": 167,
-    "Rarity": "Lunar",
-    "Pickup": "Halve your cooldowns.. BUT halve your attack speed.",
-    "Description": "Decrease skill cooldowns by 50% (+50% per stack). Decrease attack speed by 50% (+50% per stack).", 
-    "StackDetails": [
-      {
-        "Stat": "Unknown",
-        "StackType": "Unknown",
-        "GoodEnoughStacks": "Unknown"
-      }
-    ]
-  },
-  {
-    "DisplayName": "Mercurial Rachis",
-    "Name": "Mercurial_Rachis",
-    "AssetName": "RandomDamageZone",
-    "Id": 116,
-    "Rarity": "Lunar",
-    "Pickup": "Randomly create a Ward of Power. ALL characters deal bonus damage while in the Ward.",
-    "Description": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within 16m (+50% per stack), causing them to deal +50% damage.",
-    "StackDetails": [
-      {
-        "Stat": "Larger Buff Radius",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
-      }
-    ]
-  },
-  {
-    "DisplayName": "Defiant Gouge",
-    "Name": "Defiant_Gouge",
-    "AssetName": "MonstersOnShrineUse",
-    "Id": 115,
-    "Rarity": "Lunar",
-    "Pickup": "Using a Shrine summons enemies nearby.",
-    "Description": "Using a Shrine summons enemies nearby. Scales over time.",
-    "StackDetails": [
-      {
-        "Stat": "?",
-        "StackType": "?",
-        "GoodEnoughStacks": "?"
-      }
-    ]
-  },
-  {
-    "DisplayName": "Essence of Heresy",
-    "Name": "Essence_of_Heresy",
-    "AssetName": "LunarSpecialReplacement",
-    "Id": 124,
-    "Rarity": "Lunar",
-    "Pickup": "Replace your Special Skill with 'Ruin'.",
-    "Description": "Replace your Special Skill with Ruin. Dealing damage adds a stack of Ruin for 10 (+10 per stack) seconds. Activating the skill detonates all Ruin stacks at unlimited range, dealing 300% damage plus 120% damage per stack of Ruin. Recharges after 8 (+8 per stack) seconds.",
-    "StackDetails": [
-      {
-        "Stat": "More Ruin",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
-      },
-      {
-        "Stat": "More Damage",
-        "StackType": "Hyperbolic",
-        "GoodEnoughStacks": "Infinite"
-      },
-      {
-        "Stat": "Longer Recharge",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "n/a"
-      }
-    ]
-  },
-  {
-    "DisplayName": "Hooks of Heresy",
-    "Name": "Hooks_of_Heresy",
-    "AssetName": "LunarSecondaryReplacement",
-    "Id": 123,
-    "Rarity": "Lunar",
-    "Pickup": "Replace your Secondary Skill with 'Slicing Maelstrom'.",
-    "Description": "Replace your Secondary Skill  with Slicing Maelstrom. Charge up a projectile that deals 175% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and root enemies for 3 (+3 per stack) seconds. Recharges after 5 (+5 per stack) seconds.", 
-    "StackDetails": [
-      {
-        "Stat": "Longer Recharge",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "?"
       }
     ]
   }

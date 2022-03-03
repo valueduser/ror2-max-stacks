@@ -219,7 +219,7 @@
     "Id": 105,
     "Rarity": "Legendary",
     "Pickup": "Plant a healing fruit on kill.",
-    "Description": "On kill, plant a healing fruit seed that grows into a plant after 5 seconds. \n\nThe plant heals for 10% of maximum health every second to all allies within 5m (+5.0m per stack). Lasts 10 seconds.",
+    "Description": "On kill, plant a healing fruit seed that grows into a plant after 5 seconds. The plant heals for 10% of maximum health every second to all allies within 5m (+5.0m per stack). Lasts 10 seconds.",
     "StackDetails": [
       {
         "Stat": "Larger Healing Radius",
@@ -358,6 +358,22 @@
         "Stat": "More Cooldown Reduction",
         "StackType": "Linear",
         "GoodEnoughStacks": 67
+      }
+    ]
+  },
+  {
+    "DisplayName": "Spare Drone Parts",
+    "Name": "Spare_Drone_Parts",
+    "AssetName": "DroneWeapons",
+    "Id": 173,
+    "Rarity": "Legendary",
+    "Pickup": "Your drones fire faster, have less cooldowns, shoot missiles, and gain a bonus chaingun.",
+    "Description": "Gain Col. Droneman. Drones gain +50% (+50% per stack) attack speed and cooldown reduction. Drones gain 10% chance to fire a missile on hit, dealing 300% TOTAL damage. Drones gain an automatic chain gun that deals 6x100%damage, bouncing to 2 enemies.", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
       }
     ]
   },

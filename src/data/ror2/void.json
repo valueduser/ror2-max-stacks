@@ -80,6 +80,22 @@
     ]
   },
   {
+    "DisplayName": "Newly Hatched Zoea",
+    "Name": "Newly_Hatched_Zoea",
+    "AssetName": "VoidMegaCrabItem",
+    "Id": 179,
+    "Rarity": "Void",
+    "Pickup": "Periodically recruit allies from the Void.  Corrupts all yellow items.",
+    "Description": "Every 60 (-50% per stack) seconds, gain a random Void ally. Can have up to 1 (+1 per stack) allies at a time.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Plasma Shrimp",
     "Name": "Plasma_Shrimp",
     "AssetName": "MissileVoid",
@@ -135,6 +151,21 @@
     "Rarity": "Void",
     "Pickup": "Block the next source of damage. Corrupts all Tougher Times.",
     "Description": "Blocks incoming damage once. Recharges after 15 seconds (-10% per stack). Corrupts all Tougher Times.", 
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Singularity Band",
+    "Name": "Singularity_Band",
+    "AssetName": "ElementalRingVoid",
+    "Id": 171,
+    "Rarity": "Void",
+    "Pickup": "Hits that deal more than 400% damage also fire a black hole that draws enemies within 15m into its center. Lasts 5 seconds before collapsing, dealing 100% (+100% per stack) TOTAL damage. Recharges every 20 seconds.",
     "StackDetails": [
       {
         "Stat": "Unknown",

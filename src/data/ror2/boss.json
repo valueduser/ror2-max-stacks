@@ -1,10 +1,59 @@
 [
   {
+    "DisplayName": "Charged Perforator",
+    "Name": "Charged_Perforator",
+    "AssetName": "LightningStrikeOnHit",
+    "Id": 113,
+    "Rarity": "Boss",
+    "Pickup": "Chance on hit to call down a lightning strike.",
+    "Description": "10% chance on hit to call down a lightning strike, dealing 500% (+500% per stack) damage.",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  }, 
+  {
+    "DisplayName": "Defense Nucleus",
+    "Name": "Defense_Nucleus",
+    "AssetName": "MinorConstructOnKill",
+    "Id": 178,
+    "Rarity": "Boss",
+    "Pickup": "Summon an Alpha Construct on killing an elite.",
+    "Description": "Killing elite monsters spawns an Alpha Construct. Limited to 4 (+4 per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Empathy Cores",
+    "Name": "Empathy_Cores",
+    "AssetName": "RoboBallBuddy",
+    "Id": 127,
+    "Rarity": "Boss",
+    "Pickup": "Recruit a pair of Solus Probes that gain power with more allies.",
+    "Description": "Every 30 seconds, summon two Solus Probes that gain +100% (+100% per stack) damage per ally on your team.",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Genesis Loop",
     "Name": "Genesis_Loop",
     "AssetName": "NovaOnLowHealth",
     "Id": 97,
     "Rarity": "Boss",
+    "Pickup": "Fire an electric nova at low health.",
     "Description": "Falling below 25% health causes you to explode, dealing 6000% base damage. Recharges every 30 seconds (-50% per stack).",
     "StackDetails": [
       {
@@ -20,6 +69,7 @@
     "AssetName": "TitanGoldDuringTP",
     "Id": 82,
     "Rarity": "Boss",
+    "Pickup": "Summon Aurelionite during the Teleporter event.",
     "Description": "Summon Aurelionite during the teleporter event. It has 100% (+50% per stack) damage and 100% (+100% per stack) health.",
     "StackDetails": [
       {
@@ -40,6 +90,7 @@
     "AssetName": "ShinyPearl",
     "Id": 93,
     "Rarity": "Boss",
+    "Pickup": "Increase ALL of your stats.",
     "Description": "Increases ALL stats by 10% (+10% per stack).",
     "StackDetails": [
       {
@@ -55,87 +106,8 @@
     "AssetName": "SprintWisp",
     "Id": 83,
     "Rarity": "Boss",
-    "Description": "Fire a tracking wisp for 100% (+100% per stack) damage. Fires every 0.5 seconds while sprinting.",
-    "StackDetails": [
-      {
-        "Stat": "More Damage",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
-      }
-    ]
-  },
-  {
-    "DisplayName": "Pearl",
-    "Name": "Pearl",
-    "AssetName": "Pearl",
-    "Id": 92,
-    "Rarity": "Boss",
-    "Description": "Increases maximum health by 10% (+10% per stack).",
-    "StackDetails": [
-      {
-        "Stat": "More Health",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
-      }
-    ]
-  },
-  {
-    "DisplayName": "Queen's Gland",
-    "Name": "Queen%27s_Gland",
-    "AssetName": "BeetleGland",
-    "Id": 53,
-    "Rarity": "Boss",
-    "Description": "Every 30 seconds, summon a Beetle Guard with bonus 300% damage and 100% health. Can have up to 1 (+1 per stack) Guards at a time.",
-    "StackDetails": [
-      {
-        "Stat": "More Guards",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
-      }
-    ]
-  },
-  {
-    "DisplayName": "Titanic Knurl",
-    "Name": "Titanic_Knurl",
-    "AssetName": "Knurl",
-    "Id": 52,
-    "Rarity": "Boss",
-    "Description": "Increase maximum health by 40 (+40 per stack) and base health regeneration by +1.6 hp/s (+1.6 hp/s per stack).",
-    "StackDetails": [
-      {
-        "Stat": "More Health",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
-      },
-      {
-        "Stat": "Faster Regen",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
-      }
-    ]
-  },
-  {
-    "DisplayName": "Shatterspleen",
-    "Name": "Shatterspleen",
-    "AssetName": "BleedOnHitAndExplode",
-    "Id": 112,
-    "Rarity": "Boss",
-    "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.",
-    "StackDetails": [
-      {
-        "Stat": "More Explosion Damage",
-        "StackType": "Linear",
-        "GoodEnoughStacks": "Infinite"
-      }
-    ]
-  },
-  {
-    "DisplayName": "Molten Perforator",
-    "Name": "Molten_Perforator",
-    "AssetName": "FireballsOnHit",
-    "Id": 111,
-    "Rarity": "Boss",
-    "Description": "10% chance on hit to call forth 3 magma balls from an enemy, dealing 300% (+300% per stack) damage each. ",
+    "Pickup": "Fire tracking wisps while sprinting.",
+    "Description": "Fire a tracking wisp for 300% (+300% per stack) damage. Fires every 1.6 seconds while sprinting. Fire rate increases with movement speed.",
     "StackDetails": [
       {
         "Stat": "More Damage",
@@ -150,10 +122,43 @@
     "AssetName": "SiphonOnLowHealth",
     "Id": 114,
     "Rarity": "Boss",
-    "Description": "While in combat, the nearest 1 (+1 per stack) characters to you within 13m will be 'tethered' to you, dealing 100% damage per second, applying tar, and healing you for 100% of the damage dealt.",
+    "Pickup": "Siphon health from nearby enemies while in combat.",
+    "Description": "While in combat, the nearest 1 (+1 per stack) enemies to you within 13m will be 'tethered' to you, dealing 100% damage per second, applying tar, and healing you for 100% of the damage dealt.",
     "StackDetails": [
       {
         "Stat": "More tethered characters",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Molten Perforator",
+    "Name": "Molten_Perforator",
+    "AssetName": "FireballsOnHit",
+    "Id": 111,
+    "Rarity": "Boss",
+    "Pickup": "Chance on hit to fire magma balls.",
+    "Description": "10% chance on hit to call forth 3 magma balls from an enemy, dealing 300% (+300% per stack) damage and igniting all enemies.",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Pearl",
+    "Name": "Pearl",
+    "AssetName": "Pearl",
+    "Id": 92,
+    "Rarity": "Boss",
+    "Pickup": "Increase your maximum health.",
+    "Description": "Increases maximum health by 10% (+10% per stack).",
+    "StackDetails": [
+      {
+        "Stat": "More Health",
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
@@ -165,6 +170,7 @@
     "AssetName": "ParentEgg",
     "Id": 128,
     "Rarity": "Boss",
+    "Pickup": "Receive flat healing when attacked.",
     "Description": "Heal from incoming damage for 15 (+15 per stack).",
     "StackDetails": [
       {
@@ -175,33 +181,56 @@
     ]
   },
   {
-    "DisplayName": "Charged Perforator",
-    "Name": "Charged_Perforator",
-    "AssetName": "LightningStrikeOnHit",
-    "Id": 113,
+    "DisplayName": "Queen's Gland",
+    "Name": "Queen%27s_Gland",
+    "AssetName": "BeetleGland",
+    "Id": 53,
     "Rarity": "Boss",
-    "Description": "10% chance on hit to down a lightning strike, dealing 500% (+500% per stack) damage.",
+    "Pickup": "Recruit a Beetle Guard.",
+    "Description": "Every 30 seconds, summon a Beetle Guard with bonus 300% damage and 100% health. Can have up to 1 (+1 per stack) Guards at a time.",
     "StackDetails": [
       {
-        "Stat": "More Damage",
+        "Stat": "More Guards",
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
     ]
   },
   {
-    "DisplayName": "Empathy Cores",
-    "Name": "Empathy_Cores",
-    "AssetName": "RoboBallBuddy",
-    "Id": 127,
+    "DisplayName": "Shatterspleen",
+    "Name": "Shatterspleen",
+    "AssetName": "BleedOnHitAndExplode",
+    "Id": 112,
     "Rarity": "Boss",
-    "Description": "Every 30 seconds, summon two Solus Probes that gain +100% (+100% per stack) damage per ally on your team.",
+    "Pickup": "Critical strikes always bleed enemies. Bleeding enemies now explode.",
+    "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.", 
     "StackDetails": [
       {
-        "Stat": "More Damage",
+        "Stat": "More Explosion Damage",
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }
     ]
-  }
+  },
+  {
+    "DisplayName": "Titanic Knurl",
+    "Name": "Titanic_Knurl",
+    "AssetName": "Knurl",
+    "Id": 52,
+    "Rarity": "Boss",
+    "Pickup": "Boosts health and regeneration.",
+    "Description": "Increase maximum health by 40 (+40 per stack) and base health regeneration by +1.6 hp/s(+1.6 hp/s per stack).",
+    "StackDetails": [
+      {
+        "Stat": "More Health",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      },
+      {
+        "Stat": "Faster Regen",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  } 
 ]
