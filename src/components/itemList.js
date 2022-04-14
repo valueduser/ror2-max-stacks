@@ -26,6 +26,7 @@ const ItemList = (props) => (
         ) {
           return item.Rarity === props.rarityFilter
         } else {
+          //The 'All' option is defaulted for both drop downs
           return item !== null
         }
       })

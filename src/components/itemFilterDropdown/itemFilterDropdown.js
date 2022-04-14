@@ -10,6 +10,7 @@ const FilterableDropdown = (props) => {
     )
   ];
 
+  //Once all the dropdown options are populated, append the 'All' option to the bottom/end
   [rarityOptions, stackTypeOptions].forEach((element) => {
     element.splice(0, 0, 'All')
   })
