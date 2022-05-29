@@ -316,7 +316,7 @@
   {
     "DisplayName": "Roll of Pennies",
     "Name": "Roll_of_Pennies",
-    "AssetName": "Unknown",
+    "AssetName": "GoldOnHurt",
     "Id": 166,
     "Rarity": "Common",
     "Pickup": "Gain gold on taking damage.",
