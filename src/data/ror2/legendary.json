@@ -127,6 +127,22 @@
       }
     ]
   },
+    {
+    "DisplayName": "Defensive Microbots",
+    "Name": "Unknown",
+    "AssetName": "CaptainDefenseMatrix",
+    "Id": -1,
+    "Rarity": "Legendary",
+    "Pickup": "Shoot down nearby projectiles. Recharge rate scales with attack speed.",
+    "Description": "Shoot down 1 (+1 per stack) projectiles within every 0.5 seconds. Recharge rate scales with attack speed",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
   {
     "DisplayName": "Dio's Best Friend",
     "Name": "Dio%27s_Best_Friend",
