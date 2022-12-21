@@ -129,9 +129,9 @@
   },
     {
     "DisplayName": "Defensive Microbots",
-    "Name": "Unknown",
+    "Name": "Defensive_Microbots",
     "AssetName": "CaptainDefenseMatrix",
-    "Id": -1,
+    "Id": 110,
     "Rarity": "Legendary",
     "Pickup": "Shoot down nearby projectiles. Recharge rate scales with attack speed.",
     "Description": "Shoot down 1 (+1 per stack) projectiles within every 0.5 seconds. Recharge rate scales with attack speed",
