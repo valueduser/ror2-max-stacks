@@ -6,11 +6,12 @@
 [GitHub Page](https://valueduser.github.io/ror2-max-stacks/)
 
 Road Map:
-* ROR1, ROR-SpecialDelivery, ROR-Starstorm, game switching
-* Refactor max stack calculation
-* Effect type styling in tooltips
-* Diff tool for easier updating after releases
-* Image compression
-* Comprehensive testing
-* Filter by name
-* Modal instead of Wiki on item click
+
+- ROR1, ROR-SpecialDelivery, ROR-Starstorm, game switching
+- Refactor max stack calculation
+- Effect type styling in tooltips
+- Diff tool for easier updating after releases
+- Image compression
+- Comprehensive testing
+- Filter by name
+- Modal instead of Wiki on item click

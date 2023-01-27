@@ -208,7 +208,7 @@
     "Id": 36,
     "Rarity": "Common",
     "Pickup": "Receive a delayed heal after taking damage.",
-    "Description": "2 seconds after getting hurt, heal for 20 plus an additional 5% (+5% per stack) of maximum health.", 
+    "Description": "2 seconds after getting hurt, heal for 20 plus an additional 5% (+5% per stack) of maximum health.",
     "StackDetails": [
       {
         "Stat": "More Healing",
@@ -224,7 +224,7 @@
     "Id": 136,
     "Rarity": "Common",
     "Pickup": "Slightly increase attack speed and movement speed.",
-    "Description": "Increases attack speed by 7.5% (+7.5% per stack) and movement speed by 7% (+7% per stack).", 
+    "Description": "Increases attack speed by 7.5% (+7.5% per stack) and movement speed by 7% (+7% per stack).",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -240,7 +240,7 @@
     "Id": 6,
     "Rarity": "Common",
     "Pickup": "Drop a healing orb on kill.",
-    "Description": "Killing an enemy spawns a healing orb that heals for 8 plus an additional 2% (+2% per stack) of maximum health.", 
+    "Description": "Killing an enemy spawns a healing orb that heals for 8 plus an additional 2% (+2% per stack) of maximum health.",
     "StackDetails": [
       {
         "Stat": "More Healing",
@@ -335,7 +335,7 @@
     "AssetName": "TreasureCache",
     "Id": 60,
     "Rarity": "Common",
-    "Pickup":"Gain access to a Rusty Lockbox that contains a powerful item.",
+    "Pickup": "Gain access to a Rusty Lockbox that contains a powerful item.",
     "Description": "A hidden cache containing an item (80% uncommon, 20% legendary) will appear in a random location on each stage. Opening the cache consumes this item",
     "StackDetails": [
       {
@@ -416,7 +416,7 @@
     "Id": 1,
     "Rarity": "Common",
     "Pickup": "Chance to block incoming damage.",
-    "Description":  "15% (+15% per stack) chance to block incoming damage. Unaffected by luck.", 
+    "Description": "15% (+15% per stack) chance to block incoming damage. Unaffected by luck.",
     "StackDetails": [
       {
         "Stat": "More Chance to Block Damage",

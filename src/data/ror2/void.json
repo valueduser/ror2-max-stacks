@@ -150,7 +150,7 @@
     "Id": 138,
     "Rarity": "Void",
     "Pickup": "Block the next source of damage. Corrupts all Tougher Times.",
-    "Description": "Blocks incoming damage once. Recharges after 15 seconds (-10% per stack). Corrupts all Tougher Times.", 
+    "Description": "Blocks incoming damage once. Recharges after 15 seconds (-10% per stack). Corrupts all Tougher Times.",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -213,7 +213,7 @@
     "Id": 139,
     "Rarity": "Void",
     "Pickup": "Heal while sprinting. Corrupts all Bustling Fungi.",
-    "Description": "Heals for 2% (+2% per stack) of your health every second while sprinting. Corrupts all Bustling Fungi.", 
+    "Description": "Heals for 2% (+2% per stack) of your health every second while sprinting. Corrupts all Bustling Fungi.",
     "StackDetails": [
       {
         "Stat": "More Healing",

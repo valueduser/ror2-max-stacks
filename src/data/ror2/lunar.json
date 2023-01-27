@@ -117,7 +117,7 @@
     "Id": 165,
     "Rarity": "Lunar",
     "Pickup": "Items and equipment have a small chance to transform into a Lunar item instead.",
-    "Description": "Items have a 5% (+5% per stack) chance to become a Lunar item instead.", 
+    "Description": "Items have a 5% (+5% per stack) chance to become a Lunar item instead.",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -170,7 +170,7 @@
     "Id": 123,
     "Rarity": "Lunar",
     "Pickup": "Replace your Secondary Skill with 'Slicing Maelstrom'.",
-    "Description": "Replace your Secondary Skill  with Slicing Maelstrom. Charge up a projectile that deals 175% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and root enemies for 3 (+3 per stack) seconds. Recharges after 5 (+5 per stack) seconds.", 
+    "Description": "Replace your Secondary Skill  with Slicing Maelstrom. Charge up a projectile that deals 175% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and root enemies for 3 (+3 per stack) seconds. Recharges after 5 (+5 per stack) seconds.",
     "StackDetails": [
       {
         "Stat": "Longer Recharge",
@@ -186,7 +186,7 @@
     "Id": 167,
     "Rarity": "Lunar",
     "Pickup": "Halve your cooldowns.. BUT halve your attack speed.",
-    "Description": "Decrease skill cooldowns by 50% (+50% per stack). Decrease attack speed by 50% (+50% per stack).", 
+    "Description": "Decrease skill cooldowns by 50% (+50% per stack). Decrease attack speed by 50% (+50% per stack).",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -218,7 +218,7 @@
     "Id": 121,
     "Rarity": "Lunar",
     "Pickup": "Reduce your skill cooldowns by 2 seconds. You are unlucky.",
-    "Description": "All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.", 
+    "Description": "All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.",
     "StackDetails": [
       {
         "Stat": "More Cooldown Reduction",
@@ -250,7 +250,7 @@
     "Id": 168,
     "Rarity": "Lunar",
     "Pickup": "Double your health... BUT halve your speed.",
-    "Description": "Increase max health by 100% (+100% per stack). Reduce movement speed by 50% (+50% per stack).", 
+    "Description": "Increase max health by 100% (+100% per stack). Reduce movement speed by 50% (+50% per stack).",
     "StackDetails": [
       {
         "Stat": "Unknown",

@@ -6,7 +6,7 @@
     "Id": 3,
     "Rarity": "Uncommon",
     "Pickup": "Chance to fire a missile.",
-    "Description":"10% chance to fire a missile that deals 300% (+300% per stack) TOTAL damage.", 
+    "Description": "10% chance to fire a missile that deals 300% (+300% per stack) TOTAL damage.",
     "StackDetails": [
       {
         "Stat": "More Damage",
@@ -107,7 +107,7 @@
     "Id": 94,
     "Rarity": "Uncommon",
     "Pickup": "Chance on kill to drop a treasure.",
-    "Description":  "4% (+4% per stack) chance on kill to drop a treasure worth 25 gold. Scales over time.",
+    "Description": "4% (+4% per stack) chance on kill to drop a treasure worth 25 gold. Scales over time.",
     "StackDetails": [
       {
         "Stat": "More Chance to Drop",
@@ -144,7 +144,7 @@
     "Id": 9,
     "Rarity": "Uncommon",
     "Pickup": "Gain an extra jump.",
-    "Description": "Gain +1 (+1 per stack) maximum jump count.", 
+    "Description": "Gain +1 (+1 per stack) maximum jump count.",
     "StackDetails": [
       {
         "Stat": "More Jumps",
@@ -160,7 +160,7 @@
     "Id": 132,
     "Rarity": "Uncommon",
     "Pickup": "Killing an enemy gives you a burst of movement speed.",
-    "Description":  "Killing an enemy increases movement speed by 125%, fading over 1 (+0.5 per stack) seconds.", 
+    "Description": "Killing an enemy increases movement speed by 125%, fading over 1 (+0.5 per stack) seconds.",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -176,7 +176,7 @@
     "Id": 141,
     "Rarity": "Uncommon",
     "Pickup": "Your ignite effects deal 2x more damage, and last 2x as long.",
-    "Description": "Ignite effects deal +300% (+300% per stack) more damage over time.", 
+    "Description": "Ignite effects deal +300% (+300% per stack) more damage over time.",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -207,7 +207,7 @@
     "AssetName": "FireRing",
     "Id": 64,
     "Rarity": "Uncommon",
-    "Pickup":  "High damage hits also blasts enemies with a runic flame tornado. Recharges over time.",
+    "Pickup": "High damage hits also blasts enemies with a runic flame tornado. Recharges over time.",
     "Description": "Hits that deal more than 400% damage also blasts enemies with a runic flame tornado, dealing 300% (+300% per stack) TOTAL damage over time. Recharges every 10 seconds.",
     "StackDetails": [
       {
@@ -224,7 +224,7 @@
     "Id": 13,
     "Rarity": "Uncommon",
     "Pickup": "Dealing damage heals you.",
-    "Description": "Dealing damage heals you for 1 (+1 per stack) health.", 
+    "Description": "Dealing damage heals you for 1 (+1 per stack) health.",
     "StackDetails": [
       {
         "Stat": "More Healing",
@@ -339,14 +339,14 @@
       }
     ]
   },
-    {
+  {
     "DisplayName": "Regenerating Scrap",
     "Name": "Regenerating_Scrap",
     "AssetName": "RegeneratingScrap",
     "Id": 143,
     "Rarity": "Uncommon",
     "Pickup": "Prioritized when used with Uncommon 3D Printers. Usable once per stage.",
-    "Description": "Does nothing. Prioritized when used with Uncommon 3D Printers. At the start of each stage, it regenerates.", 
+    "Description": "Does nothing. Prioritized when used with Uncommon 3D Printers. At the start of each stage, it regenerates.",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -410,7 +410,7 @@
     "Id": 164,
     "Rarity": "Uncommon",
     "Pickup": "Activating your Primary skill also throws a shuriken. Recharges over time.",
-    "Description": "Activating your Primary skill also throws a shuriken that deals 400% (+100% per stack) base damage. You can hold up to 3 (+1 per stack) shurikens which all reload over 10 seconds.", 
+    "Description": "Activating your Primary skill also throws a shuriken that deals 400% (+100% per stack) base damage. You can hold up to 3 (+1 per stack) shurikens which all reload over 10 seconds.",
     "StackDetails": [
       {
         "Stat": "More Shuriken",
@@ -495,7 +495,7 @@
     "Id": 4,
     "Rarity": "Uncommon",
     "Pickup": "Detonate enemies on kill.",
-    "Description": "On killing an enemy, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350% (+280% per stack) base damage.", 
+    "Description": "On killing an enemy, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350% (+280% per stack) base damage.",
     "StackDetails": [
       {
         "Stat": "More Damage",

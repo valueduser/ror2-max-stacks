@@ -6,7 +6,7 @@
     "Id": 35,
     "Rarity": "Legendary",
     "Pickup": "Luck is on your side.",
-    "Description": "All random effects are rolled +1 (+1 per stack)times for a favorable outcome.", 
+    "Description": "All random effects are rolled +1 (+1 per stack)times for a favorable outcome.",
     "StackDetails": [
       {
         "Stat": "More Rolls",
@@ -22,7 +22,7 @@
     "Id": 80,
     "Rarity": "Legendary",
     "Pickup": "Healing past full grants you a temporary barrier.",
-    "Description":  "Healing past full grants you a temporary barrier for 50% (+50% per stack) of the amount you healed.",
+    "Description": "Healing past full grants you a temporary barrier for 50% (+50% per stack) of the amount you healed.",
     "StackDetails": [
       {
         "Stat": "More Healing",
@@ -54,7 +54,7 @@
     "Id": 162,
     "Rarity": "Legendary",
     "Pickup": "Become immune to all debuffs. Increase maximum health.",
-    "Description": "Whenever you would receive a debuff, prevent it. Increases maximum health by 100 (+100 per stack).", 
+    "Description": "Whenever you would receive a debuff, prevent it. Increases maximum health by 100 (+100 per stack).",
     "StackDetails": [
       {
         "Stat": "More Health",
@@ -102,7 +102,7 @@
     "Id": 2,
     "Rarity": "Legendary",
     "Pickup": "All your attacks explode!",
-    "Description": "All your attacks explode in a 4m  (+1.5m per stack) radius for a bonus 60% TOTAL damage to nearby enemies.", 
+    "Description": "All your attacks explode in a 4m  (+1.5m per stack) radius for a bonus 60% TOTAL damage to nearby enemies.",
     "StackDetails": [
       {
         "Stat": "Larger Explosion Radius",
@@ -118,7 +118,7 @@
     "Id": 5,
     "Rarity": "Legendary",
     "Pickup": "Killing an enemy releases homing daggers.",
-    "Description": "Killing an enemy fires out 3 homing daggers that deal 150% (+150% per stack) base damage.", 
+    "Description": "Killing an enemy fires out 3 homing daggers that deal 150% (+150% per stack) base damage.",
     "StackDetails": [
       {
         "Stat": "More Daggers",
@@ -127,7 +127,7 @@
       }
     ]
   },
-    {
+  {
     "DisplayName": "Defensive Microbots",
     "Name": "Defensive_Microbots",
     "AssetName": "CaptainDefenseMatrix",
@@ -166,7 +166,7 @@
     "Id": 14,
     "Rarity": "Legendary",
     "Pickup": "Killing enemies surrounds you with an ice storm.",
-    "Description": "Killing an enemy surrounds you with an ice storm that deals 1200% damage per second and slows enemies by 80% for 1.5s. The storm grows with every kill, increasing its radius by 2m. Stacks up to 18m (+12m per stack).", 
+    "Description": "Killing an enemy surrounds you with an ice storm that deals 1200% damage per second and slows enemies by 80% for 1.5s. The storm grows with every kill, increasing its radius by 2m. Stacks up to 18m (+12m per stack).",
     "StackDetails": [
       {
         "Stat": "Larger Radius",
@@ -182,7 +182,7 @@
     "Id": 22,
     "Rarity": "Legendary",
     "Pickup": "Increase jump height. Hold 'Interact' to slam down to the ground.",
-    "Description":  "Increase jump height. Creates a 5m-100m radius kinetic explosion on hitting the ground, dealing 1000%-10000% base damage that scales up with fall distance. Recharges in 10 (-50% per stack) seconds.",
+    "Description": "Increase jump height. Creates a 5m-100m radius kinetic explosion on hitting the ground, dealing 1000%-10000% base damage that scales up with fall distance. Recharges in 10 (-50% per stack) seconds.",
     "StackDetails": [
       {
         "Stat": "Faster Recharge",
@@ -251,7 +251,7 @@
     "Id": 137,
     "Rarity": "Legendary",
     "Pickup": "Your 'Critical Strikes' deal an additional 100% damage.",
-    "Description": "Critical Strikes deal an additional 100% damage(+100% per stack).", 
+    "Description": "Critical Strikes deal an additional 100% damage(+100% per stack).",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -384,7 +384,7 @@
     "Id": 173,
     "Rarity": "Legendary",
     "Pickup": "Your drones fire faster, have less cooldowns, shoot missiles, and gain a bonus chaingun.",
-    "Description": "Gain Col. Droneman. Drones gain +50% (+50% per stack) attack speed and cooldown reduction. Drones gain 10% chance to fire a missile on hit, dealing 300% TOTAL damage. Drones gain an automatic chain gun that deals 6x100%damage, bouncing to 2 enemies.", 
+    "Description": "Gain Col. Droneman. Drones gain +50% (+50% per stack) attack speed and cooldown reduction. Drones gain 10% chance to fire a missile on hit, dealing 300% TOTAL damage. Drones gain an automatic chain gun that deals 6x100%damage, bouncing to 2 enemies.",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -400,7 +400,7 @@
     "Id": 135,
     "Rarity": "Legendary",
     "Pickup": "Permanently reduce armor on hit.",
-    "Description": "100% chance on hit to reduce armor by 2 (+2 per stack) permanently.", 
+    "Description": "100% chance on hit to reduce armor by 2 (+2 per stack) permanently.",
     "StackDetails": [
       {
         "Stat": "Unknown",
