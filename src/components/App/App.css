@@ -1,0 +1,18 @@
+.ui.grid > * {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: auto;
+}
+
+.ui.label > * {
+  font-size: 1rem;
+}
+
+.ui.button {
+  color: white !important;
+  background: transparent !important;
+}
+
+.ui.button.change-game-btn:hover {
+  opacity: 0.2 !important;
+}

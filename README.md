@@ -7,7 +7,7 @@
 
 Road Map:
 
-- ROR1, ROR-SpecialDelivery, ROR-Starstorm, game switching
+- ROR1, RORR, ROR-SpecialDelivery, ROR-Starstorm, game switching
 - Refactor max stack calculation
 - Effect type styling in tooltips
 - Diff tool for easier updating after releases
