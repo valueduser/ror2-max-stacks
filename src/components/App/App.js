@@ -71,7 +71,7 @@ const App = () => {
   // handleChange = (e, { value }) => this.setState({ value })
   const handleGameChange = (e, { value }) => {
     // eslint-disable-line no-unused-vars
-    this.setGame(value);
+    setGame(value);
     if (game === 1) {
       setGameData(ror1Data);
     } else if (game === 2) {
