@@ -10,9 +10,9 @@ import ror2LegendaryData from "../../data/ror2/legendary.json";
 import ror2LunarData from "../../data/ror2/lunar.json";
 import ror2UncommonData from "../../data/ror2/uncommon.json";
 import ror2VoidData from "../../data/ror2/void.json";
-import LastUpdated from "../lastUpdated/lastUpdated.js";
+import LastUpdated from "../lastUpdated/lastUpdated";
 import FilterableDropdown from "../itemFilterDropdown/itemFilterDropdown";
-import ItemList from "../itemList.js";
+import ItemList from "../itemList";
 import "../../fonts/BOMBARD_.ttf";
 import "semantic-ui-css/semantic.min.css";
 import { Grid, Button, Dropdown } from "semantic-ui-react"; // eslint-disable-line no-unused-vars
