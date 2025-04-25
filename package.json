@@ -7,7 +7,7 @@
     "@babel/core": "^7.18.2",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@semantic-ui-react/css-patch": "^1.0.0",
-    "@sentry/react": "^6.19.7",
+    "@sentry/react": "^9.14.0",
     "@svgr/webpack": "^6.2.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
