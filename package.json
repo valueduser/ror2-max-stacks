@@ -5,7 +5,7 @@
   "homepage": "http://valueduser.github.io/ror2-max-stacks",
   "dependencies": {
     "@babel/core": "^7.18.2",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.16",
     "@semantic-ui-react/css-patch": "^1.0.0",
     "@sentry/react": "^9.14.0",
     "@svgr/webpack": "^6.2.1",
@@ -57,7 +57,7 @@
     "terser-webpack-plugin": "^5.3.1",
     "web-vitals": "^2.1.4",
     "webpack": "^5.99.7",
-    "webpack-dev-server": "^4.9.0",
+    "webpack-dev-server": "^5.2.2",
     "webpack-manifest-plugin": "^5.0.0",
     "workbox-webpack-plugin": "^6.5.3"
   },
