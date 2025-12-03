@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 import ror1BossData from '../../data/ror1/boss.json'
 import ror1CommonData from '../../data/ror1/common.json'
 import ror1RareData from '../../data/ror1/rare.json'
@@ -13,52 +13,70 @@ import ror2VoidData from '../../data/ror2/void.json'
 import LastUpdated from '../lastUpdated/lastUpdated.js'
 import FilterableDropdown from '../itemFilterDropdown/itemFilterDropdown'
 import ItemList from '../itemList.js'
+import '../itemFilterDropdown/itemFilterDropdown.css'
 import '../../fonts/BOMBARD_.ttf'
 import 'semantic-ui-css/semantic.min.css'
-import { Grid, Button, Dropdown } from 'semantic-ui-react' // eslint-disable-line no-unused-vars
+import { Grid, Dropdown } from 'semantic-ui-react'
 
-const App = () => {
   const games = [
     {
       key: 'ror',
       text: 'Risk of Rain',
-      value: 'Jenny Hess',
+      value: 1,
     },
     {
       key: 'ror2',
       text: 'Risk of Rain 2',
-      value: 'Elliot Fu',
+      value: 2,
     },
     {
       key: 'rorr',
       text: 'Risk of Rain Returns',
-      value: 'Stevie Feliciano',
+      value: 3,
     },
   ]
 
-  const ror1Data = [].concat(
-    ror1CommonData,
-    ror1UncommonData,
-    ror1RareData,
-    ror1BossData,
-    ror1SpecialData
+const App = () => {
+  const ror1Data = useMemo(
+    () =>
+      [].concat(
+        ror1CommonData,
+        ror1UncommonData,
+        ror1RareData,
+        ror1BossData,
+        ror1SpecialData
+      ),
+    []
   )
 
-  const ror2Data = [].concat(
-    ror2CommonData,
-    ror2UncommonData,
-    ror2LegendaryData,
-    ror2BossData,
-    ror2LunarData,
-    ror2VoidData
+  const ror2Data = useMemo(
+    () =>
+      [].concat(
+        ror2CommonData,
+        ror2UncommonData,
+        ror2LegendaryData,
+        ror2BossData,
+        ror2LunarData,
+        ror2VoidData
+      ),
+    []
   )
 
-  const rorrData = [].concat()
+  const rorrData = useMemo(() => [].concat(), [])
 
   const [rarity, setRarity] = useState('All')
   const [stackType, setStackType] = useState('All')
-  const [gameData, setGameData] = useState(ror2Data)
   const [game, setGame] = useState(2)
+
+  const gameData = useMemo(() => {
+    if (game === 1) {
+      return ror1Data
+    } else if (game === 2) {
+      return ror2Data
+    } else {
+      return rorrData
+    }
+  }, [game, ror1Data, ror2Data, rorrData])
 
   const handleRarityChange = (newRarityValue) => {
     setRarity(newRarityValue)
@@ -68,41 +86,30 @@ const App = () => {
     setStackType(newStackTypeValue)
   }
 
-  // handleChange = (e, { value }) => this.setState({ value })
   const handleGameChange = (e, { value }) => {
-    // eslint-disable-line no-unused-vars
     setGame(value)
-    if (game === 1) {
-      setGameData(ror1Data)
-    } else if (game === 2) {
-      setGameData(ror2Data)
-    } else {
-      setGameData(rorrData)
-    }
-    // if (game === 1) {
-    //   setGame(2)
-    //   setGameData(ror2Data)
-    // } else if (game === 2) {
-    //   setGame(1)
-    //   setGameData(ror1Data)
-    // } else {
-    //   setGameData(rorrData) // TODO: this doesn't work
-    // }
   }
+
+  const selectedGameText = useMemo(() => {
+    const selectedGame = games.find((g) => g.value === game)
+    return selectedGame ? selectedGame.text : 'Select Game'
+  }, [game])
 
   return (
     <>
       <Grid padded="horizontally" columns="equal">
         <Grid.Column textAlign="center">
-          {/* <Button className='change-game-btn' onClick={handleGameChange}>Change Game</Button> */}
+          <div className="filter-container">
           <Dropdown
-            placeholder="Select Game"
+              text={selectedGameText}
+              labeled
+              button
             fluid
-            selection
             options={games}
-            defaultValue={games[1].value}
+              value={game}
             onChange={handleGameChange}
           />
+          </div>
         </Grid.Column>
         <Grid.Column textAlign="center">
           <FilterableDropdown
@@ -123,6 +130,7 @@ const App = () => {
         </Grid.Column>
       </Grid>
       <ItemList
+        key={`${game}-${rarity}-${stackType}`}
         itemData={gameData}
         rarityFilter={rarity}
         stackTypeFilter={stackType}

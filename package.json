@@ -65,6 +65,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+    "lint": "NODE_ENV=development eslint src --ext .js,.jsx",
+    "lint:fix": "NODE_ENV=development eslint src --ext .js,.jsx --fix",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "postinstall": "semantic-ui-css-patch"
