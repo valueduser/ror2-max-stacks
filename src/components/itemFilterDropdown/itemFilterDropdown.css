@@ -1,3 +1,12 @@
+.filter-container .ui.dropdown {
+  color: white !important;
+  background: rgba(0, 0, 0, 70%) !important;
+}
+
+.filter-container .ui.dropdown .text {
+  color: white !important;
+}
+
 .ui.dropdown .menu {
   background: black !important;
 }
