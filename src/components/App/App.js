@@ -13,11 +13,11 @@ import ror2VoidData from '../../data/ror2/void.json'
 import LastUpdated from '../lastUpdated/lastUpdated.js'
 import FilterableDropdown from '../itemFilterDropdown/itemFilterDropdown'
 import ItemList from '../itemList.js'
+import '../itemFilterDropdown/itemFilterDropdown.css'
 import '../../fonts/BOMBARD_.ttf'
 import 'semantic-ui-css/semantic.min.css'
 import { Grid, Dropdown } from 'semantic-ui-react'
 
-const App = () => {
   const games = [
     {
       key: 'ror',
@@ -36,6 +36,7 @@ const App = () => {
     },
   ]
 
+const App = () => {
   const ror1Data = useMemo(
     () =>
       [].concat(
@@ -89,18 +90,26 @@ const App = () => {
     setGame(value)
   }
 
+  const selectedGameText = useMemo(() => {
+    const selectedGame = games.find((g) => g.value === game)
+    return selectedGame ? selectedGame.text : 'Select Game'
+  }, [game])
+
   return (
     <>
       <Grid padded="horizontally" columns="equal">
         <Grid.Column textAlign="center">
+          <div className="filter-container">
           <Dropdown
-            placeholder="Select Game"
+              text={selectedGameText}
+              labeled
+              button
             fluid
-            selection
             options={games}
-            defaultValue={games[1].value}
+              value={game}
             onChange={handleGameChange}
           />
+          </div>
         </Grid.Column>
         <Grid.Column textAlign="center">
           <FilterableDropdown
@@ -121,6 +130,7 @@ const App = () => {
         </Grid.Column>
       </Grid>
       <ItemList
+        key={`${game}-${rarity}-${stackType}`}
         itemData={gameData}
         rarityFilter={rarity}
         stackTypeFilter={stackType}
