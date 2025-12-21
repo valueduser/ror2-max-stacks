@@ -1,0 +1,82 @@
+[
+  {
+    "DisplayName": "Quick Fix",
+    "Name": "QuickFix",
+    "AssetName": "QuickFix",
+    "Id": 61,
+    "Rarity": "Food",
+    "Pickup": "Increases bonus health and regen gains. Does not benefit from leveling up bonuses. Full of minerals.",
+    "Description": "Increases bonus health and regeneration gains by 50% (+15% per stack). Does not affect bonuses from leveling up.",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Seared Steak",
+    "Name": "CookedSteak",
+    "AssetName": "CookedSteak",
+    "Id": 61,
+    "Rarity": "Food",
+    "Pickup": "Gain 50 max health plus a percentage of your max health. Cooked to perfection.",
+    "Description": "Increases maximum health by 50 (+50 per stack), plus an additional 5% (+5% per stack) of your max health.",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Hearty Stew",
+    "Name": "Stew",
+    "AssetName": "Stew",
+    "Id": 61,
+    "Rarity": "Food",
+    "Pickup": "Increases health regeneration and converts it into damage at full health. A single sip leaves you feeling warm and fuzzy inside.",
+    "Description": "Increases regeneration by +2.5 (+2.5 per stack) HP/s. At full health, your regeneration is added to your base damage.",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Ultimate Meal",
+    "Name": "UltimateMeal",
+    "AssetName": "UltimateMeal",
+    "Id": 61,
+    "Rarity": "Food",
+    "Pickup": "At full health, you become lucky. The pinnacle of culinary arts.",
+    "Description": "At full health, all random effects are rolled +2 (+2 per stack) extra times for a better outcome.",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Sautéed Worms",
+    "Name": "WyrmOnHitDisplay",
+    "AssetName": "WyrmOnHitDisplay",
+    "Id": 61,
+    "Rarity": "Food",
+    "Pickup": "Chance on hit to summon a spectral wyrm that seeks out and damages enemies. Tastes like glass frogs and starseed.",
+    "Description": "On hit, 10% chance to summon a spectral wyrm that seeks out and damages and ignites enemies for 500% (+500% per stack) TOTAL damage per second for 10 seconds.",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  }
+]

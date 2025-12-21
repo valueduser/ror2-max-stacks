@@ -10,6 +10,7 @@ import ror2LegendaryData from '../../data/ror2/legendary.json'
 import ror2LunarData from '../../data/ror2/lunar.json'
 import ror2UncommonData from '../../data/ror2/uncommon.json'
 import ror2VoidData from '../../data/ror2/void.json'
+import ror2FoodData from '../../data/ror2/food.json'
 import LastUpdated from '../lastUpdated/lastUpdated.js'
 import FilterableDropdown from '../itemFilterDropdown/itemFilterDropdown'
 import ItemList from '../itemList.js'
@@ -18,23 +19,23 @@ import '../../fonts/BOMBARD_.ttf'
 import 'semantic-ui-css/semantic.min.css'
 import { Grid, Dropdown } from 'semantic-ui-react'
 
-  const games = [
-    {
-      key: 'ror',
-      text: 'Risk of Rain',
-      value: 1,
-    },
-    {
-      key: 'ror2',
-      text: 'Risk of Rain 2',
-      value: 2,
-    },
-    {
-      key: 'rorr',
-      text: 'Risk of Rain Returns',
-      value: 3,
-    },
-  ]
+const games = [
+  {
+    key: 'ror',
+    text: 'Risk of Rain',
+    value: 1,
+  },
+  {
+    key: 'ror2',
+    text: 'Risk of Rain 2',
+    value: 2,
+  },
+  {
+    key: 'rorr',
+    text: 'Risk of Rain Returns',
+    value: 3,
+  },
+]
 
 const App = () => {
   const ror1Data = useMemo(
@@ -57,7 +58,8 @@ const App = () => {
         ror2LegendaryData,
         ror2BossData,
         ror2LunarData,
-        ror2VoidData
+        ror2VoidData,
+        ror2FoodData
       ),
     []
   )
@@ -100,15 +102,15 @@ const App = () => {
       <Grid padded="horizontally" columns="equal">
         <Grid.Column textAlign="center">
           <div className="filter-container">
-          <Dropdown
+            <Dropdown
               text={selectedGameText}
               labeled
               button
-            fluid
-            options={games}
+              fluid
+              options={games}
               value={game}
-            onChange={handleGameChange}
-          />
+              onChange={handleGameChange}
+            />
           </div>
         </Grid.Column>
         <Grid.Column textAlign="center">
