@@ -85,6 +85,22 @@
     ]
   },
   {
+    "DisplayName": "Hiker's Boots",
+    "Name": "CritAtLowerElevation",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Common",
+    "Pickup": "Striking enemies from a higher elevation grants critical strike chance and damage.",
+    "Description": "Striking enemies from a higher elevation grants +1% (+1% per stack) critical strike chance and critical strike damage, up to 10 times. Lasts 10 seconds.",
+    "StackDetails": [
+      {
+        "Stat": "Higher Sprint Speed",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Crowbar",
     "Name": "Crowbar",
     "AssetName": "Crowbar",
@@ -129,6 +145,22 @@
         "Stat": "Unknown",
         "StackType": "Unknown",
         "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Eclipse Lite",
+    "Name": "BarrierOnCooldown",
+    "AssetName": "",
+    "Id": -1,
+    "Rarity": "Common",
+    "Pickup": "Gain a small temporary barrier when a skill comes off cooldown.",
+    "Description": "When a skill comes off cooldown, gain a temporary barrier for 1% (+0.25% per stack) of your maximum health per second of the skill's base cooldown.",
+    "StackDetails": [
+      {
+        "Stat": "Higher Sprint Speed",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
       }
     ]
   },

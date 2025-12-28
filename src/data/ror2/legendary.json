@@ -160,6 +160,22 @@
     ]
   },
   {
+    "DisplayName": "Substandard Duplicator",
+    "Name": "Duplicator",
+    "AssetName": "Duplicator",
+    "Id": -1,
+    "Rarity": "Legendary",
+    "Pickup": "Picking up an item grants a temporary copy.",
+    "Description": "Picking up an item gives you a temporary copy of itself. Temporary items last an additional 10 (+10 per stack) seconds.",
+    "StackDetails": [
+      {
+        "Stat": "More Lives",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Frost Relic",
     "Name": "Frost_Relic",
     "AssetName": "Icicle",
@@ -261,6 +277,22 @@
     ]
   },
   {
+    "DisplayName": "Networked Suffering",
+    "Name": "SharedSuffering",
+    "AssetName": "SharedSuffering",
+    "Id": -1,
+    "Rarity": "Legendary",
+    "Pickup": "Inflict a computer virus on hit that spreads a portion of all damage dealt between infected enemies. Affects up to 4 enemies.",
+    "Description": "Infect up to 4 (+2 per stack) enemies with a computer virus that duplicates 50% of all damage taken and sends it to a global damage pool. Every 3 seconds, ALL infected enemies suffer 100% pooled damage.",
+    "StackDetails": [
+      {
+        "Stat": "More Soul Energy",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "N'kuhana's Opinion",
     "Name": "N%27kuhana%27s_Opinion",
     "AssetName": "NovaOnHeal",
@@ -268,6 +300,22 @@
     "Rarity": "Legendary",
     "Pickup": "Fire haunting skulls when healed.",
     "Description": "Store 100% (+100% per stack) of healing as Soul Energy. After your Soul Energy reaches 10% of your maximum health, fire a skull that deals 250% of your Soul Energy as damage.",
+    "StackDetails": [
+      {
+        "Stat": "More Soul Energy",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Orphaned Core",
+    "Name": "PhysicsProjectile",
+    "AssetName": "PhysicsProjectile",
+    "Id": -1,
+    "Rarity": "Legendary",
+    "Pickup": "Gain a buddy who launches itself at enemies to deal damage. Inherits your movement-related items.",
+    "Description": "Gain a friendly Solus unit that launches itself at enemies for 400% (+400% per stack) damage. The unit inherits your movement speed items and deals more damage the faster it moves. The unit can be pet to cleanse negative effects. Recharges after 15 seconds.",
     "StackDetails": [
       {
         "Stat": "More Soul Energy",

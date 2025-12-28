@@ -64,6 +64,22 @@
     ]
   },
   {
+    "DisplayName": "Collector's Compulsion",
+    "Name": "SpeedOnPickup",
+    "AssetName": "SpeedOnPickup",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "Pickups grant a stacking bonus to all stats. Open a barrel to find a minor pick-up.",
+    "Description": "Picking up an item or other collectible increases all stats by +3% for 20 seconds, up to (+2 per stack) times. Barrels grant minor pickups.",
+    "StackDetails": [
+      {
+        "Stat": "Longer Slow Effect",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Death Mark",
     "Name": "Death_Mark",
     "AssetName": "DeathMark",
@@ -87,6 +103,27 @@
     "Rarity": "Uncommon",
     "Pickup": "Hold an additional equipment charge. Reduce equipment cooldown.",
     "Description": "Hold an additional equipment charge (+1 per stack). Reduce equipment cooldown by 15% (+15% per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Faster Cooldown",
+        "StackType": "Exponential",
+        "GoodEnoughStacks": 24
+      },
+      {
+        "Stat": "Additional Charges",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 249
+      }
+    ]
+  },
+  {
+    "DisplayName": "Faraday Spur",
+    "Name": "JumpDamageStrike",
+    "AssetName": "JumpDamageStrike",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "Moving around builds up movement speed and jump height. At 25% charge or higher, jump to discharge into an electric blast.",
+    "Description": "Moving around builds up charge, granting up to +160% movement speed and +200% jump height at 100%. At 25% charge or higher, jumping triggers an explosive discharge for 400% (+280% per stack) damage in a 5m to 32.3m (+7.5m per stack) area.",
     "StackDetails": [
       {
         "Stat": "Faster Cooldown",
@@ -209,6 +246,22 @@
     "Rarity": "Uncommon",
     "Pickup": "High damage hits also blasts enemies with a runic flame tornado. Recharges over time.",
     "Description": "Hits that deal more than 400% damage also blasts enemies with a runic flame tornado, dealing 300% (+300% per stack) TOTAL damage over time. Recharges every 10 seconds.",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Kinetic Dampener",
+    "Name": "ShieldBooster",
+    "AssetName": "ShieldBooster",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "Gain bonus armor while you have a shield. When shield breaks, release a stunning pulse that deals more damage the more shield you have.",
+    "Description": "Increases armor by 30 (+30 per stack) while you have a shield. When shield breaks, release a stunning pulse for 100% damage plus an amount equal to 100% (+10% per stack) of your max shield. Grants a shield for 4% of your max health.",
     "StackDetails": [
       {
         "Stat": "More Damage",
@@ -427,6 +480,22 @@
     "Rarity": "Uncommon",
     "Pickup": "Activating an interactable summons a Squid Turret nearby.",
     "Description": "Activating an interactable summons a Squid Turret that attacks nearby enemies at 100% (+100% per stack) attack speed. Lasts 30 seconds.",
+    "StackDetails": [
+      {
+        "Stat": "More Attack Speed",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Box of Dynamite",
+    "Name": "DestructibleSpawner",
+    "AssetName": "DestructibleSpawner",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "Your drones periodically drop dynamite.",
+    "Description": "Gain Lt. Droneboy. While in combat, your drones drop sticks of dynamite that detonate for 240% damage (+85% per stack), stunning enemies. Recharges after 10 seconds.",
     "StackDetails": [
       {
         "Stat": "More Attack Speed",

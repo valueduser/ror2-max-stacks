@@ -14,7 +14,7 @@
         "GoodEnoughStacks": "Infinite"
       }
     ]
-  }, 
+  },
   {
     "DisplayName": "Defense Nucleus",
     "Name": "Defense_Nucleus",
@@ -23,6 +23,102 @@
     "Rarity": "Boss",
     "Pickup": "Summon an Alpha Construct on killing an elite.",
     "Description": "Killing elite monsters spawns an Alpha Construct. Limited to 4 (+4 per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Junk",
+    "Name": "Junk",
+    "AssetName": "Junk",
+    "Id": -1,
+    "Rarity": "Boss",
+    "Pickup": "Used by the Drifter to activate her skills",
+    "Description": "Increases the Junk meter by 1.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Exposed Cerebellum",
+    "Name": "MasterCore",
+    "AssetName": "MasterCore",
+    "Id": -1,
+    "Rarity": "Boss",
+    "Pickup": "A swarming data nexus representing the Collective network. Can be given to a powerful entity.",
+    "Description": "A swarming data nexus representing the Collective network. Can be given to a powerful entity.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Prison Matrix",
+    "Name": "PowerCube",
+    "AssetName": "PowerCube",
+    "Id": -1,
+    "Rarity": "Boss",
+    "Pickup": "Gain +50% armor. Can be placed in a Matrix Terminal.",
+    "Description": "Gain +50% armor. Can be placed in a Matrix Terminal.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Ocular Battery",
+    "Name": "PowerOrb",
+    "AssetName": "PowerOrb",
+    "Id": -1,
+    "Rarity": "Boss",
+    "Pickup": "Gain +15% attack speed. Can be placed somewhere...",
+    "Description": "Gain +15% attack speed. Can be placed in a Ocular Vault.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Sentry Key",
+    "Name": "PowerPyramid",
+    "AssetName": "PowerPyramid",
+    "Id": -1,
+    "Rarity": "Boss",
+    "Pickup": "Gain +15% move speed. Can be placed in a Sentry Terminal.",
+    "Description": "Gain +15% move speed. Can be placed in a Sentry Terminal or used for decryption.",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Faulty Conductor",
+    "Name": "ShockDamageAura",
+    "AssetName": "ShockDamageAura",
+    "Id": -1,
+    "Rarity": "Boss",
+    "Pickup": "Occasionally release a pulse of electricity that energizes allies and makes enemies more susceptible to electric damage.",
+    "Description": "Every 15 (-20% per stack) seconds, release a wave of electricity that energizes nearby allies for 7 seconds. Energized allies gain +30% attack and movement speed, and ALWAYS land critical strikes with electric items and attacks.",
     "StackDetails": [
       {
         "Stat": "Unknown",
@@ -203,7 +299,7 @@
     "Id": 112,
     "Rarity": "Boss",
     "Pickup": "Critical strikes always bleed enemies. Bleeding enemies now explode.",
-    "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.", 
+    "Description": "Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.",
     "StackDetails": [
       {
         "Stat": "More Explosion Damage",
@@ -232,5 +328,5 @@
         "GoodEnoughStacks": "Infinite"
       }
     ]
-  } 
+  }
 ]

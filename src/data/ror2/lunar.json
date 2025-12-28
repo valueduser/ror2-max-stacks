@@ -212,6 +212,22 @@
     ]
   },
   {
+    "DisplayName": "Neutronium Weight",
+    "Name": "TransferDebuffOnHit",
+    "AssetName": "TransferDebuffOnHit",
+    "Id": -1,
+    "Rarity": "Lunar",
+    "Pickup": "Randomly create a Ward of Power. ALL characters deal bonus damage while in the Ward.",
+    "Description": "Reduces your stats while in combat, but send this item to an enemy on hit. On death, this item will be sent to its holder's killer. Reduces damage by 30% (+10% per stack), attack speed by 30% (+10% per stack), movement speed by 30% (+10% per stack), and armor by 35 (+15 per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Larger Buff Radius",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Purity",
     "Name": "Purity",
     "AssetName": "LunarBadLuck",
