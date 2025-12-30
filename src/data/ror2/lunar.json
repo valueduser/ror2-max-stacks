@@ -196,6 +196,22 @@
     ]
   },
   {
+    "DisplayName": "Longstanding Solitude",
+    "Name": "LongstandingSolitude",
+    "AssetName": "LongstandingSolitude",
+    "Id": -1,
+    "Rarity": "Lunar",
+    "Pickup": "Free purchases on level up... BUT gold converts to experience.",
+    "Description": "On level up gain a free unlock for the next purchase (+1 per stack) but all gold is converted to experience. Anything that costs gold is increased by 50% (+50% per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Mercurial Rachis",
     "Name": "Mercurial_Rachis",
     "AssetName": "RandomDamageZone",

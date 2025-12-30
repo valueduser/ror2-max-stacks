@@ -144,6 +144,22 @@
     ]
   },
   {
+    "DisplayName": "Growth Nectar",
+    "Name": "GrowthNectar",
+    "AssetName": "GrowthNectar",
+    "Id": -1,
+    "Rarity": "Legendary",
+    "Pickup": "Your buffs grant an increase to ALL of your stats.",
+    "Description": "Grants 4% increase to ALL stats for each buff, up to a maximum of 4 (+4 per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Unknown",
+        "StackType": "Unknown",
+        "GoodEnoughStacks": "Unknown"
+      }
+    ]
+  },
+  {
     "DisplayName": "Dio's Best Friend",
     "Name": "Dio%27s_Best_Friend",
     "AssetName": "ExtraLife",
@@ -151,6 +167,22 @@
     "Rarity": "Legendary",
     "Pickup": "Cheat death. Consumed on use.",
     "Description": "Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability.",
+    "StackDetails": [
+      {
+        "Stat": "More Lives",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Electric Boomerang",
+    "Name": "ElectricBoomerang",
+    "AssetName": "ElectricBoomerang",
+    "Id": -1,
+    "Rarity": "Legendary",
+    "Pickup": "On hit chance to throw a stunning boomerang.",
+    "Description": "15% chance on hit to fire an electric boomerang that slices through enemies dealing 120% base damage and deals an additional 120% (+120% per stack) base damage per second and stuns all enemies hit. Can strike enemies on the way back.",
     "StackDetails": [
       {
         "Stat": "More Lives",
@@ -373,6 +405,22 @@
     ]
   },
   {
+    "DisplayName": "Runic Lens",
+    "Name": "RunicLens",
+    "AssetName": "RunicLens",
+    "Id": -1,
+    "Rarity": "Legendary",
+    "Pickup": "Chance to call down a meteor. Damage and chance are increased with higher damage hits.",
+    "Description": "3% chance on hit to call a meteor strike, dealing 2000% base damage. Every 100% attack damage dealt increases the activation chance by 3% (+3% per stack) and damage by 150% (+50% per stack).",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Sentient Meat Hook",
     "Name": "Sentient_Meat_Hook",
     "AssetName": "BounceNearby",
@@ -417,6 +465,22 @@
     "Rarity": "Legendary",
     "Pickup": "Kills reduce equipment cooldown.",
     "Description": "Kills reduce equipment cooldown by 4s (+2s per stack).",
+    "StackDetails": [
+      {
+        "Stat": "More Cooldown Reduction",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 67
+      }
+    ]
+  },
+  {
+    "DisplayName": "Sonorous Whispers",
+    "Name": "SonorousEcho",
+    "AssetName": "SonorousEcho",
+    "Id": -1,
+    "Rarity": "Legendary",
+    "Pickup": "Upon large or elite monster kill chance to drop items.",
+    "Description": "When a large monster is killed it will always drop an item. All elites have a 4% chance of dropping an item (+1% per stack).",
     "StackDetails": [
       {
         "Stat": "More Cooldown Reduction",
@@ -481,6 +545,22 @@
     "Rarity": "Legendary",
     "Pickup": "Temporarily steal the power of slain elites.",
     "Description": "Gain the power of any killed elite monster for 8s (+5s per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Longer Powers",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "War Bonds",
+    "Name": "TreasuryDividends",
+    "AssetName": "TreasuryDividends",
+    "Id": -1,
+    "Rarity": "Legendary",
+    "Pickup": "Bombard boss events with missiles. The more gold earned, the more UES support is granted.",
+    "Description": "During boss events, 5 missiles bombard the area, dealing 2.5% (+2.5% per stack) of boss' Max Health in damage. Before the boss event, gain additional missiles, up to a maximum of 20 (+5 per stack), per 50 gold gained. Gold requirement scales over time.",
     "StackDetails": [
       {
         "Stat": "Longer Powers",

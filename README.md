@@ -15,3 +15,7 @@ Road Map:
 - Comprehensive testing
 - Filter by name
 - Modal instead of Wiki on item click
+
+```
+npm run predeploy; npm run deploy;
+```

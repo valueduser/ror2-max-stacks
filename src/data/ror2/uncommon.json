@@ -64,6 +64,22 @@
     ]
   },
   {
+    "DisplayName": "Chance Doll",
+    "Name": "ChanceDoll",
+    "AssetName": "ChanceDoll",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "Gain 40% chance to increase item rarity at Shrines of Chance.",
+    "Description": "On Shrine of Chance success, 40% (+10% per stack) chance to get higher rarity items.",
+    "StackDetails": [
+      {
+        "Stat": "Longer Slow Effect",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Collector's Compulsion",
     "Name": "SpeedOnPickup",
     "AssetName": "SpeedOnPickup",
@@ -271,6 +287,22 @@
     ]
   },
   {
+    "DisplayName": "Breaching Fin",
+    "Name": "KnockbackFin",
+    "AssetName": "KnockbackFin",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "Grounded enemies hit with any skill are launched and take bonus damage.",
+    "Description": "Grounded enemies hit with any skill are launched and stunned. Enemies hit while airborne are launched again up to 2 times (+1 per stack). Launched enemies take increased damage by 10% from all sources per launch. Recharges after 15s.",
+    "StackDetails": [
+      {
+        "Stat": "More Damage",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Leeching Seed",
     "Name": "Leeching_Seed",
     "AssetName": "Seed",
@@ -287,6 +319,22 @@
     ]
   },
   {
+    "DisplayName": "Luminous Shot",
+    "Name": "IncreasePrimaryDamage",
+    "AssetName": "IncreasePrimaryDamage",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "Activating your Secondary skill charges your Primary skill with powerful lightning strikes. Requires 3 charges.",
+    "Description": "Activating Secondary skill stores up to 5 charges (+1 per stack). Requires 3 charges for your Primary skill to fire lightning strikes, dealing 175% TOTAL damage (+50% per stack) each. Reduces Secondary skill cooldown by 20%.",
+    "StackDetails": [
+      {
+        "Stat": "More Healing Novas",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Lepton Daisy",
     "Name": "Lepton_Daisy",
     "AssetName": "TPHealingNova",
@@ -294,6 +342,22 @@
     "Rarity": "Uncommon",
     "Pickup": "Periodically release a healing nova during the Teleporter event.",
     "Description": "Release a healing nova during the Teleporter event, healing all nearby allies for 50% of their maximum health. Occurs 1 (+1 per stack) times.",
+    "StackDetails": [
+      {
+        "Stat": "More Healing Novas",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Noxious Thorn",
+    "Name": "NoxiousThorn",
+    "AssetName": "NoxiousThorn",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "Killing an enemy transfers debuffs to a nearby enemy.",
+    "Description": "Gain 10% chance to bleed an enemy. On killing an enemy, transfer 33% of every debuff stack to 1 enemy (+1 per stack) within 20m (+5m per stack).",
     "StackDetails": [
       {
         "Stat": "More Healing Novas",
@@ -326,6 +390,22 @@
     "Rarity": "Uncommon",
     "Pickup": "Turn invisible at low health.",
     "Description": "Falling below 25% health causes you to gain 40% movement speed and invisibility for 5s. Recharges every 30 seconds (-50% per stack).",
+    "StackDetails": [
+      {
+        "Stat": "Faster Recharge",
+        "StackType": "Linear",
+        "GoodEnoughStacks": 7
+      }
+    ]
+  },
+  {
+    "DisplayName": "Prayer Beads",
+    "Name": "ExtraStatsOnLevelUp",
+    "AssetName": "ExtraStatsOnLevelUp",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "Gains experience alongside you. Upon removal, grants bonus stats.",
+    "Description": "Grows by gaining experience, storing 20% (+5% per stack) bonus stats (health, regeneration, and damage). On removal, gain all stored stats.",
     "StackDetails": [
       {
         "Stat": "Faster Recharge",
@@ -489,6 +569,22 @@
     ]
   },
   {
+    "DisplayName": "Sale Star",
+    "Name": "SaleStar",
+    "AssetName": "SaleStar",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "First chest bought yields more than one reward. Usable once per stage.",
+    "Description": "Gain an extra item on the first chest opened per stage. Each additional Sale Star increases the chance of getting more items by 5%.",
+    "StackDetails": [
+      {
+        "Stat": "More Attack Speed",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Box of Dynamite",
     "Name": "DestructibleSpawner",
     "AssetName": "DestructibleSpawner",
@@ -520,6 +616,22 @@
       },
       {
         "Stat": "Larger Radius",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Unstable Transmitter",
+    "Name": "TeleportOnLowHealth",
+    "AssetName": "TeleportOnLowHealth",
+    "Id": -1,
+    "Rarity": "Uncommon",
+    "Pickup": "Gain a temporary barrier and a dimensional aura on low health.",
+    "Description": "Falling below 25% health gives you a temporary barrier and a dimensional aura that bleeds and teleports away enemies for 8s. Enemies killed by the aura extend the duration by 1s. At the start of each stage, it regenerates.",
+    "StackDetails": [
+      {
+        "Stat": "More Targets",
         "StackType": "Linear",
         "GoodEnoughStacks": "Infinite"
       }

@@ -32,6 +32,22 @@
     ]
   },
   {
+    "DisplayName": "Bolstering Lantern",
+    "Name": "RageCrystal",
+    "AssetName": "RageCrystal",
+    "Id": -1,
+    "Rarity": "Common",
+    "Pickup": "Increases your attack speed for every nearby enemy and ally.",
+    "Description": "Increase your attack speed by 10% (+3.5 per stack) for up to 3 (+1 per stack) enemies and allies within 20 meters.",
+    "StackDetails": [
+      {
+        "Stat": "More Secondary Skill Charges",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
     "DisplayName": "Bundle of Fireworks",
     "Name": "Bundle_of_Fireworks",
     "AssetName": "Firework",
@@ -76,6 +92,22 @@
     "Rarity": "Common",
     "Pickup": "Rapidly heal outside of danger.",
     "Description": "Increases base health regeneration by +4 hp/s (+4 hp/s per stack) while outside of combat.",
+    "StackDetails": [
+      {
+        "Stat": "More Regen",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Chronic Expansion",
+    "Name": "IncreaseDamageOnMultiKill",
+    "AssetName": "IncreaseDamageOnMultiKill",
+    "Id": -1,
+    "Rarity": "Common",
+    "Pickup": "Deal bonus damage for each enemy killed.",
+    "Description": "Killing an enemy increases your damage by 3.5% (+1% per stack), up to 10 (+5 per stack), for 7s. Dealing damage refreshes the timer.",
     "StackDetails": [
       {
         "Stat": "More Regen",
@@ -156,6 +188,22 @@
     "Rarity": "Common",
     "Pickup": "Gain a small temporary barrier when a skill comes off cooldown.",
     "Description": "When a skill comes off cooldown, gain a temporary barrier for 1% (+0.25% per stack) of your maximum health per second of the skill's base cooldown.",
+    "StackDetails": [
+      {
+        "Stat": "Higher Sprint Speed",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Elusive Antlers",
+    "Name": "ElusiveAntlers",
+    "AssetName": "ElusiveAntlers",
+    "Id": -1,
+    "Rarity": "Common",
+    "Pickup": "Spawns orbs of energy that give bonus movement speed.",
+    "Description": "Spawns orbs of energy nearby every 10s (-10% per stack), giving +12% movement speed up to 3 (+3 per stack) times for 12s.",
     "StackDetails": [
       {
         "Stat": "Higher Sprint Speed",
@@ -481,6 +529,22 @@
     "Rarity": "Common",
     "Pickup": "Drop a Warbanner on level up or starting the Teleporter event. Grants allies attack and movement speed.",
     "Description": "On level up or starting the Teleporter event, drop a banner that strengthens all allies within 16m (+8m per stack). Raise attack and movement speed by 30%.",
+    "StackDetails": [
+      {
+        "Stat": "More Buff Radius",
+        "StackType": "Linear",
+        "GoodEnoughStacks": "Infinite"
+      }
+    ]
+  },
+  {
+    "DisplayName": "Warped Echo",
+    "Name": "DelayDamage",
+    "AssetName": "DelayDamage",
+    "Id": -1,
+    "Rarity": "Common",
+    "Pickup": "Incoming damage is reduced and dealt over time.",
+    "Description": "The next source of damage is reduced by 20% and spread into 3 (+1 per stack) hits. All echoed damage is non-lethal except for the final hit. Recharges every 15s.",
     "StackDetails": [
       {
         "Stat": "More Buff Radius",
