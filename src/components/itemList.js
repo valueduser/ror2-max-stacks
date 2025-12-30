@@ -16,7 +16,7 @@ const ItemList = ({ itemData, rarityFilter, stackTypeFilter, game }) => {
   }, [itemData, rarityFilter, stackTypeFilter])
 
   return (
-    <Grid padded>
+    <Grid padded centered>
       {filteredItems.map((item) => (
         <Item key={item.Id} item={item} game={game} />
       ))}
